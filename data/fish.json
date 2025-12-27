@@ -13,20 +13,94 @@
         "Seer fish",
         "King fish"
       ],
-      "tamil": [
-        "வஞ்சரம்",
-        "Vanjaram"
+      "assamese": [
+        "ଚିତଲ",
+        "Chital"
+      ],
+      "bengali": [
+        "સરમઈ",
+        "Surmai"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "સુરમઈ",
+        "Surmai"
+      ],
+      "hindi": [
+        "सुरमई",
+        "Surmai"
+      ],
+      "kannada": [
+        "ಅಂಜಲ್",
+        "Anjal"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "विस्वण",
+        "Viswan"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
       ],
       "malayalam": [
         "നെയ്‌മീൻ",
         "Neymeen"
       ],
-      "kannada": [
-        "ಅಂಜಲ್",
-        "Anjal"
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "सुरमई",
+        "Surmai"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "ସିର",
+        "Seer"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "வஞ்சரம்",
+        "Vanjaram"
+      ],
+      "telugu": [
+        "వంజరం",
+        "Vanjaram"
+      ],
+      "urdu": [
+        "سرمئی",
+        "Surmai"
       ]
     },
-    "notes": "Often sold as King fish. Sometimes confused with Surmai in some regions."
+    "notes": "Often sold as King fish. Surmai in North/West India."
   },
   {
     "id": "pomfret-black",
@@ -41,17 +115,90 @@
       "english": [
         "Black Pomfret"
       ],
-      "tamil": [
-        "கருப்பு வாவல்",
-        "Karuppu Vaaval"
+      "assamese": [
+        "ଚନ୍ଦା",
+        "Chanda"
+      ],
+      "bengali": [
+        "কালো চান্দা",
+        "Kalo Chanda"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "હલવા",
+        "Halva"
+      ],
+      "hindi": [
+        "हलवा",
+        "Halwa"
+      ],
+      "kannada": [
+        "ಕಪ್ಪು ಮಾಂಜಿ",
+        "Kappu Manji"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "हलवा",
+        "Halwa"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
       ],
       "malayalam": [
         "കറുത്ത ആവോലി",
         "Karutha Avoli"
       ],
-      "kannada": [
-        "ಕಪ್ಪು ಮಾಂಜಿ",
-        "Kappu Manji"
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "हलवा",
+        "Halwa"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "Black Pomphret"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "கருப்பு வாவல்",
+        "Karuppu Vaaval"
+      ],
+      "telugu": [
+        "నల్ల చందువా",
+        "Nalla Chanduva"
+      ],
+      "urdu": [
+        "حلوا",
+        "Halwa"
       ]
     },
     "notes": "Good for frying. Distinct from Silver Pomfret."
@@ -71,17 +218,94 @@
         "Sardine",
         "Oil Sardine"
       ],
-      "tamil": [
-        "மத்தி",
-        "Mathi"
+      "assamese": [
+        "Xihu"
       ],
-      "malayalam": [
-        "മത്തി",
-        "Mathi / Chaala"
+      "bengali": [
+        "খয়রা",
+        "Khoira"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "પેડવે",
+        "Pedvey"
+      ],
+      "hindi": [
+        "पेडवे",
+        "Pedvey",
+        "तरली",
+        "Tarli"
       ],
       "kannada": [
         "ಭೂತಾಯಿ",
         "Boothayi"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "तारली",
+        "Tarli"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "മത്തി",
+        "Mathi",
+        "ചാള",
+        "Chaala"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "तारली",
+        "Tarli"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "କୋକଲି",
+        "Kokali"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "மத்தி",
+        "Mathi"
+      ],
+      "telugu": [
+        "కావళ్ళు",
+        "Kavallu"
+      ],
+      "urdu": [
+        "پیڑوے",
+        "Pedvey"
       ]
     },
     "notes": "Very common and affordable. Rich in Omega-3."
@@ -99,17 +323,91 @@
       "english": [
         "Indian Mackerel"
       ],
-      "tamil": [
-        "கானாங்கெளுத்தி",
-        "Kanaankeluthi / Aila"
+      "assamese": [
+        "Mackerel"
+      ],
+      "bengali": [
+        "কাজল গৌড়",
+        "Kajal Gour"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "બંગડા",
+        "Bangda"
+      ],
+      "hindi": [
+        "बांगड़ा",
+        "Bangda"
+      ],
+      "kannada": [
+        "ಬಂಗುಡೆ",
+        "Bangude"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "बंगडा",
+        "Bangda"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
       ],
       "malayalam": [
         "അയല",
         "Ayala"
       ],
-      "kannada": [
-        "ಬಂಗುಡೆ",
-        "Bangude"
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "बांगडा",
+        "Bangda"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "Mackerel"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "கானாங்கெளுத்தி",
+        "Kanaankeluthi",
+        "அயிலை",
+        "Aila"
+      ],
+      "telugu": [
+        "కानगरుట",
+        "Kanagurta"
+      ],
+      "urdu": [
+        "بانگڑا",
+        "Bangda"
       ]
     },
     "notes": "Popular for fish curry and fry."
@@ -127,17 +425,94 @@
       "english": [
         "Anchovy"
       ],
+      "assamese": [
+        "Mola"
+      ],
+      "bengali": [
+        "মৌলা",
+        "Mola"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "કાટી",
+        "Kati"
+      ],
+      "hindi": [
+        "नेथিলি",
+        "Nethili"
+      ],
+      "kannada": [
+        "ಬೊಳ್ಳು",
+        "Bollu",
+        "ಕೊಲ್ಲತರು",
+        "Kollatharu"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "वेळ",
+        "Vell"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "കൊഴുവ",
+        "Kozhuva",
+        "നെത്തോലി",
+        "Netholi"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "काटी",
+        "Kati"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "କୋକଲି",
+        "Kokali"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
       "tamil": [
         "நெத்திலி",
         "Nethili"
       ],
-      "malayalam": [
-        "കൊഴുവ",
-        "Kozhuva / Netholi"
+      "telugu": [
+        "నెత్తళ్ళు",
+        "Nethallu"
       ],
-      "kannada": [
-        "ಬೊಳ್ಳು",
-        "Bollu / Kollatharu"
+      "urdu": [
+        "نیتھلی",
+        "Nethili"
       ]
     },
     "notes": "Small fish, often fried crispy or dried."
@@ -157,17 +532,93 @@
         "Prawns",
         "Shrimp"
       ],
-      "tamil": [
-        "இறால்",
-        "Eraal"
+      "assamese": [
+        "ମିଛ ମାଛ",
+        "Misa Mach"
+      ],
+      "bengali": [
+        "চিংড়ি",
+        "Chingri"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "झींगा",
+        "Jhinga"
+      ],
+      "gujarati": [
+        "જિંગા",
+        "Jhinga"
+      ],
+      "hindi": [
+        "झींगा",
+        "Jhinga"
+      ],
+      "kannada": [
+        "ಅದೇ",
+        "Etti",
+        "ಸಿಗಡಿ",
+        "Sigadi"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "सुंगट",
+        "Sungat"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
       ],
       "malayalam": [
         "ചെമ്മീൻ",
         "Chemmeen"
       ],
-      "kannada": [
-        "ಅದೇ",
-        "Etti / Sigadi"
+      "manipuri": [
+        "ଖଜିଂ",
+        "Khajing"
+      ],
+      "marathi": [
+        "कोळंबी",
+        "Kolambi"
+      ],
+      "nepali": [
+        "झींगे माछा",
+        "Jhinge Machha"
+      ],
+      "odia": [
+        "ଚିଙ୍ଗୁଡି",
+        "Chingudi"
+      ],
+      "punjabi": [
+        "ਝੀਂਗਾ",
+        "Jhinga"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "જિંગા",
+        "Jhinga"
+      ],
+      "tamil": [
+        "இறால்",
+        "Eraal"
+      ],
+      "telugu": [
+        "రొయ్యలు",
+        "Royyalu"
+      ],
+      "urdu": [
+        "جھینگا",
+        "Jhinga"
       ]
     },
     "notes": "Available in various sizes. 'Tiger prawns' are large."
@@ -184,17 +635,90 @@
       "english": [
         "Shark"
       ],
-      "tamil": [
-        "சுறா",
-        "Sura"
+      "assamese": [
+        "Hagor"
+      ],
+      "bengali": [
+        "হাঙর",
+        "Hangar"
+      ],
+      "bodo": [
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "મુશી",
+        "Mushi"
+      ],
+      "hindi": [
+        "मुशी",
+        "Mushi"
+      ],
+      "kannada": [
+        "ತಟೆ",
+        "Thate"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "मोरी",
+        "Mori"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
       ],
       "malayalam": [
         "സ്രാവ്",
         "Sraavu"
       ],
-      "kannada": [
-        "ಮೀನು",
-        "Thate"
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "मोरी",
+        "Mori"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "ମଗର",
+        "Magara"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "சுறா",
+        "Sura"
+      ],
+      "telugu": [
+        "సొర",
+        "Sora"
+      ],
+      "urdu": [
+        "موشی",
+        "Mushi"
       ]
     },
     "notes": "Used for 'Sura Puttu' (scrambled shark meat)."
@@ -213,17 +737,91 @@
       "english": [
         "Crab"
       ],
-      "tamil": [
-        "நண்டு",
-        "Nandu"
+      "assamese": [
+        "Kekura"
+      ],
+      "bengali": [
+        "কাঁকড়া",
+        "Kankra"
+      ],
+      "bodo": [
+        "Khangkhrai"
+      ],
+      "dogri": [
+        "केकड़ा",
+        "Kekda"
+      ],
+      "gujarati": [
+        "કરચલો",
+        "Karachlo"
+      ],
+      "hindi": [
+        "केकड़ा",
+        "Kekda"
+      ],
+      "kannada": [
+        "ಡೆಂಜಿ",
+        "Denji",
+        "ಕುರ್ಲೆ",
+        "Kurle"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "कुर्ल्या",
+        "Kurlya"
+      ],
+      "maithili": [
+        "काकड़ा",
+        "Kakara"
       ],
       "malayalam": [
         "ഞണ്ട്",
         "Njandu"
       ],
-      "kannada": [
-        "ಏಡಿ",
-        "Denji / Kurle"
+      "manipuri": [
+        "Waikhu"
+      ],
+      "marathi": [
+        "खेकड़ा",
+        "Khekda"
+      ],
+      "nepali": [
+        "गंगटो",
+        "Gangato"
+      ],
+      "odia": [
+        "କଙ୍କଡା",
+        "Kankada"
+      ],
+      "punjabi": [
+        "ਕੇਕੜਾ",
+        "Kekda"
+      ],
+      "sanskrit": [
+        "कर्कट",
+        "Karkata"
+      ],
+      "santali": [
+        "Katkom"
+      ],
+      "sindhi": [
+        "केकड़ा",
+        "Kekda"
+      ],
+      "tamil": [
+        "நண்டு",
+        "Nandu"
+      ],
+      "telugu": [
+        "పీత",
+        "Peetha"
+      ],
+      "urdu": [
+        "کیکڑا",
+        "Kekda"
       ]
     },
     "notes": "Mud crabs are popular in some regions."

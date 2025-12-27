@@ -136,6 +136,12 @@ h1 {
     background-color: #eee;
 }
 
+.more-langs {
+    margin-top: 8px;
+    width: 100%;
+    /* Force full width to break to new line in wrapped flex */
+}
+
 .fish-title h2 {
     font-size: 1.125rem;
     margin-bottom: 4px;
@@ -270,6 +276,7 @@ th.sticky-col {
     .fish-card {
         flex-direction: row;
         align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     .fish-header {

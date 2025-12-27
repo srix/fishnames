@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header class="app-header">
@@ -21,11 +23,20 @@
             </div>
             <div class="view-toggle">
                 <button id="btn-card-view" class="active" aria-label="Switch to Card View">
-                   Card View
+                    Card View
                 </button>
                 <button id="btn-table-view" aria-label="Switch to Table View">
-                   Table View
+                    Table View
                 </button>
+            </div>
+
+            <div id="table-controls" hidden>
+                <button id="btn-customize-cols" class="secondary-btn">⚙️ Columns</button>
+                <div id="column-selector-dialog" hidden>
+                    <h3>Show Languages</h3>
+                    <div id="column-checkboxes"></div>
+                    <button id="btn-close-cols">Done</button>
+                </div>
             </div>
         </div>
     </header>
@@ -53,7 +64,7 @@
                 </table>
             </div>
         </div>
-        
+
         <div id="no-results" hidden>
             <p>No fish found matching your search.</p>
         </div>
@@ -61,4 +72,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
