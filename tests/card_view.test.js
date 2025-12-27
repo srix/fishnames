@@ -8,6 +8,10 @@ test.describe('Card View Verification', () => {
         await expect(page.locator('#card-view')).toBeVisible();
     });
 
+    test('Page Title Verification', async ({ page }) => {
+        await expect(page).toHaveTitle(/Indian Fish Name Guide/);
+    });
+
     test('Default Languages Displayed', async ({ page }) => {
         const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
 

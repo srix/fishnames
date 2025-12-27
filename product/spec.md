@@ -136,7 +136,7 @@ Each fish entry follows:
 
 ### **7.1 Header**
 
-* Title: “South Indian Fish Name Guide”
+* Title: “Indian Fish Name Guide”
 * Search bar (full width)
 * Controls: `🌐 Languages`
 
