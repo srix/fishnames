@@ -130,6 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="fish-title">
                         <h2>${fish.names.english.join(' / ')}</h2>
                         <div class="scientific-name">${fish.scientificName}</div>
+                        ${(() => {
+                    const cats = fish.category || [];
+                    if (cats.includes('sea')) return '<span class="habitat-badge habitat-sea">🌊 Sea</span>';
+                    if (cats.includes('freshwater')) return '<span class="habitat-badge habitat-freshwater">💧 Freshwater</span>';
+                    if (cats.includes('brackish')) return '<span class="habitat-badge habitat-brackish">🌿 Brackish</span>';
+                    return '';
+                })()}
                     </div>
                 </div>
                 
@@ -178,7 +185,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </td>
                 ${cols}
-                <td>${fish.notes || '-'}</td>
+                <td>
+                    ${(() => {
+                    const cats = fish.category || [];
+                    const habitats = [];
+                    if (cats.includes('sea')) habitats.push('🌊 Sea');
+                    if (cats.includes('freshwater')) habitats.push('💧 Freshwater');
+                    if (cats.includes('brackish')) habitats.push('🌿 Brackish');
+                    return habitats.length ? `<div>${habitats.join(', ')}</div>` : '';
+                })()}
+                    ${fish.notes || '-'}
+                </td>
             `;
             fishTableBody.appendChild(row);
         });
