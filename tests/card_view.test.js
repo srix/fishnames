@@ -10,6 +10,7 @@ test.describe('Card View Verification', () => {
 
     test('Page Title Verification', async ({ page }) => {
         await expect(page).toHaveTitle(/Indian Fish Name Guide/);
+        await expect(page.locator('h1')).toHaveText('Indian Fish Name Guide');
     });
 
     test('Default Languages Displayed', async ({ page }) => {
