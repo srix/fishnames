@@ -23,7 +23,7 @@ The site is designed for **mobile-first usage** (e.g., while ordering at restaur
 ### **Secondary**
 
 * Provide notes on **confusions and alternate names**.
-* Offer two viewing modes: **Card View** and **Table View**.
+* Offer a clean, mobile-first **Card View**.
 * **Persist** user preferences (View mode, Table columns) across sessions.
 * Enable easy maintenance by storing all fish info in **one JSON data file**.
 
@@ -107,12 +107,7 @@ Each fish entry follows:
   * **Native Scripts**: Displayed alongside Romanized names.
   * Notes expandable on tap.
 
-### **6.2 Table View**
 
-* Vertical layout for Fish Name (Name on Top, Large 80px Thumbnail below).
-* **Habitat Info**: Displayed in the "Details" column.
-* **Column Selector**: A "🌐 Languages" button allows users to toggle visibility of any of the 22 language columns. Dropdown shows names in **"Native / English"** format. Default columns: Tamil, Kannada, Telugu, Hindi, Malayalam.
-* **Sticky Header**: First column (Fish) and Headers are sticky.
 
 ### **6.3 Search**
 
@@ -126,8 +121,7 @@ Each fish entry follows:
 
 ### **6.4 Persistence**
 
-* Remembers **View Mode** (Card vs Table) using `localStorage`.
-* Remembers **Selected Languages** independently for **Card View** and **Table View** using `localStorage`.
+* Remembers **Selected Languages** using `localStorage`.
 
 ### **6.5 Responsive Design**
 
@@ -143,8 +137,7 @@ Each fish entry follows:
 
 * Title: “South Indian Fish Name Guide”
 * Search bar (full width)
-* View Toggles: `Card View` | `Table View`
-* Table Controls: `🌐 Languages` (Visible only in Table View)
+* Controls: `🌐 Languages`
 
 ### **7.2 Body**
 
@@ -152,10 +145,7 @@ Contains two main containers:
 
 ```html
 <div id="card-view"></div>
-<div id="table-view" hidden></div>
 ```
-
-Only one visible at a time.
 
 ---
 
@@ -176,7 +166,7 @@ On each keystroke:
 
 * Normalize search term
 * Filter fishData across all fields
-* Re-render active view
+* Re-render cards
 
 ---
 

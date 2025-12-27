@@ -247,67 +247,7 @@ h1 {
     border-left: 3px solid #ffeeba;
 }
 
-/* Table View */
-.table-wrapper {
-    overflow-x: auto;
-    background: var(--card-bg);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-}
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    min-width: 600px;
-    /* Ensure horizontal scroll on mobile */
-}
-
-th,
-td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid var(--border-color);
-}
-
-th {
-    background-color: var(--background-color);
-    font-weight: 600;
-    font-size: 0.875rem;
-    color: var(--text-secondary);
-    position: sticky;
-    top: 0;
-}
-
-.sticky-col {
-    position: sticky;
-    left: 0;
-    background-color: var(--card-bg);
-    z-index: 10;
-    border-right: 1px solid var(--border-color);
-}
-
-th.sticky-col {
-    background-color: var(--background-color);
-    z-index: 20;
-}
-
-.table-fish-name {
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center them */
-    gap: 8px;
-    text-align: center;
-}
-
-.table-thumb {
-    width: 80px;
-    /* Larger size */
-    height: 80px;
-    border-radius: 8px;
-    object-fit: cover;
-}
 
 /* Utilities */
 [hidden] {
@@ -356,7 +296,9 @@ th.sticky-col {
         flex: 1;
         margin-top: 0;
     }
-}/* Badge Styles */
+}
+
+/* Badge Styles */
 .habitat-badge {
     display: inline-block;
     padding: 2px 8px;

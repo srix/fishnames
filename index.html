@@ -21,14 +21,7 @@
                 <input type="text" id="search-input" placeholder="Search fish, synonyms, or languages...">
                 <span class="search-icon">🔍</span>
             </div>
-            <div class="view-toggle">
-                <button id="btn-card-view" class="active" aria-label="Switch to Card View">
-                    Card View
-                </button>
-                <button id="btn-table-view" aria-label="Switch to Table View">
-                    Table View
-                </button>
-            </div>
+
 
             <div id="view-controls">
                 <button id="btn-customize-cols" class="secondary-btn">🌐 Languages</button>
@@ -46,24 +39,7 @@
             <!-- Fish cards will be injected here -->
         </div>
 
-        <div id="table-view" class="view-container" hidden>
-            <div class="table-wrapper">
-                <table id="fish-table">
-                    <thead>
-                        <tr>
-                            <th class="sticky-col">Fish</th>
-                            <th>Tamil</th>
-                            <th>Malayalam</th>
-                            <th>Kannada</th>
-                            <th>Details</th>
-                        </tr>
-                    </thead>
-                    <tbody id="fish-table-body">
-                        <!-- Table rows will be injected here -->
-                    </tbody>
-                </table>
-            </div>
-        </div>
+
 
         <div id="no-results" hidden>
             <p>No fish found matching your search.</p>
