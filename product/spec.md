@@ -5,7 +5,7 @@
 
 ## **1. Overview**
 
-A lightweight static website that helps users instantly identify a fish by photo and see what it is called across different South Indian languages.
+A lightweight static website that helps users instantly identify a fish by photo and see what it is called across **all 22 official Indian languages** (plus English).
 The site is designed for **mobile-first usage** (e.g., while ordering at restaurants) and is also accessible to the general public on the web.
 
 ---
@@ -15,13 +15,15 @@ The site is designed for **mobile-first usage** (e.g., while ordering at restaur
 ### **Primary**
 
 * Provide a **visual reference** of common fishes served in restaurants.
-* Show **names across multiple languages** (English, Tamil, Malayalam, Kannada).
+* Show **names across 23 languages** (English + 22 Indian Languages).
 * Make it simple for users to **search** and quickly identify fish names.
+* Support **native scripts** alongside Romanized names for accurate pronunciation and reading.
 
 ### **Secondary**
 
 * Provide notes on **confusions and alternate names**.
 * Offer two viewing modes: **Card View** and **Table View**.
+* **Persist** user preferences (View mode, Table columns) across sessions.
 * Enable easy maintenance by storing all fish info in **one JSON data file**.
 
 ---
@@ -43,7 +45,7 @@ The site is a **fully static HTML + JS** application.
 /style.css
 /app.js
 /data/fish.json
-/img/*.jpg or .webp
+/img/*.jpg or .png or .webp
 ```
 
 No build system required.
@@ -62,16 +64,17 @@ Each fish entry follows:
 ```json
 {
   "id": "seer-fish",
-  "photo": "img/seer.jpg",
+  "photo": "img/seer-fish.png",
   "category": ["sea", "fry", "popular"],
   "scientificName": "Scomberomorus commerson",
   "names": {
     "english": ["Seer fish", "King fish"],
     "tamil": ["வஞ்சரம்", "Vanjaram"],
     "malayalam": ["നെയ്‌മീൻ", "Neymeen"],
-    "kannada": ["ಅಂಜಲ್", "Anjal"]
+    "hindi": ["सुरमई", "Surmai"],
+    // ... 22 languages supported
   },
-  "notes": "Often sold as King fish. Sometimes confused with Surmai in some regions."
+  "notes": "Often sold as King fish. Surmai in North/West India."
 }
 ```
 
@@ -79,7 +82,7 @@ Each fish entry follows:
 
 * `id` — unique slug
 * `photo` — local image path
-* `names` — dict with arrays for each language
+* `names` — object keys for each language, values are array: `["Native Script", "Romanized"]` or `["Romanized"]`
 
 ### **5.3 Optional fields**
 
@@ -95,36 +98,40 @@ Each fish entry follows:
 
 * Mobile-first vertical list.
 * Each card includes:
-
-  * Image (top)
-  * English name (bold, large)
-  * Names for other languages: local script + romanized version
-  * Notes expandable on tap (“Show more”)
+  * Image (Left/Top)
+  * English name and Scientific name.
+  * **Primary Grid**: Shows 4-5 key languages (e.g., Hindi, Tamil, Malayalam) by default.
+  * **"Show all 22 languages"**: An expandable accordion at the **bottom** of the card (full width) to reveal the rest.
+  * **Native Scripts**: Displayed alongside Romanized names.
+  * Notes expandable on tap.
 
 ### **6.2 Table View**
 
-* Horizontal scrollable grid.
-* Rows = fish
-* Columns = languages
-* First column has thumbnail + English name.
-* Sticky header row for language labels.
-* Toggle to switch between **Cards** and **Table**.
+* Vertical layout for Fish Name (Name on Top, Large 80px Thumbnail below).
+* **Column Selector**: A "🌐 Languages" button allows users to toggle visibility of any of the 22 language columns.
+* **Layout**: Languages are selected via a grid-based dialog.
+* **Sticky Header**: First column (Fish) and Headers are sticky.
 
 ### **6.3 Search**
 
 * Single search bar in header.
 * Searches across:
-
-  * All name variants
+  * All name variants (English + all 22 languages)
   * English transliteration
   * Notes
+  * Scientific names
 * Results instantly filter both Card and Table views.
 
-### **6.4 Responsive Design**
+### **6.4 Persistence**
+
+* Remembers **View Mode** (Card vs Table) using `localStorage`.
+* Remembers **Selected Columns** in Table View using `localStorage`.
+
+### **6.5 Responsive Design**
 
 * Optimized for mobile (primary).
-* Table view gracefully scrolls on small screens.
-* Desktop/tablet gets wider grid layout.
+* Table view gracefully scrolls horizontally on small screens.
+* Desktop/tablet gets wider grid layout for cards and full table visibility.
 
 ---
 
@@ -134,16 +141,14 @@ Each fish entry follows:
 
 * Title: “South Indian Fish Name Guide”
 * Search bar (full width)
-* Toggle:
-
-  * `Card View`
-  * `Table View`
+* View Toggles: `Card View` | `Table View`
+* Table Controls: `🌐 Languages` (Visible only in Table View)
 
 ### **7.2 Body**
 
 Contains two main containers:
 
-```
+```html
 <div id="card-view"></div>
 <div id="table-view" hidden></div>
 ```
@@ -160,81 +165,40 @@ On page load:
 
 * Fetch `/data/fish.json`
 * Store in global array
-* Render card view + table view
+* Restore saved view state and columns from `localStorage`
+* Render appropriate view
 
 ### **8.2 Filtering**
 
 On each keystroke:
 
 * Normalize search term
-* Filter fishData:
-
-  * names[language][]
-  * transliterations
-  * English
-  * notes
-* Re-render both views
-
-### **8.3 View Switching**
-
-* Clicking toggle hides one container and shows the other.
-* State restored on refresh using `localStorage` (optional).
+* Filter fishData across all fields
+* Re-render active view
 
 ---
 
 ## **9. Image Guidelines**
 
-* Use `.webp` or `.jpg` under `300 KB`.
-* Prefer whole-fish photos for recognition.
-* Include attribution inside a separate metadata JSON if required.
-* Filenames follow `id`:
-
-  * `img/seer-fish.jpg`
+* Use `.png` or `.jpg` (AI generated images are .png).
+* **AI Generated** watermark applied.
+* Prefer whole-fish photos on white/neutral background.
+* Filenames follow `id`: `img/seer-fish.png`.
 
 ---
 
 ## **10. Accessibility**
 
-* Alt text for all images: `"Photo of Seer fish (Vanjaram / Neymeen / Anjal)"`
-* High contrast text on cards.
+* Alt text for all images.
+* High contrast text.
 * Minimum 14–16px fonts for mobile readability.
+* Interactive elements have clear labels (`aria-label`).
 
 ---
 
 ## **11. Future Enhancements (v2)**
 
-Not needed for MVP, but possible later:
-
-* Telugu / Hindi / Bengali columns
-* Filters: sea vs freshwater
-* Dish suggestions (best for fry, curry, grill)
-* Add-to-home-screen manifest
-* Offline access (service worker)
-* “Buyers guide” (how to identify fresh fish)
-* “Avoid confusion” chart (Neymeen ≠ Surmai etc.)
-
----
-
-## **12. Milestones**
-
-### **M1 – Core (Day 1)**
-
-* Setup folder structure
-* Create sample `fish.json` (10 fishes)
-* Build card view
-* Add search
-
-### **M2 – Table + Polish (Day 2)**
-
-* Table view
-* Toggle + animations
-* Expandable notes
-* Responsive styles
-
-### **M3 – Deploy (30 min)**
-
-* Push to GitHub
-* Deploy to Cloudflare Pages
-* Share link
-
----
+* Filters: sea vs freshwater.
+* Dish suggestions (best for fry, curry, grill).
+* Offline access (service worker).
+* "Buyers guide" (how to identify fresh fish).
