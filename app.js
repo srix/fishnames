@@ -53,11 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
         "urdu": "اردو / Urdu"
     };
 
-    const DEFAULT_LANGUAGES = ["hindi", "tamil", "malayalam", "kannada", "telugu"];
+    const DEFAULT_CARD_LANGUAGES = ["tamil", "kannada", "telugu", "hindi"];
+    const DEFAULT_TABLE_LANGUAGES = ["tamil", "kannada", "telugu", "hindi", "malayalam"];
 
     // State
-    let activeTableLanguages = JSON.parse(localStorage.getItem('fishTableLanguages')) || DEFAULT_LANGUAGES;
-    let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_LANGUAGES;
+    let activeTableLanguages = JSON.parse(localStorage.getItem('fishTableLanguages')) || DEFAULT_TABLE_LANGUAGES;
+    let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_CARD_LANGUAGES;
     let currentView = 'card';
 
     // Initialize
@@ -138,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 ${otherLangs.length > 0 ? `
                     <details class="more-langs">
-                        <summary>Show all 22 languages</summary>
+                        <summary>Show all languages</summary>
                         <div class="fish-names-grid dense">
                             ${renderGrid(otherLangs)}
                         </div>

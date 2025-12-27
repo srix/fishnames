@@ -20,13 +20,23 @@ test.describe('Fish Name Lookup Spec Verification', () => {
     });
 
     test('M2: Data & Language Expansion', async ({ page }) => {
-        // Check for languages in default view (Hindi, Tamil etc)
+        // Check for languages in default view (Tamil, Kannada, Telugu, Hindi)
         const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
+
+        // Verify Card Default Languages: Tamil, Kannada, Telugu, Hindi
         await expect(seerCard.locator('.lang-label', { hasText: 'Tamil' })).toBeVisible();
+        await expect(seerCard.locator('.lang-label', { hasText: 'Kannada' })).toBeVisible();
+        await expect(seerCard.locator('.lang-label', { hasText: 'Telugu' })).toBeVisible();
+        await expect(seerCard.locator('.lang-label', { hasText: 'Hindi' })).toBeVisible();
 
         // Expand Details (Spec 6.1)
-        await seerCard.locator('summary').click();
-        await expect(seerCard.locator('.lang-label', { hasText: 'Assamese' })).toBeVisible();
+        const summary = seerCard.locator('summary');
+        await expect(summary).toHaveText('Show all languages');
+        await summary.click();
+
+        // Malayalam (which is in Table defaults but NOT Card defaults) should be here
+        await expect(seerCard.locator('.more-langs .lang-label', { hasText: 'Malayalam' })).toBeVisible();
+        await expect(seerCard.locator('.more-langs .lang-label', { hasText: 'Assamese' })).toBeVisible();
     });
 
     test('M3: Search Functionality (Spec 6.3)', async ({ page }) => {
@@ -60,15 +70,19 @@ test.describe('Fish Name Lookup Spec Verification', () => {
         const box = await thumb.boundingBox();
         expect(box.width).toBeCloseTo(80, 1);
 
+        // Verify Default Columns: Tamil, Kannada, Telugu, Hindi, Malayalam
+        // Checking ALL default columns explicitly
+        await expect(page.locator('th', { hasText: 'Tamil' })).toBeVisible();
+        await expect(page.locator('th', { hasText: 'Kannada' })).toBeVisible();
+        await expect(page.locator('th', { hasText: 'Telugu' })).toBeVisible();
+        await expect(page.locator('th', { hasText: 'Hindi' })).toBeVisible();
+        await expect(page.locator('th', { hasText: 'Malayalam' })).toBeVisible();
+
         // Column Selector
         await page.getByRole('button', { name: '🌐 Languages' }).click();
         await expect(page.locator('#column-selector-dialog')).toBeVisible();
 
-        // Toggle a column (e.g., Sanskrit) - assume it fits in view or is clickable
-        // Default columns are Hindi, Tamil, Malayalam, Kannada, Telugu.
-        // Let's add Urdu.
-
-        // Find Urdu checkbox
+        // Toggle a column (e.g., Urdu)
         const urduCheckbox = page.locator('input[value="urdu"]');
         await urduCheckbox.check();
         await page.locator('#btn-close-cols').click();

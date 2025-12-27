@@ -100,16 +100,15 @@ Each fish entry follows:
 * Each card includes:
   * Image (Left/Top)
   * English name and Scientific name.
-  * **Primary Grid**: Shows 4-5 key languages (e.g., Hindi, Tamil, Malayalam) by default.
-  * **"Show all 22 languages"**: An expandable accordion at the **bottom** of the card (full width) to reveal the rest.
+  * **Primary Grid**: Customizable set of languages (default: Tamil, Kannada, Telugu, Hindi). Users can select which languages to show here via the "Languages" button.
+  * **"Show all languages"**: An expandable accordion at the **bottom** of the card (full width) to reveal the rest.
   * **Native Scripts**: Displayed alongside Romanized names.
   * Notes expandable on tap.
 
 ### **6.2 Table View**
 
 * Vertical layout for Fish Name (Name on Top, Large 80px Thumbnail below).
-* **Column Selector**: A "🌐 Languages" button allows users to toggle visibility of any of the 22 language columns.
-* **Layout**: Languages are selected via a grid-based dialog.
+* **Column Selector**: A "🌐 Languages" button allows users to toggle visibility of any of the 22 language columns. Dropdown shows names in **"Native / English"** format. Default columns: Tamil, Kannada, Telugu, Hindi, Malayalam.
 * **Sticky Header**: First column (Fish) and Headers are sticky.
 
 ### **6.3 Search**
@@ -125,7 +124,7 @@ Each fish entry follows:
 ### **6.4 Persistence**
 
 * Remembers **View Mode** (Card vs Table) using `localStorage`.
-* Remembers **Selected Columns** in Table View using `localStorage`.
+* Remembers **Selected Languages** independently for **Card View** and **Table View** using `localStorage`.
 
 ### **6.5 Responsive Design**
 
