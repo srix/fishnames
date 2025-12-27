@@ -94,4 +94,15 @@ test.describe('Card View Verification', () => {
         await expect(rohuCard.locator('.habitat-freshwater')).toBeVisible();
         await expect(rohuCard.locator('.habitat-freshwater')).toContainText('Freshwater');
     });
+
+    test('Missing Data Display', async ({ page }) => {
+        // Lady Fish does not have an Assamese name, so it should show "-"
+        const ladyFishCard = page.locator('.fish-card').filter({ has: page.locator('h2', { hasText: 'Lady Fish' }) }).first();
+
+        await ladyFishCard.locator('summary').click(); // Expand all languages
+        const assameseLabel = ladyFishCard.locator('.lang-group', { has: page.locator('.lang-label', { hasText: 'Assamese' }) });
+
+        await expect(assameseLabel).toBeVisible();
+        await expect(assameseLabel.locator('.lang-value')).toHaveText('-');
+    });
 });

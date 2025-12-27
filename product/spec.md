@@ -105,6 +105,7 @@ Each fish entry follows:
   * **Primary Grid**: Customizable set of languages (default: Tamil, Kannada, Telugu, Hindi). Users can select which languages to show here via the "Languages" button.
   * **"Show all languages"**: An expandable accordion at the **bottom** of the card (full width) to reveal the rest.
   * **Native Scripts**: Displayed alongside Romanized names.
+  * **Missing Data**: Languages without a known name display as `-` instead of being hidden, ensuring consistency.
   * Notes expandable on tap.
 
 
