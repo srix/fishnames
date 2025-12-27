@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Indian Fish Name Guide</title>
+    <meta name="description" content="Identify fish names in English, Tamil, Malayalam, and Kannada.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-content">
+            <h1>Fish Name Guide</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search fish, synonyms, or languages...">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="view-toggle">
+                <button id="btn-card-view" class="active" aria-label="Switch to Card View">
+                   Card View
+                </button>
+                <button id="btn-table-view" aria-label="Switch to Table View">
+                   Table View
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-body">
+        <div id="card-view" class="view-container">
+            <!-- Fish cards will be injected here -->
+        </div>
+
+        <div id="table-view" class="view-container" hidden>
+            <div class="table-wrapper">
+                <table id="fish-table">
+                    <thead>
+                        <tr>
+                            <th class="sticky-col">Fish</th>
+                            <th>Tamil</th>
+                            <th>Malayalam</th>
+                            <th>Kannada</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fish-table-body">
+                        <!-- Table rows will be injected here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div id="no-results" hidden>
+            <p>No fish found matching your search.</p>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
