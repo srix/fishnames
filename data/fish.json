@@ -848,6 +848,7 @@
       "malayalam": [
         "ആവോലി",
         "Avoli",
+        "വെളുത്ത ആവോലി",
         "Velutha Avoli"
       ],
       "kannada": [
@@ -1229,6 +1230,7 @@
       "malayalam": [
         "ചെമ്പല്ലി",
         "Chemballi",
+        "പാഹരി",
         "Pahari"
       ],
       "kannada": [
@@ -1413,6 +1415,7 @@
       "malayalam": [
         "പൂഴാൻ",
         "Poozhan",
+        "കിളിമീൻ",
         "Kilimeen"
       ],
       "kannada": [
@@ -1509,6 +1512,7 @@
       "malayalam": [
         "ബാമമീൻ",
         "Bamameen",
+        "കാല",
         "Kaala"
       ],
       "kannada": [
@@ -1694,11 +1698,13 @@
       "malayalam": [
         "തിലോപ്പിയ",
         "Tilopia",
+        "ജിലേബി",
         "Jilebi"
       ],
       "kannada": [
         "ಸರ್ಕಾರ",
         "Sarkara",
+        "ತಿಪಿಲಿ",
         "Tipili"
       ],
       "telugu": [
@@ -1789,6 +1795,7 @@
       "malayalam": [
         "കാളാഞ്ചി",
         "Kalanchi",
+        "നരിമീൻ",
         "Narimeen"
       ],
       "kannada": [
@@ -2141,12 +2148,12 @@
       ],
       "tamil": [
         "நக்கு",
-        "Nanku",
-        "Esal"
+        "Nanku"
       ],
       "malayalam": [
         "മാന്തൾ",
         "Manthal",
+        "നങ്ക്",
         "Nanku"
       ],
       "kannada": [
@@ -2321,11 +2328,13 @@
       "tamil": [
         "கனவா",
         "Kanava",
+        "ஊசி கனவா",
         "Oosi Kanava"
       ],
       "malayalam": [
         "കൂന്തൽ",
         "Koonthal",
+        "കണവ",
         "Kanava"
       ],
       "kannada": [
@@ -2428,6 +2437,7 @@
       "kannada": [
         "ಮರಲ್",
         "Maral",
+        "ಕೊರಮೀನು",
         "Korameenu"
       ],
       "telugu": [
@@ -2514,6 +2524,7 @@
       "malayalam": [
         "കാരി",
         "Kaari",
+        "കൂരി",
         "Koori"
       ],
       "kannada": [
@@ -2692,11 +2703,13 @@
       "tamil": [
         "சங்கரா",
         "Sankara",
+        "ராணி",
         "Rani"
       ],
       "malayalam": [
         "കിളിമീൻ",
         "Kilimeen",
+        "പുതിയാപ്ല",
         "Puthiyapla"
       ],
       "kannada": [
@@ -3058,7 +3071,8 @@
       "malayalam": [
         "ഏരി",
         "Eri",
-        "Vilameew"
+        "വിളമീൻ",
+        "Vilameen"
       ],
       "kannada": [
         "ಧಮ",
