@@ -548,3 +548,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+
+.sentinel {
+    height: 20px;
+    width: 100%;
+}

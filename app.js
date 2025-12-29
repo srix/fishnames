@@ -71,6 +71,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let appData = [];
     let activeFilters = new Set();
 
+    // Lazy Load State
+    const BATCH_SIZE = 20;
+    let currentFilteredData = [];
+    let renderedCount = 0;
+    let loadMoreObserver;
+
     // Initialize
     init();
 
@@ -240,80 +246,121 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update Count
         if (resultCount) resultCount.textContent = data.length;
 
-        renderCards(data);
+        // Reset Lazy Load State
+        currentFilteredData = data;
+        renderedCount = 0;
+        cardView.innerHTML = '';
+
+        if (loadMoreObserver) {
+            loadMoreObserver.disconnect();
+            loadMoreObserver = null;
+        }
 
         if (data.length === 0) {
             noResults.hidden = false;
         } else {
             noResults.hidden = true;
+            renderNextBatch();
         }
     }
 
-    function renderCards(data) {
-        cardView.innerHTML = '';
-        data.forEach(item => {
-            const card = document.createElement('div');
-            card.className = 'fish-card';
+    function renderNextBatch() {
+        const batch = currentFilteredData.slice(renderedCount, renderedCount + BATCH_SIZE);
+        if (batch.length === 0) return;
 
-            const primaryLangs = [...activeCardLanguages];
-            const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l));
+        const fragment = document.createDocumentFragment();
+        batch.forEach(item => {
+            fragment.appendChild(createCardElement(item));
+        });
+        cardView.appendChild(fragment);
 
-            const renderGrid = (langs) => langs.map(lang => `
-                <div class="lang-group">
-                    <span class="lang-label">${LANGUAGE_DISPLAY_NAMES[lang] || lang.charAt(0).toUpperCase() + lang.slice(1)}</span>
-                    <span class="lang-value">${item.names[lang] ? item.names[lang].join(' / ') : '-'}</span>
-                </div>
-            `).join('');
+        renderedCount += batch.length;
 
-            // Simplified Badges - optionally hide if filter is active, but keeping for clarity
-            const getBadges = (cats) => {
-                if (!cats) return '';
+        if (renderedCount < currentFilteredData.length) {
+            setupObserver();
+        }
+    }
 
-                // Get allowed filters for current category
-                const allowedTags = CATEGORY_FILTERS[currentCategory] || [];
+    function setupObserver() {
+        if (loadMoreObserver) loadMoreObserver.disconnect();
 
-                return cats
-                    .filter(cat => allowedTags.includes(cat)) // Filter against whitelist
-                    .map(cat => {
-                        let className = 'habitat-badge';
-                        if (['sea', 'freshwater', 'brackish'].includes(cat)) {
-                            return `<span class="${className} habitat-${cat}">${getCategoryLabel(cat)}</span>`;
-                        }
-                        return `<span class="${className}" style="background:#e9ecef; color:#495057;">${getCategoryLabel(cat)}</span>`;
-                    }).join(' ');
-            };
+        const sentinel = document.createElement('div');
+        sentinel.className = 'sentinel';
+        cardView.appendChild(sentinel);
 
-            const placeholderImg = `img/placeholder.webp`;
+        loadMoreObserver = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                loadMoreObserver.disconnect();
+                sentinel.remove();
+                renderNextBatch();
+            }
+        }, { rootMargin: '200px' });
 
-            card.innerHTML = `
-                <div class="fish-header">
-                    <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.src='${placeholderImg}'">
-                    <div class="fish-title">
-                        <h2>${item.names.english.join(' / ')}</h2>
-                        <div class="scientific-name">${item.scientificName}</div>
-                        <div class="badges">
-                            ${getBadges(item.category)}
-                        </div>
+        loadMoreObserver.observe(sentinel);
+    }
+
+    function createCardElement(item) {
+        const card = document.createElement('div');
+        card.className = 'fish-card';
+
+        const primaryLangs = [...activeCardLanguages];
+        const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l));
+
+        const renderGrid = (langs) => langs.map(lang => `
+            <div class="lang-group">
+                <span class="lang-label">${LANGUAGE_DISPLAY_NAMES[lang] || lang.charAt(0).toUpperCase() + lang.slice(1)}</span>
+                <span class="lang-value">${item.names[lang] ? item.names[lang].join(' / ') : '-'}</span>
+            </div>
+        `).join('');
+
+        // Simplified Badges
+        const getBadges = (cats) => {
+            if (!cats) return '';
+
+            // Get allowed filters for current category
+            const allowedTags = CATEGORY_FILTERS[currentCategory] || [];
+
+            return cats
+                .filter(cat => allowedTags.includes(cat)) // Filter against whitelist
+                .map(cat => {
+                    let className = 'habitat-badge';
+                    if (['sea', 'freshwater', 'brackish'].includes(cat)) {
+                        return `<span class="${className} habitat-${cat}">${getCategoryLabel(cat)}</span>`;
+                    }
+                    return `<span class="${className}" style="background:#e9ecef; color:#495057;">${getCategoryLabel(cat)}</span>`;
+                }).join(' ');
+        };
+
+        const placeholderImg = `img/placeholder.webp`;
+
+        card.innerHTML = `
+            <div class="fish-header">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.src='${placeholderImg}'">
+                <div class="fish-title">
+                    <h2>${item.names.english.join(' / ')}</h2>
+                    <div class="scientific-name">${item.scientificName}</div>
+                    <div class="badges">
+                        ${getBadges(item.category)}
                     </div>
                 </div>
-                
-                <div class="fish-names-grid">
-                    ${renderGrid(primaryLangs)}
-                </div>
-                
-                ${otherLangs.length > 0 ? `
-                    <details class="more-langs">
-                        <summary>Show all languages</summary>
-                        <div class="fish-names-grid dense">
-                            ${renderGrid(otherLangs)}
-                        </div>
-                    </details>
-                ` : ''}
+            </div>
+            
+            <div class="fish-names-grid">
+                ${renderGrid(primaryLangs)}
+            </div>
+            
+            ${otherLangs.length > 0 ? `
+                <details class="more-langs">
+                    <summary>Show all languages</summary>
+                    <div class="fish-names-grid dense">
+                        ${renderGrid(otherLangs)}
+                    </div>
+                </details>
+            ` : ''}
 
-                ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}
-            `;
-            cardView.appendChild(card);
-        });
+            ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}
+        `;
+        return card;
     }
 
     // Helper reused in renderCards and generateFilters
