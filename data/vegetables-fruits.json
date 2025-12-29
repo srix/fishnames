@@ -1,6 +1,6 @@
 [
   {
-    "id": "v1",
+    "id": "potato",
     "names": {
       "english": [
         "Potato"
@@ -92,7 +92,7 @@
     "notes": "Starchy tuber used in curries and fries."
   },
   {
-    "id": "v2",
+    "id": "onion",
     "names": {
       "english": [
         "Onion"
@@ -184,7 +184,7 @@
     "notes": "Essential base for Indian gravies."
   },
   {
-    "id": "v3",
+    "id": "tomato",
     "names": {
       "english": [
         "Tomato"
@@ -276,7 +276,7 @@
     "notes": "Used widely for sourness and gravy base."
   },
   {
-    "id": "v4",
+    "id": "spinach",
     "names": {
       "english": [
         "Spinach"
@@ -368,7 +368,7 @@
     "notes": "Green leafy vegetable rich in iron."
   },
   {
-    "id": "v5",
+    "id": "brinjal",
     "names": {
       "english": [
         "Brinjal",
@@ -462,7 +462,7 @@
     "notes": "King of vegetables in Indian cuisine."
   },
   {
-    "id": "v6",
+    "id": "mango",
     "names": {
       "english": [
         "Mango"
@@ -554,7 +554,7 @@
     "notes": "The King of Fruits."
   },
   {
-    "id": "v7",
+    "id": "banana",
     "names": {
       "english": [
         "Banana",
@@ -647,7 +647,7 @@
     "notes": "Rich in potassium."
   },
   {
-    "id": "v8",
+    "id": "jackfruit",
     "names": {
       "english": [
         "Jackfruit"
@@ -739,7 +739,7 @@
     "notes": "Largest tree-borne fruit."
   },
   {
-    "id": "v9",
+    "id": "pomegranate",
     "names": {
       "english": [
         "Pomegranate"
@@ -831,7 +831,7 @@
     "notes": "Rich in antioxidants."
   },
   {
-    "id": "v10",
+    "id": "apple",
     "names": {
       "english": [
         "Apple"
@@ -924,7 +924,7 @@
   },
   {
     "id": "okra",
-    "photo": "img/placeholder.webp",
+    "photo": "img/okra.webp",
     "tags": [
       "vegetable"
     ],
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "cauliflower",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cauliflower.webp",
     "tags": [
       "vegetable"
     ],
@@ -1104,7 +1104,7 @@
   },
   {
     "id": "cabbage",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cabbage.webp",
     "tags": [
       "leafy"
     ],
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "carrot",
-    "photo": "img/placeholder.webp",
+    "photo": "img/carrot.webp",
     "tags": [
       "root"
     ],
@@ -1283,7 +1283,7 @@
   },
   {
     "id": "beetroot",
-    "photo": "img/placeholder.webp",
+    "photo": "img/beetroot.webp",
     "tags": [
       "root"
     ],
@@ -1371,7 +1371,7 @@
   },
   {
     "id": "radish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/radish.webp",
     "tags": [
       "root"
     ],
@@ -1460,7 +1460,7 @@
   },
   {
     "id": "bitter-gourd",
-    "photo": "img/placeholder.webp",
+    "photo": "img/bitter-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "bottle-gourd",
-    "photo": "img/placeholder.webp",
+    "photo": "img/bottle-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "ridge-gourd",
-    "photo": "img/placeholder.webp",
+    "photo": "img/ridge-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -1724,7 +1724,7 @@
   },
   {
     "id": "snake-gourd",
-    "photo": "img/placeholder.webp",
+    "photo": "img/snake-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -1808,7 +1808,7 @@
   },
   {
     "id": "pumpkin",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pumpkin.webp",
     "tags": [
       "vegetable"
     ],
@@ -1897,7 +1897,7 @@
   },
   {
     "id": "cucumber",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cucumber.webp",
     "tags": [
       "vegetable"
     ],
@@ -1986,7 +1986,7 @@
   },
   {
     "id": "drumstick",
-    "photo": "img/placeholder.webp",
+    "photo": "img/drumstick.webp",
     "tags": [
       "vegetable"
     ],
@@ -2075,7 +2075,7 @@
   },
   {
     "id": "beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/beans.webp",
     "tags": [
       "vegetable"
     ],
@@ -2155,7 +2155,7 @@
   },
   {
     "id": "green-peas",
-    "photo": "img/placeholder.webp",
+    "photo": "img/green-peas.webp",
     "tags": [
       "vegetable"
     ],
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "garlic",
-    "photo": "img/placeholder.webp",
+    "photo": "img/garlic.webp",
     "tags": [
       "root"
     ],
@@ -2328,7 +2328,7 @@
   },
   {
     "id": "ginger",
-    "photo": "img/placeholder.webp",
+    "photo": "img/ginger.webp",
     "tags": [
       "root"
     ],
@@ -2419,7 +2419,7 @@
   },
   {
     "id": "green-chili",
-    "photo": "img/placeholder.webp",
+    "photo": "img/green-chili.webp",
     "tags": [
       "vegetable"
     ],
@@ -2508,7 +2508,7 @@
   },
   {
     "id": "coriander-leaves",
-    "photo": "img/placeholder.webp",
+    "photo": "img/coriander-leaves.webp",
     "tags": [
       "leafy"
     ],
@@ -2590,7 +2590,7 @@
   },
   {
     "id": "mint-leaves",
-    "photo": "img/placeholder.webp",
+    "photo": "img/mint-leaves.webp",
     "tags": [
       "leafy"
     ],
@@ -2670,7 +2670,7 @@
   },
   {
     "id": "curry-leaves",
-    "photo": "img/placeholder.webp",
+    "photo": "img/curry-leaves.webp",
     "tags": [
       "leafy"
     ],
@@ -2753,7 +2753,7 @@
   },
   {
     "id": "papaya",
-    "photo": "img/placeholder.webp",
+    "photo": "img/papaya.webp",
     "tags": [
       "fruit"
     ],

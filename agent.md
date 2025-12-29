@@ -114,7 +114,20 @@ The app supports:
 - `share.test.js` - Share functionality tests
 
 ### Scripts (`scripts/`)
-- `generate-sitemap.js` - Generates sitemap.xml with all item URLs
+- `generate_sitemap.py` - Generates sitemap.xml from JSON data files
+- `process_grid.py` - Slices 2x2 image grids into individual images
+- `update_json_images.py` - Links generated images to JSON data
+- `find_missing_images.py` - Identifies items without images
+
+> [!IMPORTANT]
+> **Sitemap Update Rule**: Whenever you modify any JSON data files (adding/removing/renaming items), you MUST regenerate the sitemap by running:
+> ```bash
+> python3 scripts/generate_sitemap.py
+> ```
+> This ensures all item URLs remain in sync with the sitemap for SEO.
+
+### Docs (`docs/`)
+- `image-generation.md` - Complete guide for regenerating images with different styles/sizes
 
 ---
 
