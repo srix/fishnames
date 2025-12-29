@@ -405,15 +405,19 @@ body {
 }
 
 .lang-label {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
+    font-size: 0.7rem;
+    color: #9CA3AF;
+    /* Subtle Gray */
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
+    margin-bottom: 2px;
 }
 
 .lang-value {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 500;
+    /* Reduced from 600 per user feedback */
+    color: var(--text-primary);
 }
 
 .fish-notes {
