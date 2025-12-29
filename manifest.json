@@ -1,7 +1,7 @@
 {
-    "name": "Indian Ingredient Lexicon",
-    "short_name": "IngredientLex",
-    "description": "A comprehensive multilingual lexicon for Indian food ingredients including fish, vegetables, fruits, grains, and spices.",
+    "name": "FoodBhasha - Your Market Translator",
+    "short_name": "FoodBhasha",
+    "description": "Your market translator! Identify Indian fish, vegetables, fruits, grains & spices in 23 languages. Perfect for shopping and cooking.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
