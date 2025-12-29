@@ -3171,5 +3171,1372 @@
       ]
     },
     "notes": "Excellent white meat fish."
+  },
+  {
+    "id": "lobster",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "Nephropidae",
+    "names": {
+      "english": [
+        "Lobster"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "झींगा",
+        "Jhinga"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "சிங்கி இறால்",
+        "Singi Eral"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "oyster",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Oyster"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "sea-bass",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sea Bass"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "grouper",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Grouper"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cobia",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Cobia"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "mahi-mahi",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Mahi Mahi"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "swordfish",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Swordfish"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "stingray",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Stingray"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "silver-belly",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Silver Belly"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "threadfin-bream",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Threadfin Bream"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "ribbon-fish",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Ribbon Fish"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cuttlefish",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "Sepiida",
+    "names": {
+      "english": [
+        "Cuttlefish"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "കണവ",
+        "Kanava"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "கனவா",
+        "Kanava"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "mud-crab",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "Scylla serrata",
+    "names": {
+      "english": [
+        "Mud Crab"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "ഞണ്ട്",
+        "Njandu"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "நண்டு",
+        "Nandu"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "tiger-prawn",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "Penaeus monodon",
+    "names": {
+      "english": [
+        "Tiger Prawn"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "பெரிய இறால்",
+        "Periya Eral"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "scampi",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Scampi"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "reef-cod",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Reef Cod"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "parrot-fish",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Parrot Fish"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
   }
 ]

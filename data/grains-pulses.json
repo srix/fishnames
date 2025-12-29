@@ -373,5 +373,4120 @@
       ]
     },
     "notes": "Key ingredient for Idli and Dosa batter."
+  },
+  {
+    "id": "wheat",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Triticum",
+    "names": {
+      "english": [
+        "Wheat"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "গম",
+        "Gom"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "ઘઉં",
+        "Ghau"
+      ],
+      "hindi": [
+        "गेहूं",
+        "Gehu"
+      ],
+      "kannada": [
+        "ಗೋದಧಿ",
+        "Godhi"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "ഗോതമ്പ്",
+        "Gothambu"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "गहू",
+        "Gahu"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ଗହମ",
+        "Gahama"
+      ],
+      "punjabi": [
+        "ਕਣਕ",
+        "Kanak"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "கோதுமை",
+        "Godhumai"
+      ],
+      "telugu": [
+        "గోధుమలు",
+        "Godhumalu"
+      ],
+      "urdu": [
+        "گندم",
+        "Gandum"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "maize",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Zea mays",
+    "names": {
+      "english": [
+        "Maize"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "ভুট্টা",
+        "Bhutta"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "મકાઈ",
+        "Makai"
+      ],
+      "hindi": [
+        "मक्का",
+        "Makka"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "मका",
+        "Maka"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ମକା",
+        "Maka"
+      ],
+      "punjabi": [
+        "ਮੱਕੀ",
+        "Makki"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "சோளம்",
+        "Solam"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "مکئی",
+        "Makai"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "barley",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Barley"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "jowar",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Jowar"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "জোয়ার",
+        "Jowar"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "જુવાર",
+        "Juvar"
+      ],
+      "hindi": [
+        "ज्वार",
+        "Jowar"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "ചോളം",
+        "Cholam"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "ज्वारी",
+        "Jwari"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ଜୁଆର",
+        "Juar"
+      ],
+      "punjabi": [
+        "ਜਵਾਰ",
+        "Jowar"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "சோளம்",
+        "Cholam"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "جوار",
+        "Jowar"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "bajra",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Bajra"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "બાજરી",
+        "Bajri"
+      ],
+      "hindi": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "കമ്പം",
+        "Kambam"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "बाजरी",
+        "Bajri"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ବାଜରା",
+        "Bajra"
+      ],
+      "punjabi": [
+        "ਬਾਜਰਾ",
+        "Bajra"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "கம்பு",
+        "Kambu"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "باجرہ",
+        "Bajra"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "masoor-dal",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Masoor Dal"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "মুসুর ডাল",
+        "Musur Dal"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "મસૂર દાળ",
+        "Masoor Dal"
+      ],
+      "hindi": [
+        "मसूर दाल",
+        "Masoor Dal"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "പരിപ്പ്",
+        "Parippu"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "मसूर डाळ",
+        "Masur Dal"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ମସୁର ଡାଲି",
+        "Masura Dali"
+      ],
+      "punjabi": [
+        "ਮਸਰ ਦਾਲ",
+        "Masar Dal"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "மைசூர் பருப்பு",
+        "Mysore Paruppu"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "مسور دال",
+        "Masoor Dal"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "moong-dal",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Moong Dal"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "মুগ ডাল",
+        "Mug Dal"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "મગ દાળ",
+        "Mag Dal"
+      ],
+      "hindi": [
+        "मूँग दाल",
+        "Moong Dal"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "ചെറുപയർ",
+        "Cherupayar"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "मूग डाळ",
+        "Moog Dal"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ମୁଗ ଡାଲି",
+        "Muga Dali"
+      ],
+      "punjabi": [
+        "ਮੂੰਗੀ ਦਾਲ",
+        "Moongi Dal"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "பாசிப்பருப்பு",
+        "Pasi Paruppu"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "مونگ دال",
+        "Moong Dal"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "chana-dal",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Chana Dal"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "ছোলার ডাল",
+        "Cholar Dal"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "ચણા દાળ",
+        "Chana Dal"
+      ],
+      "hindi": [
+        "चना दाल",
+        "Chana Dal"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "കടല പരിപ്പ്",
+        "Kadala Parippu"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "हरभरा डाळ",
+        "Harbara Dal"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ବୁଟ ଡାଲି",
+        "Buta Dali"
+      ],
+      "punjabi": [
+        "ਛੋਲੇ ਦਾਲ",
+        "Chole Dal"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "கடலை பருப்பு",
+        "Kadalai Paruppu"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "چنا دال",
+        "Chana Dal"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "chickpeas",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Cicer arietinum",
+    "names": {
+      "english": [
+        "Chickpeas"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "चना",
+        "Chana"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "കടല",
+        "Kadala"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "கொண்டைக்கடலை",
+        "Kondaikadalai"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "black-chickpeas",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Black Chickpeas"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "kidney-beans",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Kidney Beans"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "black-eyed-peas",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Black Eyed Peas"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "dried-green-peas",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Dried Green Peas"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "soybeans",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Soybeans"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "horse-gram",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Horse Gram"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "flax-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Flax Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "sesame-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sesame Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "groundnut",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Arachis hypogaea",
+    "names": {
+      "english": [
+        "Groundnut"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "मूंगफली",
+        "Moongfali"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "നിലക്കടല",
+        "Nilakadala"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "வேர்க்கடலை",
+        "Verkadalai"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "mustard-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Brassica nigra",
+    "names": {
+      "english": [
+        "Mustard Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "সরিষা",
+        "Sorisha"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "રાઈ",
+        "Rai"
+      ],
+      "hindi": [
+        "सरसों",
+        "Sarson"
+      ],
+      "kannada": [
+        "ಸಾಸಿವೆ",
+        "Sasive"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "കടുക്",
+        "Kaduku"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "मोहरी",
+        "Mohri"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ସୋରିଷ",
+        "Sorisa"
+      ],
+      "punjabi": [
+        "ਸਰੋਂ",
+        "Saron"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "கடுகு",
+        "Kadugu"
+      ],
+      "telugu": [
+        "ఆవాలు",
+        "Avalu"
+      ],
+      "urdu": [
+        "رائی",
+        "Rai"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cumin-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Cuminum cyminum",
+    "names": {
+      "english": [
+        "Cumin Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "জিরা",
+        "Jira"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "જીરું",
+        "Jeeru"
+      ],
+      "hindi": [
+        "जीरा",
+        "Jeera"
+      ],
+      "kannada": [
+        "ಜೀರಿಗೆ",
+        "Jeerige"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "ജീരകം",
+        "Jeerakam"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "जिरे",
+        "Jire"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ଜିରା",
+        "Jira"
+      ],
+      "punjabi": [
+        "ਜੀਰਾ",
+        "Jeera"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "சீரகம்",
+        "Jeeragam"
+      ],
+      "telugu": [
+        "జీలకర్ర",
+        "Jeelakarra"
+      ],
+      "urdu": [
+        "زیرہ",
+        "Zeera"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "coriander-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Coriander Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "fennel-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Fennel Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "fenugreek-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Fenugreek Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "black-pepper",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Piper nigrum",
+    "names": {
+      "english": [
+        "Black Pepper"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "গোলমরিচ",
+        "Golmorich"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "મરી",
+        "Mari"
+      ],
+      "hindi": [
+        "काली मिर्च",
+        "Kali Mirch"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "കുരുമുളക്",
+        "Kurumulaku"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "काळी मिरी",
+        "Kali Miri"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ଗୋଲ ମରିଚ",
+        "Gol Maricha"
+      ],
+      "punjabi": [
+        "ਕਾਲੀ ਮਿਰਚ",
+        "Kali Mirch"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "மிளகு",
+        "Milagu"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "کالی مرچ",
+        "Kali Mirch"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cardamom",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Elettaria cardamomum",
+    "names": {
+      "english": [
+        "Cardamom"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "इलायची",
+        "Elaichi"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "ഏലയ്ക്ക",
+        "Elakka"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "ஏலக்காய்",
+        "Elakkai"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cloves",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Cloves"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cinnamon",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Cinnamon"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "turmeric",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "Curcuma longa",
+    "names": {
+      "english": [
+        "Turmeric"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "হলুদ",
+        "Holud"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "હળદર",
+        "Haldar"
+      ],
+      "hindi": [
+        "हल्दी",
+        "Haldi"
+      ],
+      "kannada": [
+        "ಅರಿಶಿನ",
+        "Arishina"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "മഞ്ഞൾ",
+        "Manjal"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "हळद",
+        "Halad"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "ହଳଦୀ",
+        "Haladi"
+      ],
+      "punjabi": [
+        "ਹਲਦੀ",
+        "Haldi"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "மஞ்சள்",
+        "Manjal"
+      ],
+      "telugu": [
+        "పసుపు",
+        "Pasupu"
+      ],
+      "urdu": [
+        "ہلدی",
+        "Haldi"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "dry-red-chili",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Dry Red Chili"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "cashew",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Cashew"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "almond",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Almond"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "pistachio",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Pistachio"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "walnut",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Walnut"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "raisins",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Raisins"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "dates",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Dates"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "sago",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sago"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "fox-nuts",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Fox Nuts"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "poha",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Poha"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "semolina",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Semolina"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "vermicelli",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Vermicelli"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "jaggery",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Jaggery"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "tamarind",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Tamarind"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "kokum",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Kokum"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "asafetida",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Asafetida"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "chia-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Chia Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "sunflower-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sunflower Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "pumpkin-seeds",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Pumpkin Seeds"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "quinoa",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Quinoa"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "oats",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Oats"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
+  },
+  {
+    "id": "buckwheat",
+    "photo": "img/placeholder.webp",
+    "category": [
+      "grain"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Buckwheat"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "hindi": [
+        "-"
+      ],
+      "kannada": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "malayalam": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "tamil": [
+        "-"
+      ],
+      "telugu": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Description to be added."
   }
 ]
