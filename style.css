@@ -1,15 +1,22 @@
 :root {
-    --primary-color: #007bff;
-    --background-color: #f8f9fa;
+    --primary-color: #1B497E;
+    /* Deeper Navy */
+    --accent-gold: #DBA137;
+    --accent-green: #5D8D4A;
+    --accent-red: #AF3F34;
+    --background-color: #F4F1E8;
     --card-bg: #ffffff;
-    --text-primary: #212529;
-    --text-secondary: #6c757d;
-    --border-color: #dee2e6;
+    --text-primary: #1A3A44;
+    --text-secondary: #5A6B71;
+    --border-color: #D1CAB0;
+    --header-bg: #F4F1E8;
+    --logo-bg: #DFE6ED;
+    --search-bg: #ffffff;
     --spacing-sm: 8px;
     --spacing-md: 16px;
     --spacing-lg: 24px;
     --radius: 12px;
-    --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 * {
@@ -27,17 +34,14 @@ body {
 }
 
 /* Header */
-/* Header Layout */
 .app-header {
-    background-color: var(--card-bg);
+    background-color: var(--header-bg);
     position: sticky;
     top: 0;
-    z-index: 100;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    padding: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* Centering Wrapper */
 .header-centered {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,80 +49,76 @@ body {
     width: 100%;
 }
 
-/* Top Row */
 .header-top {
-    border-bottom: 1px solid var(--border-color);
-    padding: 16px 0;
-    /* Vertical padding only, horizontal handled by wrapper */
+    padding: 12px 0;
 }
 
 .header-top-content {
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-@media (min-width: 768px) {
-    .header-top-content {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 /* Brand */
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
 }
 
-.logo-icon {
-    width: 48px;
-    height: 48px;
-    background: #E3F5FF;
-    border-radius: 8px;
+.logo-circle {
+    width: 64px;
+    height: 64px;
+    background: var(--logo-bg);
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--primary-color);
+    overflow: hidden;
 }
 
-.icon-spoon-knife {
-    width: 28px;
-    height: 28px;
+.brand-icon {
+    width: 32px;
+    height: 32px;
 }
 
 .brand-text h1 {
-    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.75rem;
     font-weight: 700;
     margin: 0;
-    line-height: 1.2;
-    text-align: left;
+    color: var(--text-primary);
+    line-height: 1.1;
 }
 
 .brand-text .subtitle {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    letter-spacing: 0.15em;
+    margin-top: 4px;
+    display: block;
+    text-transform: uppercase;
 }
 
 /* Search */
 .search-container {
     flex: 1;
-    max-width: 600px;
+    max-width: 500px;
     position: relative;
-    margin: 0 16px;
-    /* Keep margin for spacing between items */
 }
 
 #search-input {
     width: 100%;
-    padding: 10px 16px 10px 40px;
-    border: none;
-    background-color: #F3F4F6;
+    padding: 12px 16px 12px 48px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--search-bg);
     border-radius: 8px;
     font-size: 0.95rem;
     color: var(--text-primary);
+    box-shadow: var(--shadow);
 }
 
 #search-input::placeholder {
@@ -127,7 +127,7 @@ body {
 
 .search-icon {
     position: absolute;
-    left: 12px;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
     color: #9CA3AF;
@@ -135,58 +135,38 @@ body {
 }
 
 /* Header Actions */
-.header-actions {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.primary-btn-icon {
-    background-color: #00A3FF;
-    /* Reference Blue */
+.btn-languages {
+    background-color: var(--primary-color);
     color: white;
     border: none;
-    padding: 8px 16px;
-    border-radius: 6px;
+    padding: 10px 24px;
+    border-radius: 30px;
+    /* Pill shape */
     font-weight: 600;
     font-size: 0.9rem;
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 6px;
-    transition: background-color 0.2s;
+    gap: 10px;
+    transition: filter 0.2s;
 }
 
-.primary-btn-icon:hover {
-    background-color: #008AD8;
+.btn-languages:hover {
+    filter: brightness(1.1);
 }
 
-.btn-icon {
-    font-size: 1.1rem;
-    line-height: 1;
+.btn-languages .btn-icon {
+    font-size: 1.2rem;
 }
 
-/* Middle Row: Tabs */
+.btn-languages sub {
+    font-size: 0.7rem;
+    vertical-align: sub;
+}
+
+/* Navigation Tabs */
 .category-tabs {
-    /* Wrapper handles positioning */
-    display: flex;
-    padding: 0 24px;
-    /* We need this on wrapper, wait. category-tabs IS the container in HTML usually? I will make it the OUTER container */
-    border-bottom: 0px;
-    /* Tabs usually don't have full width border if individual tabs have it? Design check: Tabs row usually sits on a line. */
-    /* Implementation: outer div full width? No, tabs usually just aligned. */
-}
-
-/* Re-thinking Tabs CSS:
-   If I wrap tabs in .header-centered, then .category-tabs (the Nav) should probably BE the wrapper or inside it.
-   Let's assume I will wrap the content of nav.
-   Actually, cleaner to make .category-tabs the full width container, and an inner div valid.
-*/
-
-.category-tabs-container {
-    /* This will be the outer full width if needed, or just part of flow */
-    padding: 0;
-    /* Padding handled by internal wrapper if used */
+    border-bottom: 2px solid var(--border-color);
 }
 
 .category-tabs-inner {
@@ -195,16 +175,13 @@ body {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     align-items: center;
-    height: 56px;
-    /* Fixed height for tabs */
+    height: 64px;
 }
 
 .tab-btn {
     background: none;
     border: none;
-    padding: 0 4px;
-    /* Adjust padding since height is fixed on container? Or keep as is */
-    height: 100%;
+    padding: 16px 0;
     font-size: 0.95rem;
     font-weight: 600;
     color: var(--text-secondary);
@@ -212,7 +189,7 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: all 0.2s;
     white-space: nowrap;
 }
@@ -222,37 +199,31 @@ body {
 }
 
 .tab-btn.active {
-    color: #00A3FF;
-    border-bottom-color: #00A3FF;
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+    font-weight: 700;
+}
+
+.tab-icon {
+    font-size: 1.2rem;
 }
 
 /* Bottom Toolbar */
 .app-toolbar {
-    background-color: var(--background-color);
-    border-bottom: 1px solid var(--border-color);
+    background-color: var(--header-bg);
     padding: 16px 0;
-    /* Vertical padding */
 }
 
 .app-toolbar-content {
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-@media (min-width: 768px) {
-    .app-toolbar-content {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
+    align-items: center;
+    justify-content: space-between;
 }
 
 .filter-group {
     display: flex;
     align-items: center;
     gap: 12px;
-    overflow: hidden;
 }
 
 .filter-label {
@@ -265,11 +236,7 @@ body {
 
 .chips-container {
     display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    /* for scrollbar spacing */
-    scrollbar-width: none;
+    gap: 12px;
 }
 
 .chips-container::-webkit-scrollbar {
@@ -277,30 +244,36 @@ body {
 }
 
 .filter-chip {
-    padding: 6px 16px;
-    border-radius: 20px;
+    padding: 8px 24px;
+    border-radius: 30px;
     font-size: 0.85rem;
-    border: 1px solid #E5E7EB;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
     background: white;
     color: var(--text-primary);
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .filter-chip:hover {
-    background-color: #F9FAFB;
+    background-color: #f8f9fa;
 }
 
 .filter-chip.active {
-    background-color: #00A3FF;
+    background-color: var(--primary-color);
     color: white;
-    border-color: #00A3FF;
+    border-color: var(--primary-color);
 }
 
 .results-stat {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--text-secondary);
+    font-style: italic;
     white-space: nowrap;
 }
 
