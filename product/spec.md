@@ -160,8 +160,15 @@ A responsive sticky header that stays fixed at the top.
   2.  **Search Row**: Full-width Search Bar.
 * **Scroll Behavior**: On scroll down, the Top Row and Search Row slide up/vanish to maximize content space. They reappear instantly on scroll up.
 * **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.
-  3.  **Nav Row**: Scrollable Category tabs.
-  4.  **Toolbar Row**: Scrollable Filter chips.
+* **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.
+  3.  **Nav Row**: Scrollable Category tabs (Scrollbar Hidden).
+  4.  **Toolbar Row**: Scrollable Filter chips (Scrollbar Hidden).
+
+### **7.2 Brand Identity**
+
+* **Logo**: Custom image (`img/logo.jpg`) displayed in a non-cropped square format.
+* **Favicon**: Matches the branding logo.
+* **Visuals**: Primary Blue (`#1B497E`) theme.
 
 ### **7.3 Performance: Lazy Loading**
 

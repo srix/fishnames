@@ -137,6 +137,11 @@ test.describe('Indian Food Guide Verification', () => {
 
         // Check for centered wrapper in tabs
         await expect(header.locator('.category-tabs .header-centered')).toBeVisible();
+
+        // Verify Logo is an Image
+        const logoImg = header.locator('.brand .logo-circle img');
+        await expect(logoImg).toBeVisible();
+        await expect(logoImg).toHaveAttribute('src', 'img/logo.jpg');
     });
 
     test('Dynamic Placeholders', async ({ page }) => {
