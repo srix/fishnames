@@ -188,7 +188,6 @@
     "id": "ragi",
     "photo": "img/ragi.webp",
     "tags": [
-      "cereal",
       "millet"
     ],
     "scientificName": "Eleusine coracana",
@@ -634,7 +633,7 @@
     "id": "jowar",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "millet"
     ],
     "scientificName": "Sorghum bicolor",
     "names": {
@@ -723,7 +722,7 @@
     "id": "bajra",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "millet"
     ],
     "scientificName": "Pennisetum glaucum",
     "names": {
@@ -812,7 +811,7 @@
     "id": "masoor-dal",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Lens culinaris",
     "names": {
@@ -901,7 +900,7 @@
     "id": "moong-dal",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Vigna radiata",
     "names": {
@@ -990,7 +989,7 @@
     "id": "chana-dal",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Cicer arietinum",
     "names": {
@@ -1079,7 +1078,7 @@
     "id": "chickpeas",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Cicer arietinum",
     "names": {
@@ -1162,7 +1161,7 @@
     "id": "black-chickpeas",
     "photo": "img/black-chickpeas.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Cicer arietinum",
     "names": {
@@ -1242,7 +1241,7 @@
     "id": "kidney-beans",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Phaseolus vulgaris",
     "names": {
@@ -1322,7 +1321,7 @@
     "id": "black-eyed-peas",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Vigna unguiculata",
     "names": {
@@ -1405,7 +1404,7 @@
     "id": "dried-green-peas",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Pisum sativum",
     "names": {
@@ -1485,7 +1484,7 @@
     "id": "soybeans",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Glycine max",
     "names": {
@@ -1565,7 +1564,7 @@
     "id": "horse-gram",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Macrotyloma uniflorum",
     "names": {
@@ -1811,7 +1810,7 @@
     "id": "groundnut",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Arachis hypogaea",
     "names": {
@@ -4148,7 +4147,7 @@
     "id": "besan",
     "photo": "img/besan.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4228,7 +4227,7 @@
     "id": "ragi-flour",
     "photo": "img/ragi-flour.webp",
     "tags": [
-      "cereal"
+      "millet"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4308,7 +4307,7 @@
     "id": "bajra-flour",
     "photo": "img/bajra-flour.webp",
     "tags": [
-      "cereal"
+      "millet"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4388,7 +4387,7 @@
     "id": "jowar-flour",
     "photo": "img/jowar-flour.webp",
     "tags": [
-      "cereal"
+      "millet"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4550,7 +4549,7 @@
     "id": "soy-chunks",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "Glycine max",
     "names": {
@@ -4631,7 +4630,7 @@
     "id": "green-gram",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4711,7 +4710,7 @@
     "id": "black-gram",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4791,7 +4790,7 @@
     "id": "moth-bean",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4871,7 +4870,7 @@
     "id": "lima-beans",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4951,7 +4950,7 @@
     "id": "field-beans",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5031,7 +5030,7 @@
     "id": "double-beans",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5111,7 +5110,7 @@
     "id": "pinto-beans",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5191,7 +5190,7 @@
     "id": "white-peas",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5271,7 +5270,7 @@
     "id": "roasted-gram",
     "photo": "img/placeholder.webp",
     "tags": [
-      "cereal"
+      "pulse"
     ],
     "scientificName": "N/A",
     "names": {

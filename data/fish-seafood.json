@@ -5114,7 +5114,7 @@
     "id": "basa",
     "photo": "img/basa.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "Pangasius bocourti",
     "names": {
@@ -5199,7 +5199,7 @@
     "id": "pangasius",
     "photo": "img/pangasius.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5279,7 +5279,7 @@
     "id": "grass-carp",
     "photo": "img/grass-carp.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5359,7 +5359,7 @@
     "id": "silver-carp",
     "photo": "img/silver-carp.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5439,7 +5439,7 @@
     "id": "walking-catfish",
     "photo": "img/walking-catfish.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5523,7 +5523,7 @@
     "id": "climbing-perch",
     "photo": "img/climbing-perch.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "Anabas testudineus",
     "names": {
@@ -5606,7 +5606,7 @@
     "id": "gourami",
     "photo": "img/gourami.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5686,7 +5686,7 @@
     "id": "featherback",
     "photo": "img/featherback.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6251,7 +6251,7 @@
     "id": "mahseer",
     "photo": "img/placeholder.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6331,7 +6331,7 @@
     "id": "himalayan-trout",
     "photo": "img/placeholder.webp",
     "tags": [
-      "sea"
+      "freshwater"
     ],
     "scientificName": "N/A",
     "names": {

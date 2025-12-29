@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'fruit': '🍎 Fruit',
             'cereal': '🌾 Cereal',
             'pulse': '🫘 Pulse',
-            'millet': '🌾 Millet',
+            'millet': '🥣 Millet',
             'spice': '🌶️ Spice'
         };
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
