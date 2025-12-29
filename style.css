@@ -212,6 +212,12 @@ body {
     -webkit-overflow-scrolling: touch;
     align-items: center;
     height: 64px;
+    /* Hide scrollbar */
+    scrollbar-width: none;
+}
+
+.category-tabs-inner::-webkit-scrollbar {
+    display: none;
 }
 
 .tab-btn {
@@ -658,6 +664,12 @@ body {
         padding-bottom: 4px;
         /* Space for scrollbar if any */
         -webkit-overflow-scrolling: touch;
+        /* Hide scrollbar */
+        scrollbar-width: none;
+    }
+
+    .filter-group::-webkit-scrollbar {
+        display: none;
     }
 
     .chips-container {
