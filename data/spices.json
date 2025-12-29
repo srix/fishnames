@@ -11,7 +11,8 @@
         "Mustard Seeds"
       ],
       "assamese": [
-        "-"
+        "সৰিয়হ",
+        "Xoriyoh"
       ],
       "bengali": [
         "সরিষা",
@@ -36,10 +37,12 @@
         "Sasive"
       ],
       "kashmiri": [
-        "-"
+        "آسُر",
+        "Aasur"
       ],
       "konkani": [
-        "-"
+        "सासवं",
+        "Sasavam"
       ],
       "maithili": [
         "-"
@@ -49,14 +52,16 @@
         "Kaduku"
       ],
       "manipuri": [
-        "-"
+        "হঙগাম",
+        "Hangam"
       ],
       "marathi": [
         "मोहरी",
         "Mohri"
       ],
       "nepali": [
-        "-"
+        "तोरी",
+        "Tori"
       ],
       "odia": [
         "ସୋରିଷ",
@@ -67,7 +72,8 @@
         "Saron"
       ],
       "sanskrit": [
-        "-"
+        "सर्षपः",
+        "Sarshapah"
       ],
       "santali": [
         "-"
@@ -102,17 +108,20 @@
         "Cumin Seeds"
       ],
       "assamese": [
-        "-"
+        "জিৰা",
+        "Jira"
       ],
       "bengali": [
         "জিরা",
         "Jira"
       ],
       "bodo": [
-        "-"
+        "জিরা",
+        "Jira"
       ],
       "dogri": [
-        "-"
+        "जीरा",
+        "Jeera"
       ],
       "gujarati": [
         "જીરું",
@@ -127,27 +136,32 @@
         "Jeerige"
       ],
       "kashmiri": [
-        "-"
+        "zyur",
+        "Zyur"
       ],
       "konkani": [
-        "-"
+        "जीरे",
+        "Jeere"
       ],
       "maithili": [
-        "-"
+        "जीरा",
+        "Jeera"
       ],
       "malayalam": [
         "ജീരകം",
         "Jeerakam"
       ],
       "manipuri": [
-        "-"
+        "জিরা",
+        "Jira"
       ],
       "marathi": [
         "जिरे",
         "Jire"
       ],
       "nepali": [
-        "-"
+        "जीरा",
+        "Jeera"
       ],
       "odia": [
         "ଜିରା",
@@ -158,7 +172,8 @@
         "Jeera"
       ],
       "sanskrit": [
-        "-"
+        "जीरकः",
+        "Jeerakah"
       ],
       "santali": [
         "-"
@@ -193,55 +208,71 @@
         "Coriander Seeds"
       ],
       "assamese": [
-        "-"
+        "ধনিয়া",
+        "Dhaniya"
       ],
       "bengali": [
-        "-"
+        "ধনে",
+        "Dhone"
       ],
       "bodo": [
-        "-"
+        "ধনিয়া",
+        "Dhaniya"
       ],
       "dogri": [
         "-"
       ],
       "gujarati": [
-        "-"
+        "ધાણા",
+        "Dhana"
       ],
       "hindi": [
-        "-"
+        "धनिया",
+        "Dhaniya"
       ],
       "kannada": [
-        "-"
+        "ಕೊತ್ತಂಬರಿ ಬೀಜ",
+        "Kothambari Beeja"
       ],
       "kashmiri": [
-        "-"
+        "दानीवाल",
+        "Daaniwal"
       ],
       "konkani": [
-        "-"
+        "कोतमीर",
+        "Kothmir"
       ],
       "maithili": [
-        "-"
+        "धनिया",
+        "Dhaniya"
       ],
       "malayalam": [
-        "-"
+        "മല്ലi",
+        "Malli"
       ],
       "manipuri": [
-        "-"
+        "ফদিগিম",
+        "Phadigom"
       ],
       "marathi": [
-        "-"
+        "धणे",
+        "Dhane"
       ],
       "nepali": [
-        "-"
+        "धनिया",
+        "Dhaniya"
       ],
       "odia": [
-        "-"
+        "ଧନିଆ",
+        "Dhania"
       ],
       "punjabi": [
-        "-"
+        "ਧਨੀਆ",
+        "Dhaniya"
       ],
       "sanskrit": [
-        "-"
+        "धान्यकम्",
+        "Dhanyakam"
       ],
       "santali": [
         "-"
@@ -250,13 +281,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மல்லி",
+        "Malli"
       ],
       "telugu": [
-        "-"
+        "ధనియాలు",
+        "Dhaniyalu"
       ],
       "urdu": [
-        "-"
+        "دھنیا",
+        "Dhaniya"
       ]
     },
     "notes": "Dhania, dried seeds used in spice blends."
@@ -273,55 +307,71 @@
         "Fennel Seeds"
       ],
       "assamese": [
-        "-"
+        "গুৱামুৰি",
+        "Guamuri"
       ],
       "bengali": [
-        "-"
+        "মৌরি",
+        "Mouri"
       ],
       "bodo": [
         "-"
       ],
       "dogri": [
-        "-"
+        "सौंप",
+        "Saunp"
       ],
       "gujarati": [
-        "-"
+        "વરિયાળી",
+        "Variyali"
       ],
       "hindi": [
-        "-"
+        "सौंफ",
+        "Saunf"
       ],
       "kannada": [
-        "-"
+        "ಬಡೆಸೋಪು",
+        "Badeshopu"
       ],
       "kashmiri": [
-        "-"
+        "बडियन",
+        "Badiyan"
       ],
       "konkani": [
-        "-"
+        "शेप",
+        "Shep"
       ],
       "maithili": [
-        "-"
+        "मौरि",
+        "Mauri"
       ],
       "malayalam": [
-        "-"
+        "പെരുംജീരകം",
+        "Perumjeerakam"
       ],
       "manipuri": [
-        "-"
+        "হপ",
+        "Hop"
       ],
       "marathi": [
-        "-"
+        "बडीशेप",
+        "Badishep"
       ],
       "nepali": [
-        "-"
+        "सोन्फ",
+        "Sonf"
       ],
       "odia": [
-        "-"
+        "ପାନମଧୁରୀ",
+        "Panmadhuri"
       ],
       "punjabi": [
-        "-"
+        "ਸੌਂਫ",
+        "Saunf"
       ],
       "sanskrit": [
-        "-"
+        "मधुरिका",
+        "Madhurika"
       ],
       "santali": [
         "-"
@@ -330,13 +380,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சோம்பு",
+        "Sombu"
       ],
       "telugu": [
-        "-"
+        "సోంపు",
+        "Sompu"
       ],
       "urdu": [
-        "-"
+        "سونف",
+        "Saunf"
       ]
     },
     "notes": "Saunf, digestive and mouth freshener."
@@ -353,55 +406,72 @@
         "Fenugreek Seeds"
       ],
       "assamese": [
-        "-"
+        "মেথি",
+        "Methi"
       ],
       "bengali": [
-        "-"
+        "মেথি",
+        "Methi"
       ],
       "bodo": [
-        "-"
+        "মেথি",
+        "Methi"
       ],
       "dogri": [
-        "-"
+        "मेथी",
+        "Methi"
       ],
       "gujarati": [
-        "-"
+        "મેથી",
+        "Methi"
       ],
       "hindi": [
-        "-"
+        "मेथी",
+        "Methi"
       ],
       "kannada": [
-        "-"
+        "ಮೆಂತ್ಯ",
+        "Menthya"
       ],
       "kashmiri": [
-        "-"
+        "मेथ",
+        "Meth"
       ],
       "konkani": [
-        "-"
+        "मेथी",
+        "Methi"
       ],
       "maithili": [
-        "-"
+        "मेथी",
+        "Methi"
       ],
       "malayalam": [
-        "-"
+        "ഉലുവ",
+        "Uluva"
       ],
       "manipuri": [
-        "-"
+        "মেথি",
+        "Methi"
       ],
       "marathi": [
-        "-"
+        "मेथी",
+        "Methi"
       ],
       "nepali": [
-        "-"
+        "मेथी",
+        "Methi"
       ],
       "odia": [
-        "-"
+        "ମେଥି",
+        "Methi"
       ],
       "punjabi": [
-        "-"
+        "ਮੇਥੀ",
+        "Methi"
       ],
       "sanskrit": [
-        "-"
+        "मेथिका",
+        "Methika"
       ],
       "santali": [
         "-"
@@ -410,13 +480,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வெந்தயம்",
+        "Vendhayam"
       ],
       "telugu": [
-        "-"
+        "మెంతులు",
+        "Menthulu"
       ],
       "urdu": [
-        "-"
+        "میتھی",
+        "Methi"
       ]
     },
     "notes": "Methi seeds, bitter earthy flavor."
@@ -433,17 +506,20 @@
         "Black Pepper"
       ],
       "assamese": [
-        "-"
+        "জালুক",
+        "Jaluk"
       ],
       "bengali": [
         "গোলমরিচ",
         "Golmorich"
       ],
       "bodo": [
-        "-"
+        "जलुक",
+        "Jaluk"
       ],
       "dogri": [
-        "-"
+        "काली मिर्च",
+        "Kali Mirch"
       ],
       "gujarati": [
         "મરી",
@@ -454,30 +530,36 @@
         "Kali Mirch"
       ],
       "kannada": [
-        "-"
+        "ಮೆಣಸು",
+        "Menasu"
       ],
       "kashmiri": [
-        "-"
+        "मरच़",
+        "Marach"
       ],
       "konkani": [
-        "-"
+        "मिरीं",
+        "Mirin"
       ],
       "maithili": [
-        "-"
+        "कालीमरिच",
+        "Kalimirch"
       ],
       "malayalam": [
         "കുരുമുളക്",
         "Kurumulaku"
       ],
       "manipuri": [
-        "-"
+        "গোলমোরিচ",
+        "Golmorich"
       ],
       "marathi": [
         "काळी मिरी",
         "Kali Miri"
       ],
       "nepali": [
-        "-"
+        "मरिच",
+        "Marich"
       ],
       "odia": [
         "ଗୋଲ ମରିଚ",
@@ -488,7 +570,8 @@
         "Kali Mirch"
       ],
       "sanskrit": [
-        "-"
+        "मरिचम्",
+        "Maricham"
       ],
       "santali": [
         "-"
@@ -501,7 +584,8 @@
         "Milagu"
       ],
       "telugu": [
-        "-"
+        "మిరియాలు",
+        "Miriyalu"
       ],
       "urdu": [
         "کالی مرچ",
@@ -522,57 +606,72 @@
         "Cardamom"
       ],
       "assamese": [
-        "-"
+        "ইলাচী",
+        "Elachi"
       ],
       "bengali": [
-        "-"
+        "এলাচ",
+        "Elach"
       ],
       "bodo": [
-        "-"
+        "एलासि",
+        "Elasi"
       ],
       "dogri": [
-        "-"
+        "इलायची",
+        "Elaichi"
       ],
       "gujarati": [
-        "-"
+        "ઈલાયચી",
+        "Elaichi"
       ],
       "hindi": [
         "इलायची",
         "Elaichi"
       ],
       "kannada": [
-        "-"
+        "ಏಲಕ್ಕಿ",
+        "Yelakki"
       ],
       "kashmiri": [
-        "-"
+        "आल",
+        "Aal"
       ],
       "konkani": [
-        "-"
+        "एल्लो",
+        "Ello"
       ],
       "maithili": [
-        "-"
+        "इलायची",
+        "Elaichi"
       ],
       "malayalam": [
         "ഏലയ്ക്ക",
         "Elakka"
       ],
       "manipuri": [
-        "-"
+        "এলাইচি",
+        "Elaichi"
       ],
       "marathi": [
-        "-"
+        "वेलची",
+        "Velchi"
       ],
       "nepali": [
-        "-"
+        "अलैंची",
+        "Alaichi"
       ],
       "odia": [
-        "-"
+        "ଗୁଜୁରାତି",
+        "Gujurati"
       ],
       "punjabi": [
-        "-"
+        "ਇਲਾਇਚੀ",
+        "Elaichi"
       ],
       "sanskrit": [
-        "-"
+        "एला",
+        "Ela"
       ],
       "santali": [
         "-"
@@ -585,10 +684,12 @@
         "Elakkai"
       ],
       "telugu": [
-        "-"
+        "యాలకులు",
+        "Yalakulu"
       ],
       "urdu": [
-        "-"
+        "الائچی",
+        "Elaichi"
       ]
     },
     "notes": "Green Cardamom, sweet aromatic spice."
@@ -605,55 +706,72 @@
         "Cloves"
       ],
       "assamese": [
-        "-"
+        "লং",
+        "Long"
       ],
       "bengali": [
-        "-"
+        "লবঙ্গ",
+        "Lobongo"
       ],
       "bodo": [
-        "-"
+        "लवंस",
+        "Lavans"
       ],
       "dogri": [
-        "-"
+        "लौंग",
+        "Laung"
       ],
       "gujarati": [
-        "-"
+        "લવિંગ",
+        "Laving"
       ],
       "hindi": [
-        "-"
+        "लौंग",
+        "Laung"
       ],
       "kannada": [
-        "-"
+        "ಲವಂಗ",
+        "Lavanga"
       ],
       "kashmiri": [
-        "-"
+        "रोंग",
+        "Rong"
       ],
       "konkani": [
-        "-"
+        "लवंग",
+        "Lavang"
       ],
       "maithili": [
-        "-"
+        "लौंग",
+        "Laung"
       ],
       "malayalam": [
-        "-"
+        "ഗ്രാമ്പൂ",
+        "Grambu"
       ],
       "manipuri": [
-        "-"
+        "লবঙ্গ",
+        "Lobongo"
       ],
       "marathi": [
-        "-"
+        "लवंग",
+        "Lavang"
       ],
       "nepali": [
-        "-"
+        "ल्वाङ",
+        "Lwang"
       ],
       "odia": [
-        "-"
+        "ଲବଙ୍ଗ",
+        "Labanga"
       ],
       "punjabi": [
-        "-"
+        "ਲੌਂਗ",
+        "Laung"
       ],
       "sanskrit": [
-        "-"
+        "लवङ्गम्",
+        "Lavangam"
       ],
       "santali": [
         "-"
@@ -662,13 +780,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கிராம்பு",
+        "Krambu"
       ],
       "telugu": [
-        "-"
+        "లవంగం",
+        "Lavangam"
       ],
       "urdu": [
-        "-"
+        "لونگ",
+        "Laung"
       ]
     },
     "notes": "Strong, pungent spice used in Garam Masala."
@@ -685,55 +806,72 @@
         "Cinnamon"
       ],
       "assamese": [
-        "-"
+        "দালচেনি",
+        "Dalcheni"
       ],
       "bengali": [
-        "-"
+        "দারুচিনি",
+        "Daruchini"
       ],
       "bodo": [
-        "-"
+        "दालसिनि",
+        "Dalsini"
       ],
       "dogri": [
-        "-"
+        "दालचीनी",
+        "Dalchini"
       ],
       "gujarati": [
-        "-"
+        "તજ",
+        "Taj"
       ],
       "hindi": [
-        "-"
+        "दालचीनी",
+        "Dalchini"
       ],
       "kannada": [
-        "-"
+        "ಚಕ್ಕೆ",
+        "Chakke"
       ],
       "kashmiri": [
-        "-"
+        "दलचीन",
+        "Dalchin"
       ],
       "konkani": [
-        "-"
+        "तिकी",
+        "Tiki"
       ],
       "maithili": [
-        "-"
+        "दालचीनी",
+        "Dalchini"
       ],
       "malayalam": [
-        "-"
+        "കറുവപ്പട്ട",
+        "Karuvapatta"
       ],
       "manipuri": [
-        "-"
+        "উশিন",
+        "Ushin"
       ],
       "marathi": [
-        "-"
+        "दालचिनी",
+        "Dalchini"
       ],
       "nepali": [
-        "-"
+        "दालचिनी",
+        "Dalchini"
       ],
       "odia": [
-        "-"
+        "ଡାଲଚିନି",
+        "Dalchini"
       ],
       "punjabi": [
-        "-"
+        "ਦਾਲਚੀਨੀ",
+        "Dalchini"
       ],
       "sanskrit": [
-        "-"
+        "त्वक्",
+        "Tvak"
       ],
       "santali": [
         "-"
@@ -742,13 +880,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பட்டை",
+        "Pattai"
       ],
       "telugu": [
-        "-"
+        "దాల్చినచెక్క",
+        "Dalchinachekka"
       ],
       "urdu": [
-        "-"
+        "دارچینی",
+        "Darchini"
       ]
     },
     "notes": "Sweet woody spice, used in desserts and curries."
@@ -765,17 +906,20 @@
         "Turmeric"
       ],
       "assamese": [
-        "-"
+        "হালধি",
+        "Halodhi"
       ],
       "bengali": [
         "হলুদ",
         "Holud"
       ],
       "bodo": [
-        "-"
+        "हाल्दै",
+        "Haldai"
       ],
       "dogri": [
-        "-"
+        "हल्दी",
+        "Haldi"
       ],
       "gujarati": [
         "હળદર",
@@ -790,27 +934,32 @@
         "Arishina"
       ],
       "kashmiri": [
-        "-"
+        "लदर",
+        "Ladar"
       ],
       "konkani": [
-        "-"
+        "हळद",
+        "Halad"
       ],
       "maithili": [
-        "-"
+        "हल्दी",
+        "Haldi"
       ],
       "malayalam": [
         "മഞ്ഞൾ",
         "Manjal"
       ],
       "manipuri": [
-        "-"
+        "য়াইঙং",
+        "Yaingang"
       ],
       "marathi": [
         "हळद",
         "Halad"
       ],
       "nepali": [
-        "-"
+        "बेसार",
+        "Besar"
       ],
       "odia": [
         "ହଳଦୀ",
@@ -821,7 +970,8 @@
         "Haldi"
       ],
       "sanskrit": [
-        "-"
+        "हरिद्रा",
+        "Haridra"
       ],
       "santali": [
         "-"
@@ -856,55 +1006,71 @@
         "Dry Red Chili"
       ],
       "assamese": [
-        "-"
+        "শুকান জলকীয়া",
+        "Xukan Jolokia"
       ],
       "bengali": [
-        "-"
+        "শুকনো লঙ্কা",
+        "Shukno Lonka"
       ],
       "bodo": [
         "-"
       ],
       "dogri": [
-        "-"
+        "सूखी मिर्च",
+        "Sukhi Mirch"
       ],
       "gujarati": [
-        "-"
+        "લાલ મરચું",
+        "Lal Marchu"
       ],
       "hindi": [
-        "-"
+        "लाल मिर्च",
+        "Lal Mirch"
       ],
       "kannada": [
-        "-"
+        "ಒಣ ಮೆಣಸಿನಕಾಯಿ",
+        "Ona Menasinakayi"
       ],
       "kashmiri": [
-        "-"
+        "मज़्वांगन",
+        "Mazwangan"
       ],
       "konkani": [
-        "-"
+        "सुकी मिर्सांग",
+        "Suki Mirsang"
       ],
       "maithili": [
-        "-"
+        "मिर्चाइ",
+        "Mirchai"
       ],
       "malayalam": [
-        "-"
+        "വറ്റൽ മുളക്",
+        "Vattal Mulaku"
       ],
       "manipuri": [
-        "-"
+        "মোরোক",
+        "Morok"
       ],
       "marathi": [
-        "-"
+        "लाल मिरची",
+        "Lal Mirchi"
       ],
       "nepali": [
-        "-"
+        "रातो खुर्सानी",
+        "Rato Khursani"
       ],
       "odia": [
-        "-"
+        "ଶୁଖିଲା ଲଙ୍କା",
+        "Sukhila Lanka"
       ],
       "punjabi": [
-        "-"
+        "ਲਾਲ ਮਿਰਚ",
+        "Lal Mirch"
       ],
       "sanskrit": [
-        "-"
+        "रक्तमरिचम्",
+        "Raktamaricham"
       ],
       "santali": [
         "-"
@@ -913,13 +1079,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "காய்ந்த மிளகாய்",
+        "Kaintha Milagai"
       ],
       "telugu": [
-        "-"
+        "ఎండు మిర్చి",
+        "Endu Mirchi"
       ],
       "urdu": [
-        "-"
+        "لال مرچ",
+        "Lal Mirch"
       ]
     },
     "notes": "Adds heat and color to dishes."
@@ -939,7 +1108,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কাজু",
+        "Kaju"
       ],
       "bodo": [
         "-"
@@ -948,13 +1118,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કાજુ",
+        "Kaju"
       ],
       "hindi": [
-        "-"
+        "काजू",
+        "Kaju"
       ],
       "kannada": [
-        "-"
+        "ಗೋಡಂಬಿ",
+        "Godambi"
       ],
       "kashmiri": [
         "-"
@@ -966,22 +1139,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കശുവണ്ടി",
+        "Kashuvandi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "काजू",
+        "Kaju"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କାଜୁ",
+        "Kaju"
       ],
       "punjabi": [
-        "-"
+        "ਕਾਜੂ",
+        "Kaju"
       ],
       "sanskrit": [
         "-"
@@ -993,13 +1170,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "முந்திரி",
+        "Munthiri"
       ],
       "telugu": [
-        "-"
+        "జీడిపప్పు",
+        "Jeedipappu"
       ],
       "urdu": [
-        "-"
+        "کاجو",
+        "Kaju"
       ]
     },
     "notes": "Creamy nut used in rich gravies and sweets."
@@ -1019,7 +1199,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বাদাম",
+        "Badam"
       ],
       "bodo": [
         "-"
@@ -1028,13 +1209,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બદામ",
+        "Badam"
       ],
       "hindi": [
-        "-"
+        "बादाम",
+        "Badam"
       ],
       "kannada": [
-        "-"
+        "ಬಾದಾಮಿ",
+        "Badami"
       ],
       "kashmiri": [
         "-"
@@ -1046,22 +1230,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ബദാം",
+        "Badam"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "बदाम",
+        "Badam"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବାଦାମ",
+        "Badam"
       ],
       "punjabi": [
-        "-"
+        "ਬਾਦਾਮ",
+        "Badam"
       ],
       "sanskrit": [
         "-"
@@ -1073,13 +1261,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பாதாம்",
+        "Badam"
       ],
       "telugu": [
-        "-"
+        "బాదం",
+        "Badam"
       ],
       "urdu": [
-        "-"
+        "بادام",
+        "Badam"
       ]
     },
     "notes": "Nutrient-rich nut, used in desserts and badam milk."
@@ -1099,7 +1290,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "পেস্তা",
+        "Pesta"
       ],
       "bodo": [
         "-"
@@ -1108,13 +1300,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "પિસ્તા",
+        "Pista"
       ],
       "hindi": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "kannada": [
-        "-"
+        "ಪಿಸ್ತಾ",
+        "Pista"
       ],
       "kashmiri": [
         "-"
@@ -1126,22 +1321,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പിസ്ത",
+        "Pista"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପିସ୍ତା",
+        "Pista"
       ],
       "punjabi": [
-        "-"
+        "ਪਿਸਤਾ",
+        "Pista"
       ],
       "sanskrit": [
         "-"
@@ -1153,13 +1352,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பிஸ்தா",
+        "Pista"
       ],
       "telugu": [
-        "-"
+        "పిస్తా",
+        "Pista"
       ],
       "urdu": [
-        "-"
+        "پستہ",
+        "Pista"
       ]
     },
     "notes": "Used in garnishing sweets and desserts."
@@ -1179,7 +1381,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "আখরোট",
+        "Akhrot"
       ],
       "bodo": [
         "-"
@@ -1188,13 +1391,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "અખરોટ",
+        "Akhrot"
       ],
       "hindi": [
-        "-"
+        "अखरोट",
+        "Akhrot"
       ],
       "kannada": [
-        "-"
+        "ಅಕ್ರೋಟ್",
+        "Akrot"
       ],
       "kashmiri": [
         "-"
@@ -1206,22 +1412,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "വാൽനട്ട്",
+        "Walnut"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "अक्रोड",
+        "Akrod"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଅଖରୋଟ",
+        "Akhrot"
       ],
       "punjabi": [
-        "-"
+        "ਅਖਰੋਟ",
+        "Akhrot"
       ],
       "sanskrit": [
         "-"
@@ -1233,13 +1443,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வால்நட்",
+        "Walnut"
       ],
       "telugu": [
-        "-"
+        "వాల్నట్",
+        "Walnut"
       ],
       "urdu": [
-        "-"
+        "اخروٹ",
+        "Akhrot"
       ]
     },
     "notes": "Brain food, rich in Omega-3."
@@ -1259,7 +1472,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কিশমিশ",
+        "Kishmish"
       ],
       "bodo": [
         "-"
@@ -1268,13 +1482,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કિસમિસ",
+        "Kismis"
       ],
       "hindi": [
-        "-"
+        "किशमिश",
+        "Kishmish"
       ],
       "kannada": [
-        "-"
+        "ಒಣ ದ್ರಾಕ್ಷಿ",
+        "Ona Drakshi"
       ],
       "kashmiri": [
         "-"
@@ -1286,22 +1503,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഉണക്കമുന്തിരി",
+        "Unakka Munthiri"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मनुका",
+        "Manuka"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କିସମିସ",
+        "Kismis"
       ],
       "punjabi": [
-        "-"
+        "ਕਿਸ਼ਮਿਸ਼",
+        "Kishmish"
       ],
       "sanskrit": [
         "-"
@@ -1313,13 +1534,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "உலர் திராட்சை",
+        "Ular Thiratchai"
       ],
       "telugu": [
-        "-"
+        "ఎండు ద్రాక్ష",
+        "Endu Draksha"
       ],
       "urdu": [
-        "-"
+        "کشمش",
+        "Kishmish"
       ]
     },
     "notes": "Dried grapes, used in Kheer and desserts."
@@ -1339,7 +1563,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "খেজুঁর",
+        "Khejur"
       ],
       "bodo": [
         "-"
@@ -1348,13 +1573,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ખજૂર",
+        "Khajur"
       ],
       "hindi": [
-        "-"
+        "खजूर",
+        "Khajoor"
       ],
       "kannada": [
-        "-"
+        "ಖರ್ಜೂರ",
+        "Kharjoora"
       ],
       "kashmiri": [
         "-"
@@ -1366,22 +1594,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഈന്തപ്പഴം",
+        "Eenthapazham"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "खजूर",
+        "Khajur"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଖଜୁରୀ",
+        "Khajuri"
       ],
       "punjabi": [
-        "-"
+        "ਖਜੂਰ",
+        "Khajoor"
       ],
       "sanskrit": [
         "-"
@@ -1393,13 +1625,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பேரீச்சம்பழம்",
+        "Perichampazham"
       ],
       "telugu": [
-        "-"
+        "ఖర్జూరం",
+        "Kharjuram"
       ],
       "urdu": [
-        "-"
+        "کھجور",
+        "Khajoor"
       ]
     },
     "notes": "Natural sweetener, rich in energy."
@@ -1419,7 +1654,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "তেঁতুল",
+        "Tetul"
       ],
       "bodo": [
         "-"
@@ -1428,13 +1664,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "આંબલી",
+        "Ambli"
       ],
       "hindi": [
-        "-"
+        "इमली",
+        "Imli"
       ],
       "kannada": [
-        "-"
+        "ಹುಣಸೆಹಣ್ಣು",
+        "Hunasehannu"
       ],
       "kashmiri": [
         "-"
@@ -1446,22 +1685,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പുളി",
+        "Puli"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "चिंच",
+        "Chinch"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ତେନ୍ତୁଳି",
+        "Tentuli"
       ],
       "punjabi": [
-        "-"
+        "ਇਮਲੀ",
+        "Imli"
       ],
       "sanskrit": [
         "-"
@@ -1473,13 +1716,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "புளி",
+        "Puli"
       ],
       "telugu": [
-        "-"
+        "చింతపండు",
+        "Chintapandu"
       ],
       "urdu": [
-        "-"
+        "املی",
+        "Imli"
       ]
     },
     "notes": "Sour pulp used in Sambar and Rasam."
@@ -1499,7 +1745,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কোকুম",
+        "Kokum"
       ],
       "bodo": [
         "-"
@@ -1508,13 +1755,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કોકમ",
+        "Kokum"
       ],
       "hindi": [
-        "-"
+        "कोकम",
+        "Kokum"
       ],
       "kannada": [
-        "-"
+        "ಮುರುಗಲು",
+        "Murugalu"
       ],
       "kashmiri": [
         "-"
@@ -1526,22 +1776,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കുടംപുളി",
+        "Kudampuli"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "कोकम",
+        "Kokum"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କୋକୁମ୍",
+        "Kokum"
       ],
       "punjabi": [
-        "-"
+        "ਕੋਕਮ",
+        "Kokum"
       ],
       "sanskrit": [
         "-"
@@ -1553,13 +1807,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "குடம் புளி",
+        "Kudam Puli"
       ],
       "telugu": [
-        "-"
+        "కోకుమ్",
+        "Kokum"
       ],
       "urdu": [
-        "-"
+        "کوکم",
+        "Kokum"
       ]
     },
     "notes": "Sour fruit rind used in coastal curries."
@@ -1579,7 +1836,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "হিং",
+        "Hing"
       ],
       "bodo": [
         "-"
@@ -1588,14 +1846,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "હિંગ",
+        "Hing"
       ],
       "hindi": [
         "हिंग",
         "Hing"
       ],
       "kannada": [
-        "-"
+        "ಇಂಗು",
+        "Ingu"
       ],
       "kashmiri": [
         "-"
@@ -1607,22 +1867,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കായം",
+        "Kayam"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "हिंग",
+        "Hing"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ହେଙ୍ଗୁ",
+        "Hengu"
       ],
       "punjabi": [
-        "-"
+        "ਹੀੰਗ",
+        "Hing"
       ],
       "sanskrit": [
         "-"
@@ -1638,10 +1902,12 @@
         "Perungayam"
       ],
       "telugu": [
-        "-"
+        "ఇంగువ",
+        "Inguva"
       ],
       "urdu": [
-        "-"
+        "ہینگ",
+        "Hing"
       ]
     },
     "notes": "Hing, strong aroma, digestive aid."
@@ -1661,7 +1927,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "পোস্ত",
+        "Posto"
       ],
       "bodo": [
         "-"
@@ -1670,14 +1937,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ખસખસ",
+        "Khaskhas"
       ],
       "hindi": [
         "खसखस",
         "Khas Khas"
       ],
       "kannada": [
-        "-"
+        "ಗಸಗಸೆ",
+        "Gasagase"
       ],
       "kashmiri": [
         "-"
@@ -1696,16 +1965,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "खसखस",
+        "Khaskhas"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପୋସ୍ତ",
+        "Posta"
       ],
       "punjabi": [
-        "-"
+        "ਖਸਖਸ",
+        "Khaskhas"
       ],
       "sanskrit": [
         "-"
@@ -1721,10 +1993,12 @@
         "Kasa Kasa"
       ],
       "telugu": [
-        "-"
+        "గసగసాలు",
+        "Gasagasalu"
       ],
       "urdu": [
-        "-"
+        "خسخاس",
+        "Khaskhas"
       ]
     },
     "notes": "Khus Khus, thickens gravies."
@@ -1744,7 +2018,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "জোয়ান",
+        "Joan"
       ],
       "bodo": [
         "-"
@@ -1753,13 +2028,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "અજમો",
+        "Ajmo"
       ],
       "hindi": [
-        "-"
+        "अजवाइन",
+        "Ajwain"
       ],
       "kannada": [
-        "-"
+        "ಓಮ",
+        "Oma"
       ],
       "kashmiri": [
         "-"
@@ -1771,22 +2049,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "അയമോദകം",
+        "Ayamodakam"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "ओवा",
+        "Ova"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଜୁଆଣି",
+        "Juani"
       ],
       "punjabi": [
-        "-"
+        "ਅਜਵਾਇਨ",
+        "Ajwain"
       ],
       "sanskrit": [
         "-"
@@ -1798,13 +2080,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "ஓமம்",
+        "Omam"
       ],
       "telugu": [
-        "-"
+        "వాము",
+        "Vamu"
       ],
       "urdu": [
-        "-"
+        "اجوائن",
+        "Ajwain"
       ]
     },
     "notes": "Ajwain, good for digestion."
@@ -1824,7 +2109,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কালো জিরা",
+        "Kalo Jeera"
       ],
       "bodo": [
         "-"
@@ -1833,13 +2119,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કલોંજી",
+        "Kalonji"
       ],
       "hindi": [
-        "-"
+        "कलौंजी",
+        "Kalonji"
       ],
       "kannada": [
-        "-"
+        "ಕರಿ ಜೀರಿಗೆ",
+        "Kari Jeerige"
       ],
       "kashmiri": [
         "-"
@@ -1851,22 +2140,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കരിംജീരകം",
+        "Karimjeerakam"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "कलोंजी",
+        "Kalonji"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କଳା ଜିରା",
+        "Kala Jira"
       ],
       "punjabi": [
-        "-"
+        "ਕਲੌਂਜੀ",
+        "Kalonji"
       ],
       "sanskrit": [
         "-"
@@ -1878,13 +2171,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கருஞ்சீரகம்",
+        "Karunjeeragam"
       ],
       "telugu": [
-        "-"
+        "నల్ల జీలకర్ర",
+        "Nalla Jeelakarra"
       ],
       "urdu": [
-        "-"
+        "کلونجی",
+        "Kalonji"
       ]
     },
     "notes": "Kalonji, onion seeds for flavor."
@@ -1904,7 +2200,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "তোকমা",
+        "Tokma"
       ],
       "bodo": [
         "-"
@@ -1913,13 +2210,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "તકમરિયા",
+        "Takmaria"
       ],
       "hindi": [
-        "-"
+        "सब्जा बीज",
+        "Sabja Beej"
       ],
       "kannada": [
-        "-"
+        "ಕಾಮಕಸ್ತೂರಿ ಬೀಜ",
+        "Kamakasturi Beeja"
       ],
       "kashmiri": [
         "-"
@@ -1931,22 +2231,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കസ്കസ്",
+        "Kaskas"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "तुखमरिया",
+        "Tukmaria"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସାବଜା",
+        "Sabja"
       ],
       "punjabi": [
-        "-"
+        "ਤੁਕਮਲੰਗਾ",
+        "Tukmalanga"
       ],
       "sanskrit": [
         "-"
@@ -1958,13 +2262,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சப்ஜா விதைகள்",
+        "Sabja Vithaigal"
       ],
       "telugu": [
-        "-"
+        "సబ్జా గింజలు",
+        "Sabja Ginjalu"
       ],
       "urdu": [
-        "-"
+        "تخم ملنگا",
+        "Tukhm Malanga"
       ]
     },
     "notes": "Sabja, cooling seeds for drinks."
@@ -1984,7 +2291,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "চালকুমড়ো বীজ",
+        "Chalkumra Beej"
       ],
       "bodo": [
         "-"
@@ -1993,13 +2301,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મગજતરી",
+        "Magajtari"
       ],
       "hindi": [
-        "-"
+        "मगज़",
+        "Magaz"
       ],
       "kannada": [
-        "-"
+        "ಕರ್ಬೂಜ ಬೀಜ",
+        "Karbujo Beeja"
       ],
       "kashmiri": [
         "-"
@@ -2011,22 +2322,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മത്തൻ കൂരു",
+        "Mathan Kuru"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मगज़",
+        "Magaz"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଚାରୁ ମଗଜ",
+        "Charu Magaz"
       ],
       "punjabi": [
-        "-"
+        "ਮਗਜ਼",
+        "Magaz"
       ],
       "sanskrit": [
         "-"
@@ -2038,13 +2353,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வெள்ளரி விதை",
+        "Vellari Vithai"
       ],
       "telugu": [
-        "-"
+        "పుచ్చ గింజలు",
+        "Pucha Ginjalu"
       ],
       "urdu": [
-        "-"
+        "مغز",
+        "Magaz"
       ]
     },
     "notes": "Magaz, thickens rich gravies."
@@ -2064,7 +2382,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "জাফরান",
+        "Jafran"
       ],
       "bodo": [
         "-"
@@ -2073,13 +2392,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કેસર",
+        "Kesar"
       ],
       "hindi": [
-        "-"
+        "केसर",
+        "Kesar"
       ],
       "kannada": [
-        "-"
+        "ಕೇಸರಿ",
+        "Kesari"
       ],
       "kashmiri": [
         "-"
@@ -2091,22 +2413,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കുങ്കുമപ്പൂവ്",
+        "Kunkumapoovu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "केशर",
+        "Keshar"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କେଶର",
+        "Keshar"
       ],
       "punjabi": [
-        "-"
+        "ਕੇਸਰ",
+        "Kesar"
       ],
       "sanskrit": [
         "-"
@@ -2118,13 +2444,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "குங்குமப்பூ",
+        "Kungumapoo"
       ],
       "telugu": [
-        "-"
+        "కుంకుమ పువ్వు",
+        "Kumkuma Puvvu"
       ],
       "urdu": [
-        "-"
+        "زعفران",
+        "Zafran"
       ]
     },
     "notes": "Kesar, most expensive spice, for color/aroma."
@@ -2144,7 +2473,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "জায়ফল",
+        "Jayfal"
       ],
       "bodo": [
         "-"
@@ -2153,14 +2483,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "જાયફળ",
+        "Jaiphal"
       ],
       "hindi": [
         "जायफल",
         "Jaiphal"
       ],
       "kannada": [
-        "-"
+        "ಜಾಯಿಕಾಯಿ",
+        "Jayikayi"
       ],
       "kashmiri": [
         "-"
@@ -2172,22 +2504,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ജാതിക്ക",
+        "Jathikka"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "जायफळ",
+        "Jaiphal"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଜାଇଫଳ",
+        "Jaiphala"
       ],
       "punjabi": [
-        "-"
+        "ਜਾਇਫਲ",
+        "Jaiphal"
       ],
       "sanskrit": [
         "-"
@@ -2203,10 +2539,12 @@
         "Jaathikai"
       ],
       "telugu": [
-        "-"
+        "జాజికాయ",
+        "Jajikaya"
       ],
       "urdu": [
-        "-"
+        "جائفل",
+        "Jaiphal"
       ]
     },
     "notes": "Jaiphal, warm sweet spice."
@@ -2226,7 +2564,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "জয়িত্রি",
+        "Joyitri"
       ],
       "bodo": [
         "-"
@@ -2235,14 +2574,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "જાવંત્રી",
+        "Javantri"
       ],
       "hindi": [
         "जावित्री",
         "Javitri"
       ],
       "kannada": [
-        "-"
+        "ಜಾಪತ್ರೆ",
+        "Japatre"
       ],
       "kashmiri": [
         "-"
@@ -2254,22 +2595,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ജാതിപത്രി",
+        "Jathipathri"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "जावंत्री",
+        "Javantri"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଜୈତ୍ରୀ",
+        "Jaitri"
       ],
       "punjabi": [
-        "-"
+        "ਜਾਵਿਤ੍ਰੀ",
+        "Javitri"
       ],
       "sanskrit": [
         "-"
@@ -2285,10 +2630,12 @@
         "Jaathipathiri"
       ],
       "telugu": [
-        "-"
+        "జాపత్రి",
+        "Japatri"
       ],
       "urdu": [
-        "-"
+        "جاوتری",
+        "Javitri"
       ]
     },
     "notes": "Javitri, outer covering of Nutmeg."
@@ -2308,7 +2655,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "তারা মৌরি",
+        "Tara Mouri"
       ],
       "bodo": [
         "-"
@@ -2317,14 +2665,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બાદિયા",
+        "Badiya"
       ],
       "hindi": [
         "चक्र फूल",
         "Chakra Phool"
       ],
       "kannada": [
-        "-"
+        "ಚಕ್ರ ಮೊಗ್ಗು",
+        "Chakra Moggu"
       ],
       "kashmiri": [
         "-"
@@ -2336,22 +2686,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "തക്കോലം",
+        "Thakkolam"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "बादियान",
+        "Badiyan"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଚକ୍ର ଫୁଲ",
+        "Chakra Phoola"
       ],
       "punjabi": [
-        "-"
+        "ਚੱਕਰ ਫੂਲ",
+        "Chakra Phool"
       ],
       "sanskrit": [
         "-"
@@ -2367,10 +2721,12 @@
         "Annasi Poo"
       ],
       "telugu": [
-        "-"
+        "అనాస పువ్వు",
+        "Anasa Puvvu"
       ],
       "urdu": [
-        "-"
+        "بادیان خطائی",
+        "Badiyan Khatai"
       ]
     },
     "notes": "Flower-shaped spice with licorice flavor."
@@ -2390,7 +2746,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "তেজপাতা",
+        "Tejpatta"
       ],
       "bodo": [
         "-"
@@ -2399,14 +2756,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "તમાલપત્ર",
+        "Tamalpatra"
       ],
       "hindi": [
         "तेज पत्ता",
         "Tej Patta"
       ],
       "kannada": [
-        "-"
+        "ಪಲಾವ್ ಎಲೆ",
+        "Palav Ele"
       ],
       "kashmiri": [
         "-"
@@ -2418,22 +2777,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കറുവ ഇല",
+        "Karuva Ila"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "तमाल पत्र",
+        "Tamal Patra"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ତେଜ ପତ୍ର",
+        "Tej Patra"
       ],
       "punjabi": [
-        "-"
+        "ਤੇਜ ਪੱਤਾ",
+        "Tej Patta"
       ],
       "sanskrit": [
         "-"
@@ -2449,10 +2812,12 @@
         "Biryani Ilai"
       ],
       "telugu": [
-        "-"
+        "బిర్యానీ ఆకు",
+        "Biryani Aaku"
       ],
       "urdu": [
-        "-"
+        "تیز پات",
+        "Tej Pat"
       ]
     },
     "notes": "Tej Patta, aromatic leaf for tempering."
@@ -2472,7 +2837,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "শুকনো আদা",
+        "Shukno Ada"
       ],
       "bodo": [
         "-"
@@ -2481,13 +2847,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સૂંઠ",
+        "Sunth"
       ],
       "hindi": [
-        "-"
+        "सोंठ",
+        "Sonth"
       ],
       "kannada": [
-        "-"
+        "ಶುಂಠಿ",
+        "Shunti"
       ],
       "kashmiri": [
         "-"
@@ -2499,22 +2868,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചുക്ക്",
+        "Chukku"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "सुंठ",
+        "Sunth"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଶୁଖିଲା ଅଦା",
+        "Sukhila Ada"
       ],
       "punjabi": [
-        "-"
+        "ਸੁੰਢ",
+        "Sund"
       ],
       "sanskrit": [
         "-"
@@ -2526,13 +2899,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சுக்கு",
+        "Sukku"
       ],
       "telugu": [
-        "-"
+        "శొంఠి",
+        "Sonthi"
       ],
       "urdu": [
-        "-"
+        "سونٹھ",
+        "Sonth"
       ]
     },
     "notes": "Sonth, used in powders and tea."
@@ -2552,7 +2928,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বড় এলাচ",
+        "Boro Elach"
       ],
       "bodo": [
         "-"
@@ -2561,13 +2938,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મોટી ઈલાયચી",
+        "Moti Elaichi"
       ],
       "hindi": [
-        "-"
+        "काली इलायची",
+        "Kali Elaichi"
       ],
       "kannada": [
-        "-"
+        "ಕಪ್ಪು ಏಲಕ್ಕಿ",
+        "Kappu Yelakki"
       ],
       "kashmiri": [
         "-"
@@ -2579,22 +2959,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കറുത്ത ഏലയ്ക്ക",
+        "Karutha Elakka"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "बडी वेलची",
+        "Badi Velchi"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବଡ ଅଳେଇଚ",
+        "Bada Aleicha"
       ],
       "punjabi": [
-        "-"
+        "ਮੋਟੀ ਇਲਾਇਚੀ",
+        "Moti Elaichi"
       ],
       "sanskrit": [
         "-"
@@ -2606,13 +2990,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கருப்பு ஏலக்காய்",
+        "Karuppu Elakkai"
       ],
       "telugu": [
-        "-"
+        "నల్ల ఏలకులు",
+        "Nalla Yalakulu"
       ],
       "urdu": [
-        "-"
+        "بڑی الائچی",
+        "Badi Elaichi"
       ]
     },
     "notes": "Badi Elaichi, smoky flavor for curries."
@@ -2632,7 +3019,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সাদা গোলমরিচ",
+        "Sada Golmorich"
       ],
       "bodo": [
         "-"
@@ -2641,13 +3029,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સફેદ મરી",
+        "Safed Mari"
       ],
       "hindi": [
-        "-"
+        "सफेद मिर्च",
+        "Safed Mirch"
       ],
       "kannada": [
-        "-"
+        "ಬಿಳಿ ಮೆಣಸು",
+        "Bili Menasu"
       ],
       "kashmiri": [
         "-"
@@ -2659,22 +3050,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "വെള്ള കുരുമുളക്",
+        "Vella Kurumulaku"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "पांढरी मिरी",
+        "Pandhari Miri"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଧଳା ଗୋଲ ମରିଚ",
+        "Dhala Gol Maricha"
       ],
       "punjabi": [
-        "-"
+        "ਸਫੇਦ ਮਿਰਚ",
+        "Safed Mirch"
       ],
       "sanskrit": [
         "-"
@@ -2686,13 +3081,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வெள்ளை மிளகு",
+        "Vellai Milagu"
       ],
       "telugu": [
-        "-"
+        "తెల్ల మిరియాలు",
+        "Tella Miriyalu"
       ],
       "urdu": [
-        "-"
+        "دکھنی مرچ",
+        "Dakhni Mirch"
       ]
     },
     "notes": "Milder than black pepper, for white sauces."
@@ -2712,7 +3110,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "পিপুল",
+        "Pipul"
       ],
       "bodo": [
         "-"
@@ -2721,13 +3120,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "પીપર",
+        "Pipar"
       ],
       "hindi": [
-        "-"
+        "पिप्पली",
+        "Pippali"
       ],
       "kannada": [
-        "-"
+        "ಹಿಪ್ಪಲಿ",
+        "Hippali"
       ],
       "kashmiri": [
         "-"
@@ -2739,22 +3141,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "തിപ്പലി",
+        "Thippali"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "पिंपळी",
+        "Pimpali"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପିପ୍ପଳି",
+        "Pippali"
       ],
       "punjabi": [
-        "-"
+        "ਮਗਾਂ",
+        "Maghan"
       ],
       "sanskrit": [
         "-"
@@ -2766,13 +3172,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "திப்பிலி",
+        "Thippili"
       ],
       "telugu": [
-        "-"
+        "పిప్పళ్ళు",
+        "Pippallu"
       ],
       "urdu": [
-        "-"
+        "پپلی",
+        "Pippali"
       ]
     },
     "notes": "Pippali, distinct spicy flavor."
@@ -2792,7 +3201,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "পাথর ফুল",
+        "Pathar Phool"
       ],
       "bodo": [
         "-"
@@ -2801,13 +3211,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "છડીલો",
+        "Chhadilo"
       ],
       "hindi": [
-        "-"
+        "पत्थर के फूल",
+        "Patthar Ke Phool"
       ],
       "kannada": [
-        "-"
+        "ಕಲ್ಲು ಹೂವು",
+        "Kallu Hoovu"
       ],
       "kashmiri": [
         "-"
@@ -2819,22 +3232,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കൽപ്പാസി",
+        "Kalpasi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "दगडफूल",
+        "Dagad Phool"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପଥର ଫୁଲ",
+        "Pathar Phoola"
       ],
       "punjabi": [
-        "-"
+        "ਕਲਪਾਸੀ",
+        "Kalpasi"
       ],
       "sanskrit": [
         "-"
@@ -2846,13 +3263,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கல்பாசி",
+        "Kalpasi"
       ],
       "telugu": [
-        "-"
+        "కల్పాసి",
+        "Kalpasi"
       ],
       "urdu": [
-        "-"
+        "چھڑیلا",
+        "Chadila"
       ]
     },
     "notes": "Kalpasi, lichen used in Chettinad spice."
@@ -2872,7 +3292,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মারাঠি মোগ্গু",
+        "Marathi Moggu"
       ],
       "bodo": [
         "-"
@@ -2881,13 +3302,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કાપોક કળીઓ",
+        "Kapok Kalio"
       ],
       "hindi": [
-        "-"
+        "मराठी मोग्गु",
+        "Marathi Moggu"
       ],
       "kannada": [
-        "-"
+        "ಮರಾಠಿ ಮೊಗ್ಗು",
+        "Marathi Moggu"
       ],
       "kashmiri": [
         "-"
@@ -2899,22 +3323,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മറാഠി മൊഗ്ഗു",
+        "Marathi Moggu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मराठी मोग्गु",
+        "Marathi Moggu"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମରାଠୀ ମୋଗ୍ଗୁ",
+        "Marathi Moggu"
       ],
       "punjabi": [
-        "-"
+        "ਮਰਾਠੀ ਮੋਗੂ",
+        "Marathi Moggu"
       ],
       "sanskrit": [
         "-"
@@ -2926,13 +3354,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மராத்தி மொக்கு",
+        "Marathi Moggu"
       ],
       "telugu": [
-        "-"
+        "మరాఠీ మొగ్గ",
+        "Marathi Mogga"
       ],
       "urdu": [
-        "-"
+        "مراٹھی موگو",
+        "Marathi Moggu"
       ]
     },
     "notes": "Kapok buds, used in Bisi Bele Bath."
@@ -2952,7 +3383,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কাবাব চিনি",
+        "Kabab Chini"
       ],
       "bodo": [
         "-"
@@ -2961,13 +3393,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ચણકબાબ",
+        "Chanakbab"
       ],
       "hindi": [
-        "-"
+        "कबाब चीनी",
+        "Kabab Chini"
       ],
       "kannada": [
-        "-"
+        "ಗಂಧಮೆಣಸು",
+        "Gandhamenasu"
       ],
       "kashmiri": [
         "-"
@@ -2979,22 +3414,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "വാൽമുളക്",
+        "Valmulaku"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "कबाब चीनी",
+        "Kabab Chini"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କବାବ ଚିନି",
+        "Kabab Chini"
       ],
       "punjabi": [
-        "-"
+        "ਕਬਾਬ ਚੀਨੀ",
+        "Kabab Chini"
       ],
       "sanskrit": [
         "-"
@@ -3006,13 +3445,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வால் மிளகு",
+        "Val Milagu"
       ],
       "telugu": [
-        "-"
+        "కబాబ్ చినీ",
+        "Kabab Chini"
       ],
       "urdu": [
-        "-"
+        "کباب چینی",
+        "Kabab Chini"
       ]
     },
     "notes": "Cubeb pepper/Allspice, aromatic."
@@ -3032,7 +3474,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মহৌষধ",
+        "Mohoushodh"
       ],
       "bodo": [
         "-"
@@ -3041,13 +3484,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કોલીંજન",
+        "Kolinjan"
       ],
       "hindi": [
-        "-"
+        "कुलंजन",
+        "Kulanjan"
       ],
       "kannada": [
-        "-"
+        "ಧೂಮರಾಸ್ಮಿ",
+        "Dhumarasmi"
       ],
       "kashmiri": [
         "-"
@@ -3059,22 +3505,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചിറ്റരത്ത",
+        "Chittaratha"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "कोलिंजन",
+        "Kolinjan"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କୁଳଞ୍ଜନ",
+        "Kulanjana"
       ],
       "punjabi": [
-        "-"
+        "ਕੁਲੰਜਨ",
+        "Kulanjan"
       ],
       "sanskrit": [
         "-"
@@ -3086,13 +3536,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சித்தரத்தை",
+        "Chitharathai"
       ],
       "telugu": [
-        "-"
+        "దుంపరాష్ట్రం",
+        "Dumparastram"
       ],
       "urdu": [
-        "-"
+        "خولنجان",
+        "Khulanjan"
       ]
     },
     "notes": "Thai ginger, citrusy flavor."
