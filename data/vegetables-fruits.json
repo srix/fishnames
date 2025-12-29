@@ -6,9 +6,11 @@
         "Potato"
       ],
       "tamil": [
+        "உருளைக்கிழங்கு",
         "Urulaikizhangu"
       ],
       "malayalam": [
+        "ഉരുളക്കിഴങ്ങ്",
         "Urulakizhangu"
       ],
       "hindi": [
@@ -16,16 +18,20 @@
         "Alu"
       ],
       "kannada": [
+        "ಆಲೂಗಡ್ಡೆ",
         "Alugadde"
       ],
       "telugu": [
+        "బంగాళదుంప",
         "Bangaladumpa"
       ],
       "assamese": [
-        "-"
+        "আলু",
+        "Aloo"
       ],
       "bengali": [
-        "-"
+        "আলু",
+        "Alu"
       ],
       "bodo": [
         "-"
@@ -34,7 +40,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બટાટા",
+        "Batata"
       ],
       "kashmiri": [
         "-"
@@ -49,16 +56,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "बटाटा",
+        "Batata"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଆଳୁ",
+        "Aloo"
       ],
       "punjabi": [
-        "-"
+        "ਆਲੂ",
+        "Aloo"
       ],
       "sanskrit": [
         "-"
@@ -70,7 +80,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "آلو",
+        "Aloo"
       ]
     },
     "scientificName": "Solanum tuberosum",
@@ -88,25 +99,32 @@
         "Onion"
       ],
       "tamil": [
+        "வெங்காயம்",
         "Vengayam"
       ],
       "malayalam": [
+        "സവാള",
         "Savala"
       ],
       "hindi": [
+        "प्याज़",
         "Pyaaz"
       ],
       "kannada": [
+        "ಈರುಳ್ಳಿ",
         "Eerulli"
       ],
       "telugu": [
+        "ఉల్లిపాయ",
         "Ullipaya"
       ],
       "assamese": [
-        "-"
+        "পিয়াজ",
+        "Piyaj"
       ],
       "bengali": [
-        "-"
+        "পেঁয়াজ",
+        "Peyaj"
       ],
       "bodo": [
         "-"
@@ -115,7 +133,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ડુંગળી",
+        "Dungri"
       ],
       "kashmiri": [
         "-"
@@ -130,16 +149,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "कांदा",
+        "Kanda"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପିଆଜ",
+        "Piaj"
       ],
       "punjabi": [
-        "-"
+        "ਗੰਢਾ",
+        "Ganda"
       ],
       "sanskrit": [
         "-"
@@ -151,7 +173,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "پیاز",
+        "Pyaaz"
       ]
     },
     "scientificName": "Allium cepa",
@@ -169,25 +192,32 @@
         "Tomato"
       ],
       "tamil": [
+        "தக்காளி",
         "Thakkali"
       ],
       "malayalam": [
+        "തക്കാളി",
         "Thakkali"
       ],
       "hindi": [
+        "टमाटर",
         "Tamatar"
       ],
       "kannada": [
+        "ಟೊಮೇಟೊ",
         "Tomato"
       ],
       "telugu": [
+        "టమాట",
         "Tamata"
       ],
       "assamese": [
-        "-"
+        " বিলাহী",
+        "Bilahi"
       ],
       "bengali": [
-        "-"
+        "টমেটো",
+        "Tomato"
       ],
       "bodo": [
         "-"
@@ -196,7 +226,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ટામેટા",
+        "Tameta"
       ],
       "kashmiri": [
         "-"
@@ -211,16 +242,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "टोमॅटो",
+        "Tomato"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବିଲାତି ବାଇଗଣ",
+        "Bilati Baigana"
       ],
       "punjabi": [
-        "-"
+        "ਟਮਾਟਰ",
+        "Tamatar"
       ],
       "sanskrit": [
         "-"
@@ -232,7 +266,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "ٹماٹر",
+        "Tamatar"
       ]
     },
     "scientificName": "Solanum lycopersicum",
@@ -254,22 +289,28 @@
         "Pasalai"
       ],
       "malayalam": [
+        "ചീര",
         "Cheera"
       ],
       "hindi": [
+        "पालक",
         "Palak"
       ],
       "kannada": [
+        "ಪಾಲಕ್",
         "Palak"
       ],
       "telugu": [
+        "పాలకూర",
         "Palakura"
       ],
       "assamese": [
-        "-"
+        "ਪਾਲେଙ୍ଗ",
+        "Paleng"
       ],
       "bengali": [
-        "-"
+        "পালং শাক",
+        "Palong Shak"
       ],
       "bodo": [
         "-"
@@ -278,7 +319,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "પાલક",
+        "Palak"
       ],
       "kashmiri": [
         "-"
@@ -293,16 +335,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "पालक",
+        "Palak"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପାଳଙ୍ଗ ଶାଗ",
+        "Palanga Saga"
       ],
       "punjabi": [
-        "-"
+        "ਪਾਲਕ",
+        "Palak"
       ],
       "sanskrit": [
         "-"
@@ -314,7 +359,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "پالک",
+        "Palak"
       ]
     },
     "scientificName": "Spinacia oleracea",
@@ -334,25 +380,32 @@
         "Aubergine"
       ],
       "tamil": [
+        "கத்திரிக்காய்",
         "Kathirikkai"
       ],
       "malayalam": [
+        "വഴുതനങ്ങ",
         "Vazhuthananga"
       ],
       "hindi": [
+        "बैंगन",
         "Baingan"
       ],
       "kannada": [
+        "ಬದನೆಕಾಯಿ",
         "Badanekai"
       ],
       "telugu": [
+        "వంకాయ",
         "Vankaya"
       ],
       "assamese": [
-        "-"
+        "বেঙেনা",
+        "Bengena"
       ],
       "bengali": [
-        "-"
+        "বেগুন",
+        "Begun"
       ],
       "bodo": [
         "-"
@@ -361,7 +414,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "રીંગણ",
+        "Ringan"
       ],
       "kashmiri": [
         "-"
@@ -376,16 +430,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "वांगी",
+        "Vange"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବାଇଗଣ",
+        "Baigana"
       ],
       "punjabi": [
-        "-"
+        "ਬੈਂਗਣ",
+        "Baingan"
       ],
       "sanskrit": [
         "-"
@@ -397,7 +454,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "بینگن",
+        "Baingan"
       ]
     },
     "scientificName": "Solanum melongena",
@@ -415,25 +473,32 @@
         "Mango"
       ],
       "tamil": [
+        "மாங்காய்",
         "Maanga"
       ],
       "malayalam": [
+        "മാങ്ങ",
         "Manga"
       ],
       "hindi": [
+        "आम",
         "Aam"
       ],
       "kannada": [
+        "ಮಾವಿನಕಾಯಿ",
         "Mavinakai"
       ],
       "telugu": [
+        "మామిడికాయ",
         "Mamidikaya"
       ],
       "assamese": [
-        "-"
+        "আম",
+        "Aam"
       ],
       "bengali": [
-        "-"
+        "আম",
+        "Aam"
       ],
       "bodo": [
         "-"
@@ -442,7 +507,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કેરી",
+        "Keri"
       ],
       "kashmiri": [
         "-"
@@ -457,16 +523,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "आंबा",
+        "Amba"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଆମ୍ବ",
+        "Amba"
       ],
       "punjabi": [
-        "-"
+        "ਅੰਬ",
+        "Amb"
       ],
       "sanskrit": [
         "-"
@@ -478,7 +547,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "آم",
+        "Aam"
       ]
     },
     "scientificName": "Mangifera indica",
@@ -496,25 +566,32 @@
         "Plantain"
       ],
       "tamil": [
+        "வாழைப்பழம்",
         "Vazhaipazham"
       ],
       "malayalam": [
+        "പഴം",
         "Pazham"
       ],
       "hindi": [
+        "केला",
         "Kela"
       ],
       "kannada": [
+        "ಬಾಳೆಹಣ್ಣು",
         "Balehannu"
       ],
       "telugu": [
+        "అరటిపండు",
         "Aratipandu"
       ],
       "assamese": [
-        "-"
+        "কল",
+        "Kol"
       ],
       "bengali": [
-        "-"
+        "কলা",
+        "Kola"
       ],
       "bodo": [
         "-"
@@ -523,7 +600,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કેળા",
+        "Kela"
       ],
       "kashmiri": [
         "-"
@@ -538,16 +616,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "केळी",
+        "Keli"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କଦଳୀ",
+        "Kadali"
       ],
       "punjabi": [
-        "-"
+        "ਕੇਲਾ",
+        "Kela"
       ],
       "sanskrit": [
         "-"
@@ -559,7 +640,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "کیلا",
+        "Kela"
       ]
     },
     "scientificName": "Musa",
@@ -576,25 +658,32 @@
         "Jackfruit"
       ],
       "tamil": [
+        "பலாப்பழம்",
         "Pala Pazham"
       ],
       "malayalam": [
+        "ചക്ക",
         "Chakka"
       ],
       "hindi": [
+        "कटहल",
         "Kathal"
       ],
       "kannada": [
+        "ಹಲಸಿನ ಹಣ್ಣು",
         "Halasina Hannu"
       ],
       "telugu": [
+        "పనస పండు",
         "Panasa Pandu"
       ],
       "assamese": [
-        "-"
+        "কঁঠাল",
+        "Kothal"
       ],
       "bengali": [
-        "-"
+        "কাঁঠাল",
+        "Kathal"
       ],
       "bodo": [
         "-"
@@ -603,7 +692,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ફણસ",
+        "Fanas"
       ],
       "kashmiri": [
         "-"
@@ -618,16 +708,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "फणस",
+        "Phanas"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପଣସ",
+        "Panasa"
       ],
       "punjabi": [
-        "-"
+        "ਕਟਹਲ",
+        "Kathal"
       ],
       "sanskrit": [
         "-"
@@ -639,7 +732,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "کٹھل",
+        "Kathal"
       ]
     },
     "scientificName": "Artocarpus heterophyllus",
@@ -656,25 +750,32 @@
         "Pomegranate"
       ],
       "tamil": [
+        "மாதுளை",
         "Maadhulai"
       ],
       "malayalam": [
+        "മാതളം",
         "Mathalam"
       ],
       "hindi": [
+        "अनार",
         "Anaar"
       ],
       "kannada": [
+        "ದಾಳಿಂಬೆ",
         "Dalimbe"
       ],
       "telugu": [
+        "దానిమ్మ",
         "Danima"
       ],
       "assamese": [
-        "-"
+        "ডালিম",
+        "Dalim"
       ],
       "bengali": [
-        "-"
+        "ডালিম",
+        "Dalim"
       ],
       "bodo": [
         "-"
@@ -683,7 +784,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "દાડમ",
+        "Dadam"
       ],
       "kashmiri": [
         "-"
@@ -698,16 +800,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "डाळिंब",
+        "Dalimb"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଡାଳିମ୍ବ",
+        "Dalimba"
       ],
       "punjabi": [
-        "-"
+        "ਅਨਾਰ",
+        "Anaar"
       ],
       "sanskrit": [
         "-"
@@ -719,7 +824,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "انار",
+        "Anaar"
       ]
     },
     "scientificName": "Punica granatum",
@@ -736,25 +842,32 @@
         "Apple"
       ],
       "tamil": [
+        "ஆப்பிள்",
         "Apple"
       ],
       "malayalam": [
+        "ആപ്പിൾ",
         "Apple"
       ],
       "hindi": [
+        "सेब",
         "Seb"
       ],
       "kannada": [
+        "ಸೇಬು",
         "Sebu"
       ],
       "telugu": [
+        "ఆపిల్",
         "Apple"
       ],
       "assamese": [
-        "-"
+        "আপেল",
+        "Apel"
       ],
       "bengali": [
-        "-"
+        "আপেল",
+        "Apel"
       ],
       "bodo": [
         "-"
@@ -763,7 +876,8 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સફરજન",
+        "Safarjan"
       ],
       "kashmiri": [
         "-"
@@ -778,16 +892,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "सफरचंद",
+        "Safarchand"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସେଓ",
+        "Seo"
       ],
       "punjabi": [
-        "-"
+        "ਸੇਬ",
+        "Seb"
       ],
       "sanskrit": [
         "-"
@@ -799,7 +916,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "سیب",
+        "Seb"
       ]
     },
     "scientificName": "Malus domestica",

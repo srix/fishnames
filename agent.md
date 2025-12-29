@@ -55,6 +55,7 @@ No backend, build step, or framework is involved.
   - Language keys (e.g. `tamil`, `malayalam`)
   - `names` object with localized names
   - **Note**: Missing language data relies on UI fallback (`-`).
+  - **Requirement**: Indian languages must have `[Native, Romanized]` format.
 
 ### Product (`product/`)
 - `spec.md`  

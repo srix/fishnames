@@ -22,6 +22,7 @@
         "Surmai"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -81,6 +82,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -124,6 +126,7 @@
         "Kalo Chanda"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -171,7 +174,8 @@
         "Machha"
       ],
       "odia": [
-        "Black Pomphret"
+        "ବ୍ଲାକ ପମ୍ଫ୍ରେଟ",
+        "Black Pomfret"
       ],
       "punjabi": [
         "ਮੱਛੀ",
@@ -182,6 +186,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -219,6 +224,7 @@
         "Oil Sardine"
       ],
       "assamese": [
+        "সিহু",
         "Xihu"
       ],
       "bengali": [
@@ -226,6 +232,7 @@
         "Khoira"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -289,6 +296,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -324,6 +332,7 @@
         "Indian Mackerel"
       ],
       "assamese": [
+        "মেক্কেৰেল",
         "Mackerel"
       ],
       "bengali": [
@@ -331,6 +340,7 @@
         "Kajal Gour"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -378,6 +388,7 @@
         "Machha"
       ],
       "odia": [
+        "ମାକେରେଲ",
         "Mackerel"
       ],
       "punjabi": [
@@ -389,6 +400,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -426,6 +438,7 @@
         "Anchovy"
       ],
       "assamese": [
+        "মলা",
         "Mola"
       ],
       "bengali": [
@@ -433,6 +446,7 @@
         "Mola"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -496,6 +510,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -541,6 +556,7 @@
         "Chingri"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -602,6 +618,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -636,6 +653,7 @@
         "Shark"
       ],
       "assamese": [
+        "হাঙৰ",
         "Hagor"
       ],
       "bengali": [
@@ -643,6 +661,7 @@
         "Hangar"
       ],
       "bodo": [
+        "ना",
         "Na"
       ],
       "dogri": [
@@ -702,6 +721,7 @@
         "Mina"
       ],
       "santali": [
+        "ᱦᱟᱠᱩ",
         "Haku"
       ],
       "sindhi": [
@@ -738,6 +758,7 @@
         "Crab"
       ],
       "assamese": [
+        "কেঁকোৰা",
         "Kekura"
       ],
       "bengali": [
@@ -745,6 +766,7 @@
         "Kankra"
       ],
       "bodo": [
+        "खांख्राइ",
         "Khangkhrai"
       ],
       "dogri": [
@@ -782,6 +804,7 @@
         "Njandu"
       ],
       "manipuri": [
+        "ৱাইখু",
         "Waikhu"
       ],
       "marathi": [
@@ -805,6 +828,7 @@
         "Karkata"
       ],
       "santali": [
+        "ᱠᱟᱴᱠᱚᱢ",
         "Katkom"
       ],
       "sindhi": [
@@ -880,7 +904,8 @@
         "Pamplet"
       ],
       "assamese": [
-        "-"
+        "ৰূপচন্দা",
+        "Rupchanda"
       ],
       "bodo": [
         "-"
@@ -901,7 +926,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "ଧଳା ଚାନ୍ଦି",
+        "Dhala Chandi"
       ],
       "punjabi": [
         "-"
@@ -1001,7 +1027,8 @@
         "-"
       ],
       "punjabi": [
-        "-"
+        "ਰੋਹੂ",
+        "Rohu"
       ],
       "sanskrit": [
         "-"
@@ -1013,7 +1040,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "رہو",
+        "Rohu"
       ]
     },
     "notes": "Very popular freshwater fish in North and East India."
@@ -1097,7 +1125,8 @@
         "-"
       ],
       "punjabi": [
-        "-"
+        "ਕਤਲਾ",
+        "Catla"
       ],
       "sanskrit": [
         "-"
@@ -1109,7 +1138,8 @@
         "-"
       ],
       "urdu": [
-        "-"
+        "کتلا",
+        "Catla"
       ]
     },
     "notes": "Fast growing, large freshwater fish. Good for curry."
@@ -1166,7 +1196,8 @@
         "Modan"
       ],
       "assamese": [
-        "-"
+        "ইলিছ",
+        "Ilish"
       ],
       "bodo": [
         "-"
@@ -1847,7 +1878,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "ଭେକ୍ଟି",
+        "Bhekti"
       ],
       "punjabi": [
         "-"
