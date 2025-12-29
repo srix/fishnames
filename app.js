@@ -105,12 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Use activeCardLanguages for the main grid
             // Any language NOT in activeCardLanguages but present in data goes to "Show all"
-            const primaryLangs = activeCardLanguages.filter(l => fish.names[l]);
-            const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l) && fish.names[l]);
+            const primaryLangs = [...activeCardLanguages];
+            const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l));
 
             const renderGrid = (langs) => langs.map(lang => `
                 <div class="lang-group">
-                    <span class="lang-label">${lang}</span>
+                    <span class="lang-label">${LANGUAGE_DISPLAY_NAMES[lang] || lang.charAt(0).toUpperCase() + lang.slice(1)}</span>
                     <span class="lang-value">${fish.names[lang] ? fish.names[lang].join(' / ') : '-'}</span>
                 </div>
             `).join('');
