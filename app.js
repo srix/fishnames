@@ -130,7 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
             appData = await response.json();
 
             generateFilters(appData);
-            renderApp(appData);
+
+            // Clear filters (category specific) but KEEP search query
+            activeFilters.clear();
+            const query = searchInput.value.toLowerCase().trim();
+            const filtered = applyFilters(appData, query, activeFilters);
+
+            renderApp(filtered);
 
             trackEvent('view_category', { category: category });
         } catch (error) {
