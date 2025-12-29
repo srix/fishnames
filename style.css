@@ -681,10 +681,19 @@ body {
         font-size: 0.8rem;
     }
 
+    /* Compact Filter Bar */
+    .filter-label,
     .results-stat {
-        font-size: 0.75rem;
-        align-self: flex-end;
-        padding-right: 4px;
+        display: none;
+    }
+
+    .app-toolbar {
+        padding: 8px 0;
+        /* Reduce padding too */
+    }
+
+    .chips-container {
+        padding-right: 16px;
     }
 
     /* Card Adjustments */
