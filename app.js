@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const cardView = document.getElementById('card-view');
     const searchInput = document.getElementById('search-input');
+    const searchClear = document.getElementById('search-clear');
     const noResults = document.getElementById('no-results');
     const resultCount = document.getElementById('result-count');
     const filterChipsContainer = document.getElementById('filter-chips');
@@ -88,15 +89,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Category Navigation (Tabs)
         const tabButtons = document.querySelectorAll('.tab-btn');
         tabButtons.forEach(btn => {
-            btn.addEventListener('click', () => {
-                const category = btn.dataset.category;
+            btn.addEventListener('click', (e) => {
+                const category = e.currentTarget.dataset.category;
                 if (category !== currentCategory) {
                     // Update UI
                     tabButtons.forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-
-                    // Reset Filter
-                    activeFilters.clear();
+                    e.currentTarget.classList.add('active');
 
                     // Load Data
                     loadCategory(category);
@@ -105,7 +103,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Event Listeners
-        searchInput.addEventListener('input', handleSearch);
+        searchInput.addEventListener('input', (e) => {
+            handleSearch(e);
+            searchClear.hidden = searchInput.value.length === 0;
+        });
+
+        searchClear.addEventListener('click', () => {
+            searchInput.value = '';
+            searchClear.hidden = true;
+            searchInput.focus();
+            handleSearch({ target: searchInput });
+        });
 
         btnCustomizeCols.addEventListener('click', () => {
             colDialog.hidden = !colDialog.hidden;
