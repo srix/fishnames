@@ -1,7 +1,7 @@
 import json
 import os
 
-FILES = ['data/fish-seafood.json', 'data/grains-pulses.json']
+FILES = ['data/fish-seafood.json', 'data/grains-pulses.json', 'data/spices.json']
 
 def audit_file(filepath):
     print(f"\n--- {filepath} ---")

@@ -3,7 +3,7 @@
     "id": "mustard-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "Brassica nigra",
     "names": {
@@ -94,7 +94,7 @@
     "id": "cumin-seeds",
     "photo": "img/cumin-seeds.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "Cuminum cyminum",
     "names": {
@@ -185,7 +185,7 @@
     "id": "coriander-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "N/A",
     "names": {
@@ -265,7 +265,7 @@
     "id": "fennel-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "Foeniculum vulgare",
     "names": {
@@ -345,7 +345,7 @@
     "id": "fenugreek-seeds",
     "photo": "img/fenugreek-seeds.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "Trigonella foenum-graecum",
     "names": {
@@ -425,7 +425,7 @@
     "id": "black-pepper",
     "photo": "img/black-pepper.webp",
     "tags": [
-      "spice"
+      "heat"
     ],
     "scientificName": "Piper nigrum",
     "names": {
@@ -514,7 +514,7 @@
     "id": "cardamom",
     "photo": "img/cardamom.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Elettaria cardamomum",
     "names": {
@@ -597,7 +597,7 @@
     "id": "cloves",
     "photo": "img/cloves.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Syzygium aromaticum",
     "names": {
@@ -677,7 +677,7 @@
     "id": "cinnamon",
     "photo": "img/cinnamon.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Cinnamomum verum",
     "names": {
@@ -757,7 +757,7 @@
     "id": "turmeric",
     "photo": "img/turmeric.webp",
     "tags": [
-      "spice"
+      "root"
     ],
     "scientificName": "Curcuma longa",
     "names": {
@@ -848,7 +848,7 @@
     "id": "dry-red-chili",
     "photo": "img/dry-red-chili.webp",
     "tags": [
-      "spice"
+      "heat"
     ],
     "scientificName": "Capsicum annuum",
     "names": {
@@ -928,7 +928,7 @@
     "id": "cashew",
     "photo": "img/cashew.webp",
     "tags": [
-      "spice"
+      "dry-fruit"
     ],
     "scientificName": "Anacardium occidentale",
     "names": {
@@ -1008,7 +1008,7 @@
     "id": "almond",
     "photo": "img/almond.webp",
     "tags": [
-      "spice"
+      "dry-fruit"
     ],
     "scientificName": "Prunus dulcis",
     "names": {
@@ -1088,7 +1088,7 @@
     "id": "pistachio",
     "photo": "img/pistachio.webp",
     "tags": [
-      "spice"
+      "dry-fruit"
     ],
     "scientificName": "Pistacia vera",
     "names": {
@@ -1168,7 +1168,7 @@
     "id": "walnut",
     "photo": "img/walnut.webp",
     "tags": [
-      "spice"
+      "dry-fruit"
     ],
     "scientificName": "Juglans regia",
     "names": {
@@ -1248,7 +1248,7 @@
     "id": "raisins",
     "photo": "img/raisins.webp",
     "tags": [
-      "spice"
+      "dry-fruit"
     ],
     "scientificName": "Vitis vinifera",
     "names": {
@@ -1328,7 +1328,7 @@
     "id": "dates",
     "photo": "img/dates.webp",
     "tags": [
-      "spice"
+      "dry-fruit"
     ],
     "scientificName": "Phoenix dactylifera",
     "names": {
@@ -1408,7 +1408,7 @@
     "id": "tamarind",
     "photo": "img/tamarind.webp",
     "tags": [
-      "spice"
+      "acidic"
     ],
     "scientificName": "Tamarindus indica",
     "names": {
@@ -1488,7 +1488,7 @@
     "id": "kokum",
     "photo": "img/kokum.webp",
     "tags": [
-      "spice"
+      "acidic"
     ],
     "scientificName": "Garcinia indica",
     "names": {
@@ -1568,7 +1568,7 @@
     "id": "asafetida",
     "photo": "img/asafetida.webp",
     "tags": [
-      "spice"
+      "resin"
     ],
     "scientificName": "Ferula assa-foetida",
     "names": {
@@ -1650,7 +1650,7 @@
     "id": "poppy-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "Papaver somniferum",
     "names": {
@@ -1733,7 +1733,7 @@
     "id": "carom-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "N/A",
     "names": {
@@ -1813,7 +1813,7 @@
     "id": "nigella-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "N/A",
     "names": {
@@ -1893,7 +1893,7 @@
     "id": "basil-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "N/A",
     "names": {
@@ -1973,7 +1973,7 @@
     "id": "melon-seeds",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "seed"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2053,7 +2053,7 @@
     "id": "saffron",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2133,7 +2133,7 @@
     "id": "nutmeg",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Myristica fragrans",
     "names": {
@@ -2215,7 +2215,7 @@
     "id": "mace",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Myristica fragrans",
     "names": {
@@ -2297,7 +2297,7 @@
     "id": "star-anise",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Illicium verum",
     "names": {
@@ -2379,7 +2379,7 @@
     "id": "bay-leaf",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "Laurus nobilis",
     "names": {
@@ -2461,7 +2461,7 @@
     "id": "dry-ginger",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "root"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2541,7 +2541,7 @@
     "id": "black-cardamom",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2621,7 +2621,7 @@
     "id": "white-pepper",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "heat"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2701,7 +2701,7 @@
     "id": "long-pepper",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "heat"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2781,7 +2781,7 @@
     "id": "stone-flower",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "flower"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2861,7 +2861,7 @@
     "id": "marathi-moggu",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "flower"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2941,7 +2941,7 @@
     "id": "kabab-chin",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "aromatic"
     ],
     "scientificName": "N/A",
     "names": {
@@ -3021,7 +3021,7 @@
     "id": "galangal",
     "photo": "img/placeholder.webp",
     "tags": [
-      "spice"
+      "root"
     ],
     "scientificName": "N/A",
     "names": {

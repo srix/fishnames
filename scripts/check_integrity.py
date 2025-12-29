@@ -31,7 +31,7 @@ VALID_TAGS = {
         'secondary': set()
     },
     'spices.json': {
-        'primary': {'spice'},
+        'primary': {'seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit'},
         'secondary': set()
     }
 }

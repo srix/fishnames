@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardView.innerHTML = '<p class="loading">Loading...</p>';
 
         try {
-            const response = await fetch(CATEGORIES[category]);
+            const response = await fetch(`${CATEGORIES[category]}?v=${new Date().getTime()}`);
             appData = await response.json();
 
             generateFilters(appData);
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'fish': ['sea', 'freshwater', 'brackish'],
         'vegetables': ['fruit', 'root', 'leafy', 'vegetable'],
         'grains': ['cereal', 'pulse', 'millet'],
-        'spices': []
+        'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit']
     };
 
     function generateFilters(data) {
@@ -379,7 +379,15 @@ document.addEventListener('DOMContentLoaded', () => {
             'cereal': '🌾 Cereal',
             'pulse': '🫘 Pulse',
             'millet': '🥣 Millet',
-            'spice': '🌶️ Spice'
+            'spice': '🌶️ Spice',
+            'seed': '🌿 Seed',
+            'aromatic': '🪵 Aromatic',
+            'heat': '🔥 Heat',
+            'root': '🥔 Root',
+            'acidic': '🍋 Acidic',
+            'resin': '🥣 Resin',
+            'flower': '🌸 Flower',
+            'dry-fruit': '🥜 Dry Fruit'
         };
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }
