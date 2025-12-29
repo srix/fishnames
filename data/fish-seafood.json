@@ -3175,7 +3175,7 @@
   },
   {
     "id": "lobster",
-    "photo": "img/placeholder.webp",
+    "photo": "img/lobster.webp",
     "category": [
       "sea"
     ],
@@ -3257,7 +3257,7 @@
   },
   {
     "id": "oyster",
-    "photo": "img/placeholder.webp",
+    "photo": "img/oyster.webp",
     "category": [
       "sea"
     ],
@@ -3337,7 +3337,7 @@
   },
   {
     "id": "sea-bass",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sea-bass.webp",
     "category": [
       "sea"
     ],
@@ -3417,7 +3417,7 @@
   },
   {
     "id": "grouper",
-    "photo": "img/placeholder.webp",
+    "photo": "img/grouper.webp",
     "category": [
       "sea"
     ],
@@ -3497,7 +3497,7 @@
   },
   {
     "id": "cobia",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cobia.webp",
     "category": [
       "sea"
     ],
@@ -3577,7 +3577,7 @@
   },
   {
     "id": "mahi-mahi",
-    "photo": "img/placeholder.webp",
+    "photo": "img/mahi-mahi.webp",
     "category": [
       "sea"
     ],
@@ -3657,7 +3657,7 @@
   },
   {
     "id": "swordfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/swordfish.webp",
     "category": [
       "sea"
     ],
@@ -3737,7 +3737,7 @@
   },
   {
     "id": "stingray",
-    "photo": "img/placeholder.webp",
+    "photo": "img/stingray.webp",
     "category": [
       "sea"
     ],
@@ -3819,7 +3819,7 @@
   },
   {
     "id": "silver-belly",
-    "photo": "img/placeholder.webp",
+    "photo": "img/silver-belly.webp",
     "category": [
       "sea"
     ],
@@ -3899,7 +3899,7 @@
   },
   {
     "id": "threadfin-bream",
-    "photo": "img/placeholder.webp",
+    "photo": "img/threadfin-bream.webp",
     "category": [
       "sea"
     ],
@@ -3979,7 +3979,7 @@
   },
   {
     "id": "ribbon-fish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/ribbon-fish.webp",
     "category": [
       "sea"
     ],
@@ -4059,7 +4059,7 @@
   },
   {
     "id": "cuttlefish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cuttlefish.webp",
     "category": [
       "sea"
     ],
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "mud-crab",
-    "photo": "img/placeholder.webp",
+    "photo": "img/mud-crab.webp",
     "category": [
       "sea"
     ],
@@ -4223,7 +4223,7 @@
   },
   {
     "id": "tiger-prawn",
-    "photo": "img/placeholder.webp",
+    "photo": "img/tiger-prawn.webp",
     "category": [
       "sea"
     ],
@@ -4304,7 +4304,7 @@
   },
   {
     "id": "scampi",
-    "photo": "img/placeholder.webp",
+    "photo": "img/scampi.webp",
     "category": [
       "sea"
     ],
@@ -4384,7 +4384,7 @@
   },
   {
     "id": "reef-cod",
-    "photo": "img/placeholder.webp",
+    "photo": "img/reef-cod.webp",
     "category": [
       "sea"
     ],
@@ -4464,7 +4464,7 @@
   },
   {
     "id": "parrot-fish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/parrot-fish.webp",
     "category": [
       "sea"
     ],
@@ -4544,7 +4544,7 @@
   },
   {
     "id": "white-bait",
-    "photo": "img/placeholder.webp",
+    "photo": "img/white-bait.webp",
     "category": [
       "sea"
     ],
@@ -4624,7 +4624,7 @@
   },
   {
     "id": "indian-whiting",
-    "photo": "img/placeholder.webp",
+    "photo": "img/indian-whiting.webp",
     "category": [
       "sea"
     ],
@@ -4704,7 +4704,7 @@
   },
   {
     "id": "malabar-trevally",
-    "photo": "img/placeholder.webp",
+    "photo": "img/malabar-trevally.webp",
     "category": [
       "sea"
     ],
@@ -4784,7 +4784,7 @@
   },
   {
     "id": "giant-freshwater-prawn",
-    "photo": "img/placeholder.webp",
+    "photo": "img/giant-freshwater-prawn.webp",
     "category": [
       "sea"
     ],
@@ -4864,7 +4864,7 @@
   },
   {
     "id": "ponyfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/ponyfish.webp",
     "category": [
       "sea"
     ],
@@ -4944,7 +4944,7 @@
   },
   {
     "id": "lizardfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/lizardfish.webp",
     "category": [
       "sea"
     ],
@@ -5024,7 +5024,7 @@
   },
   {
     "id": "flathead",
-    "photo": "img/placeholder.webp",
+    "photo": "img/flathead.webp",
     "category": [
       "sea"
     ],
@@ -5104,7 +5104,7 @@
   },
   {
     "id": "goatfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/goatfish.webp",
     "category": [
       "sea"
     ],
@@ -5184,7 +5184,7 @@
   },
   {
     "id": "basa",
-    "photo": "img/placeholder.webp",
+    "photo": "img/basa.webp",
     "category": [
       "sea"
     ],
@@ -5269,7 +5269,7 @@
   },
   {
     "id": "pangasius",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pangasius.webp",
     "category": [
       "sea"
     ],
@@ -5349,7 +5349,7 @@
   },
   {
     "id": "grass-carp",
-    "photo": "img/placeholder.webp",
+    "photo": "img/grass-carp.webp",
     "category": [
       "sea"
     ],
@@ -5429,7 +5429,7 @@
   },
   {
     "id": "silver-carp",
-    "photo": "img/placeholder.webp",
+    "photo": "img/silver-carp.webp",
     "category": [
       "sea"
     ],
@@ -5509,7 +5509,7 @@
   },
   {
     "id": "walking-catfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/walking-catfish.webp",
     "category": [
       "sea"
     ],
@@ -5593,7 +5593,7 @@
   },
   {
     "id": "climbing-perch",
-    "photo": "img/placeholder.webp",
+    "photo": "img/climbing-perch.webp",
     "category": [
       "sea"
     ],
@@ -5676,7 +5676,7 @@
   },
   {
     "id": "gourami",
-    "photo": "img/placeholder.webp",
+    "photo": "img/gourami.webp",
     "category": [
       "sea"
     ],
@@ -5756,7 +5756,7 @@
   },
   {
     "id": "featherback",
-    "photo": "img/placeholder.webp",
+    "photo": "img/featherback.webp",
     "category": [
       "sea"
     ],
@@ -5840,7 +5840,7 @@
   },
   {
     "id": "eel",
-    "photo": "img/placeholder.webp",
+    "photo": "img/eel.webp",
     "category": [
       "sea"
     ],
@@ -5920,7 +5920,7 @@
   },
   {
     "id": "octopus",
-    "photo": "img/placeholder.webp",
+    "photo": "img/octopus.webp",
     "category": [
       "sea"
     ],
@@ -6001,7 +6001,7 @@
   },
   {
     "id": "scallops",
-    "photo": "img/placeholder.webp",
+    "photo": "img/scallops.webp",
     "category": [
       "sea"
     ],
