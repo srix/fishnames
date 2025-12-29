@@ -119,7 +119,7 @@ Each entry follows:
 
 * **Category Tabs**: Top-level navigation between:
   * Fish & Seafood 🐟
-  * Vegetables & Fruits 🥦
+  * Vegetables 🥦
   * Grains & Pulses 🌾
   * Spices 🌶️
 * **Sticky Filter Bar**: Located below tabs.
@@ -160,9 +160,9 @@ A responsive sticky header that stays fixed at the top.
   2.  **Search Row**: Full-width Search Bar.
 * **Scroll Behavior**: On scroll down, the Top Row and Search Row slide up/vanish to maximize content space. They reappear instantly on scroll up.
 * **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.
-* **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.
   3.  **Nav Row**: Scrollable Category tabs (Scrollbar Hidden).
   4.  **Toolbar Row**: Scrollable Filter chips (Scrollbar Hidden).
+      * **Mobile Optimization**: "FILTERS:" label and "Showing X results" text are hidden to conserve vertical space.
 
 ### **7.2 Brand Identity**
 

@@ -20,7 +20,7 @@ module.exports = defineConfig({
         },
     ],
     webServer: {
-        command: 'npx -y http-server -p 8081',
+        command: 'npx -y http-server -p 8081 -c-1',
         url: 'http://localhost:8081',
         reuseExistingServer: !process.env.CI,
     },

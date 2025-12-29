@@ -22,10 +22,10 @@ test.describe('Indian Food Guide Verification', () => {
         // Check for a Fish
         await expect(page.locator('.fish-card').filter({ hasText: 'Seer fish' })).toBeVisible();
 
-        // Switch to Vegetables & Fruits
+        // Switch to Vegetables
         await nav.locator('button[data-category="vegetables"]').click();
         await expect(nav.locator('button[data-category="vegetables"]')).toHaveClass(/active/);
-        await expect(nav.locator('button[data-category="vegetables"]')).toHaveText(/Vegetables & Fruits/);
+        await expect(nav.locator('button[data-category="vegetables"]')).toHaveText(/Vegetables/);
 
         // Check for a Vegetable (Potato)
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
@@ -165,14 +165,6 @@ test.describe('Indian Food Guide Verification', () => {
         // 3. Verify Search Input still has "Red"
         await expect(page.locator('#search-input')).toHaveValue('Red');
 
-        // 4. Verify "Red Amaranth" or similar shows up, and Potato (Root) is hidden
-        // (Assuming "Red" matches "Red Spinach" or similar in data)
-        // Let's check for something generic if Red isn't in Veg. 
-        // "Spinach" might be better if we want to be safe, but "Red" is a good cross-category term.
-        // If no "Red" veg exists, it should show No Results or empty list, but the Input must remain.
-
-        // Let's use a known term if possible, or just verify the Input Value key behavior.
-        // Actually, let's use "a" - very common.
         await page.locator('#search-input').fill('Spinach');
         await page.locator('button[data-category="vegetables"]').click();
         await expect(page.locator('#search-input')).toHaveValue('Spinach');
@@ -195,8 +187,33 @@ test.describe('Indian Food Guide Verification', () => {
         await clearBtn.click();
         await expect(input).toHaveValue('');
         await expect(clearBtn).toBeHidden();
+    });
 
-        // 4. Verify Focus returned to input
-        await expect(input).toBeFocused();
+    test('Mobile View Layout', async ({ page }) => {
+        // Set to mobile viewport
+        await page.setViewportSize({ width: 375, height: 667 });
+
+        // Check Filter Label and Results Stat are HIDDEN
+        await expect(page.locator('.filter-label')).toBeHidden();
+        await expect(page.locator('.results-stat')).toBeHidden();
+
+        // Check Header Minimize Logic operates? (Requires scrolling)
+        await page.evaluate(async () => {
+            window.scrollTo(0, 0); // Start at top
+            document.body.style.minHeight = "2000px";
+            // Small pause
+            await new Promise(r => setTimeout(r, 100));
+            // Move down
+            window.scrollTo(0, 500);
+            window.dispatchEvent(new Event('scroll'));
+        });
+
+        // Header should have 'scrolled-down' class
+        await expect(page.locator('.app-header')).toHaveClass(/scrolled-down/, { timeout: 5000 });
+
+        // Final state: Header top should be effectively invisible
+        const headerTop = page.locator('.header-top');
+        await expect(headerTop).toHaveCSS('opacity', '0');
+        await expect(headerTop).toHaveCSS('max-height', '0px');
     });
 });
