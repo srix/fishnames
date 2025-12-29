@@ -695,4 +695,19 @@ body {
     #column-checkboxes {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
+
+    /* Scroll Minimize Logic */
+    .app-header.scrolled-down .header-top {
+        max-height: 0;
+        padding: 0;
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    .header-top {
+        transition: all 0.3s ease-in-out;
+        max-height: 300px;
+        /* Arbitrary large value for transition */
+        opacity: 1;
+    }
 }

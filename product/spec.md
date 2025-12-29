@@ -158,6 +158,8 @@ A responsive sticky header that stays fixed at the top.
 * **Stacked Layout** for clarity:
   1.  **Top Row**: Brand (Left) + Compact Language Icon 🌍 (Right).
   2.  **Search Row**: Full-width Search Bar.
+* **Scroll Behavior**: On scroll down, the Top Row and Search Row slide up/vanish to maximize content space. They reappear instantly on scroll up.
+* **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.
   3.  **Nav Row**: Scrollable Category tabs.
   4.  **Toolbar Row**: Scrollable Filter chips.
 

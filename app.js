@@ -127,6 +127,30 @@ document.addEventListener('DOMContentLoaded', () => {
             colDialog.hidden = true;
             btnCustomizeCols.setAttribute('aria-expanded', 'false');
         });
+
+        // Scroll Logic for Mobile Header
+        let lastScrollY = window.scrollY;
+        const header = document.querySelector('.app-header');
+
+        window.addEventListener('scroll', () => {
+            const currentScrollY = window.scrollY;
+
+            // Only act if we've scrolled past the top area (prevent jitter at top)
+            if (currentScrollY > 100) {
+                if (currentScrollY > lastScrollY) {
+                    // Scrolling DOWN -> Minimize
+                    header.classList.add('scrolled-down');
+                } else {
+                    // Scrolling UP -> Show
+                    header.classList.remove('scrolled-down');
+                }
+            } else {
+                // At top -> Always Show
+                header.classList.remove('scrolled-down');
+            }
+
+            lastScrollY = currentScrollY;
+        }, { passive: true });
     }
 
     async function loadCategory(category) {
