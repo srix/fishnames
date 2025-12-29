@@ -15,7 +15,7 @@ const INDIAN_LANGUAGES = [
     "telugu", "urdu"
 ];
 
-const MIN_DATASET_SIZE = 50;
+const MIN_DATASET_SIZE = 100;
 
 test.describe('Data Integrity', () => {
 
@@ -40,9 +40,10 @@ test.describe('Data Integrity', () => {
                     // Skip placeholders
                     if (names.length === 1 && names[0] === "-") return;
 
-                    // Requirement: Must have at least 2 items [Native, Romanized]
-                    if (names.length < 2) {
-                        violations.push(`${item.id} -> ${lang}: found ${JSON.stringify(names)}`);
+                    // Requirement: Must have pairs [Native, Romanized]
+                    // So length must be strictly even
+                    if (names.length % 2 !== 0) {
+                        violations.push(`${item.id} -> ${lang}: Expected even number of entries (pairs), found ${names.length}: ${JSON.stringify(names)}`);
                     }
                 });
             });
