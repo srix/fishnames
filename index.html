@@ -195,11 +195,8 @@
             <h2>Feedback & Corrections</h2>
             <p>Spot an error or missing an item? Let us know!</p>
 
-            <form id="feedback-form" name="feedback" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <form id="feedback-form" method="POST">
                 <input type="hidden" name="form-name" value="feedback">
-                <p hidden>
-                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                </p>
                 <div class="form-group">
                     <label for="feedback-name">Name (Optional)</label>
                     <input type="text" id="feedback-name" name="name" placeholder="Your name">
