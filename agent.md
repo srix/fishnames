@@ -165,9 +165,10 @@ npm run sync  # Copies www/ to Android assets
 #### Build Android APK & AAB
 ```bash
 npm run android:build
-# Generates:
-# 1. Debug APK: android/app/build/outputs/apk/debug/app-debug.apk
-# 2. Release AAB: android/app/build/outputs/bundle/release/app-release.aab
+# 1. Runs `scripts/bump_version.js` to increment `versionCode` in `build.gradle`.
+# 2. Generates:
+#    - Debug APK: android/app/build/outputs/apk/debug/app-debug.apk
+#    - Release AAB: android/app/build/outputs/bundle/release/app-release.aab
 ```
 
 #### Test on emulator

@@ -83,8 +83,9 @@ No build system required for the **Web App**. The app runs in two modes:
 - **Production**: Deploy to static hosting with SPA fallback configured
 
 **Android App**:
-- Requires standard Gradle build process (`npm run android:build`).
-- Output: Debug APK (testing) + Release AAB (Play Store).
+- **Build**: Requires standard Gradle build process (`npm run android:build`).
+  - **Automation**: Automatically bumps `versionCode` on every build to prevent Play Store conflicts.
+- **Output**: Debug APK (testing) + Release AAB (Play Store).
 
 **Netlify SPA Redirect**:
 Add a `netlify.toml` at the repo root so Netlify serves `index.html` for deep links:

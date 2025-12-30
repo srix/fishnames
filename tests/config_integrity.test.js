@@ -8,10 +8,11 @@ test.describe('Configuration Integrity', () => {
         const packageJsonPath = path.resolve(__dirname, '..', 'package.json');
         const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
 
-        // Verify android:build generates both APK (assembleDebug) and AAB (bundleRelease)
+        // Verify android:build run version bump script AND generates both APK (assembleDebug) and AAB (bundleRelease)
         const androidBuildScript = packageJson.scripts['android:build'];
         expect(androidBuildScript, 'android:build script missing').toBeDefined();
 
+        expect(androidBuildScript).toContain('node scripts/bump_version.js');
         expect(androidBuildScript).toContain('assembleDebug');
         expect(androidBuildScript).toContain('bundleRelease');
     });
