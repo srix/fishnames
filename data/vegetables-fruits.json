@@ -8062,7 +8062,7 @@
   },
   {
     "id": "chinese-potato",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/chinese-potato.webp",
     "tags": [
       "root"
     ],
@@ -8164,7 +8164,7 @@
   },
   {
     "id": "purple-yam",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/purple-yam.webp",
     "tags": [
       "root"
     ],
@@ -8266,7 +8266,7 @@
   },
   {
     "id": "arrowroot",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/arrowroot.webp",
     "tags": [
       "root"
     ],
@@ -8368,7 +8368,7 @@
   },
   {
     "id": "mango-ginger",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/mango-ginger.webp",
     "tags": [
       "root"
     ],
@@ -8470,7 +8470,7 @@
   },
   {
     "id": "agathi-keerai",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/agathi-keerai.webp",
     "tags": [
       "leafy"
     ],
@@ -8572,7 +8572,7 @@
   },
   {
     "id": "ponnanganni-keerai",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/ponnanganni-keerai.webp",
     "tags": [
       "leafy"
     ],
@@ -8674,7 +8674,7 @@
   },
   {
     "id": "manathakkali",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/manathakkali.webp",
     "tags": [
       "leafy"
     ],
@@ -8776,7 +8776,7 @@
   },
   {
     "id": "gongura",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/gongura.webp",
     "tags": [
       "leafy"
     ],
@@ -8878,7 +8878,7 @@
   },
   {
     "id": "bathua",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/bathua.webp",
     "tags": [
       "leafy"
     ],
@@ -8980,7 +8980,7 @@
   },
   {
     "id": "parsley",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/parsley.webp",
     "tags": [
       "leafy"
     ],
@@ -9082,7 +9082,7 @@
   },
   {
     "id": "basil",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/basil.webp",
     "tags": [
       "leafy"
     ],
@@ -9184,7 +9184,7 @@
   },
   {
     "id": "lettuce",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/lettuce.webp",
     "tags": [
       "leafy"
     ],
@@ -9286,7 +9286,7 @@
   },
   {
     "id": "broccoli",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/broccoli.webp",
     "tags": [
       "vegetable"
     ],
@@ -9388,7 +9388,7 @@
   },
   {
     "id": "zucchini",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/zucchini.webp",
     "tags": [
       "vegetable"
     ],
@@ -9490,7 +9490,7 @@
   },
   {
     "id": "red-cabbage",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/red-cabbage.webp",
     "tags": [
       "leafy"
     ],
@@ -9592,7 +9592,7 @@
   },
   {
     "id": "baby-corn",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/baby-corn.webp",
     "tags": [
       "vegetable"
     ],
@@ -9694,7 +9694,7 @@
   },
   {
     "id": "sweet-corn",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/sweet-corn.webp",
     "tags": [
       "vegetable"
     ],
@@ -9796,7 +9796,7 @@
   },
   {
     "id": "button-mushroom",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/button-mushroom.webp",
     "tags": [
       "vegetable"
     ],
@@ -9898,7 +9898,7 @@
   },
   {
     "id": "oyster-mushroom",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/oyster-mushroom.webp",
     "tags": [
       "vegetable"
     ],
@@ -10000,7 +10000,7 @@
   },
   {
     "id": "wood-apple",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/wood-apple.webp",
     "tags": [
       "fruit"
     ],
@@ -10102,7 +10102,7 @@
   },
   {
     "id": "ice-apple",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/ice-apple.webp",
     "tags": [
       "fruit"
     ],
@@ -10204,7 +10204,7 @@
   },
   {
     "id": "star-fruit",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/star-fruit.webp",
     "tags": [
       "fruit"
     ],
@@ -10306,7 +10306,7 @@
   },
   {
     "id": "passion-fruit",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/passion-fruit.webp",
     "tags": [
       "fruit"
     ],
@@ -10408,7 +10408,7 @@
   },
   {
     "id": "dragon-fruit",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/dragon-fruit.webp",
     "tags": [
       "fruit"
     ],
@@ -10510,7 +10510,7 @@
   },
   {
     "id": "kiwi",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/kiwi.webp",
     "tags": [
       "fruit"
     ],
@@ -10612,7 +10612,7 @@
   },
   {
     "id": "mulberry",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/mulberry.webp",
     "tags": [
       "fruit"
     ],
@@ -10714,7 +10714,7 @@
   },
   {
     "id": "jamun",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/jamun.webp",
     "tags": [
       "fruit"
     ],
@@ -10816,7 +10816,7 @@
   },
   {
     "id": "jackfruit-seeds",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/jackfruit-seeds.webp",
     "tags": [
       "vegetable"
     ],
@@ -10918,7 +10918,7 @@
   },
   {
     "id": "raw-banana",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/raw-banana.webp",
     "tags": [
       "vegetable"
     ],
@@ -11020,7 +11020,7 @@
   },
   {
     "id": "raw-mango",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/raw-mango.webp",
     "tags": [
       "fruit"
     ],
@@ -11122,7 +11122,7 @@
   },
   {
     "id": "sundakkai",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/sundakkai.webp",
     "tags": [
       "vegetable"
     ],
@@ -11224,7 +11224,7 @@
   },
   {
     "id": "chayote",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/chayote.webp",
     "tags": [
       "vegetable"
     ],
@@ -11326,7 +11326,7 @@
   },
   {
     "id": "chow-chow",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/chow-chow.webp",
     "tags": [
       "vegetable"
     ],
@@ -11428,7 +11428,7 @@
   },
   {
     "id": "knol-khol",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/knol-khol.webp",
     "tags": [
       "vegetable"
     ],
