@@ -1105,7 +1105,8 @@
         "Cashew"
       ],
       "assamese": [
-        "-"
+        "কাজু",
+        "Kaju"
       ],
       "bengali": [
         "কাজু",
@@ -1196,7 +1197,8 @@
         "Almond"
       ],
       "assamese": [
-        "-"
+        "বাদাম",
+        "Badam"
       ],
       "bengali": [
         "বাদাম",
@@ -1287,7 +1289,8 @@
         "Pistachio"
       ],
       "assamese": [
-        "-"
+        "পিস্তা",
+        "Pista"
       ],
       "bengali": [
         "পেস্তা",
@@ -1378,7 +1381,8 @@
         "Walnut"
       ],
       "assamese": [
-        "-"
+        "আখৰোট",
+        "Akhroot"
       ],
       "bengali": [
         "আখরোট",
@@ -1469,7 +1473,8 @@
         "Raisins"
       ],
       "assamese": [
-        "-"
+        "কিচমিচ",
+        "Kismis"
       ],
       "bengali": [
         "কিশমিশ",
@@ -1560,7 +1565,8 @@
         "Dates"
       ],
       "assamese": [
-        "-"
+        "খেজুৰ",
+        "Khezur"
       ],
       "bengali": [
         "খেজুঁর",
@@ -1651,7 +1657,8 @@
         "Tamarind"
       ],
       "assamese": [
-        "-"
+        "তেতেলী",
+        "Teteli"
       ],
       "bengali": [
         "তেঁতুল",
@@ -1742,7 +1749,8 @@
         "Kokum"
       ],
       "assamese": [
-        "-"
+        "কোকুম",
+        "Kokum"
       ],
       "bengali": [
         "কোকুম",
@@ -1833,7 +1841,8 @@
         "Asafetida"
       ],
       "assamese": [
-        "-"
+        "হিং",
+        "Hing"
       ],
       "bengali": [
         "হিং",
@@ -1924,7 +1933,8 @@
         "Poppy Seeds"
       ],
       "assamese": [
-        "-"
+        "পস্তু",
+        "Posto"
       ],
       "bengali": [
         "পোস্ত",
@@ -2015,7 +2025,8 @@
         "Carom Seeds"
       ],
       "assamese": [
-        "-"
+        "আজৱাইন",
+        "Ajwain"
       ],
       "bengali": [
         "জোয়ান",
@@ -2106,7 +2117,8 @@
         "Nigella Seeds"
       ],
       "assamese": [
-        "-"
+        "কলা জিৰা",
+        "Kola Jira"
       ],
       "bengali": [
         "কালো জিরা",
@@ -2197,7 +2209,8 @@
         "Basil Seeds"
       ],
       "assamese": [
-        "-"
+        "তোকমা",
+        "Tokma"
       ],
       "bengali": [
         "তোকমা",
@@ -2288,7 +2301,8 @@
         "Melon Seeds"
       ],
       "assamese": [
-        "-"
+        "দুমাহৰ বীজ",
+        "Dumahor Bija"
       ],
       "bengali": [
         "চালকুমড়ো বীজ",
@@ -2379,7 +2393,8 @@
         "Saffron"
       ],
       "assamese": [
-        "-"
+        "জাফৰান",
+        "Jafran"
       ],
       "bengali": [
         "জাফরান",
@@ -2470,7 +2485,8 @@
         "Nutmeg"
       ],
       "assamese": [
-        "-"
+        "জাইফল",
+        "Jaiphal"
       ],
       "bengali": [
         "জায়ফল",
@@ -2561,7 +2577,8 @@
         "Mace"
       ],
       "assamese": [
-        "-"
+        "জয়ত্ৰী",
+        "Jayatri"
       ],
       "bengali": [
         "জয়িত্রি",
@@ -2652,7 +2669,8 @@
         "Star Anise"
       ],
       "assamese": [
-        "-"
+        "চক্ৰফুল",
+        "Chakraphool"
       ],
       "bengali": [
         "তারা মৌরি",
@@ -2743,7 +2761,8 @@
         "Bay Leaf"
       ],
       "assamese": [
-        "-"
+        "তেজপাত",
+        "Tejpat"
       ],
       "bengali": [
         "তেজপাতা",
@@ -2834,7 +2853,8 @@
         "Dry Ginger"
       ],
       "assamese": [
-        "-"
+        "শুকান আদা",
+        "Sukan Ada"
       ],
       "bengali": [
         "শুকনো আদা",
@@ -2925,7 +2945,8 @@
         "Black Cardamom"
       ],
       "assamese": [
-        "-"
+        "বৰ ইলাচী",
+        "Bor Ilachi"
       ],
       "bengali": [
         "বড় এলাচ",
@@ -3016,7 +3037,8 @@
         "White Pepper"
       ],
       "assamese": [
-        "-"
+        "বগা জলকীয়া",
+        "Boga Jolokia"
       ],
       "bengali": [
         "সাদা গোলমরিচ",
@@ -3107,7 +3129,8 @@
         "Long Pepper"
       ],
       "assamese": [
-        "-"
+        "পিপলি",
+        "Pipoli"
       ],
       "bengali": [
         "পিপুল",
@@ -3198,7 +3221,8 @@
         "Stone Flower"
       ],
       "assamese": [
-        "-"
+        "পাথৰ ফুল",
+        "Pathor Phool"
       ],
       "bengali": [
         "পাথর ফুল",
@@ -3289,7 +3313,8 @@
         "Marathi Moggu"
       ],
       "assamese": [
-        "-"
+        "মাৰাঠী মোগু",
+        "Marathi Moggu"
       ],
       "bengali": [
         "মারাঠি মোগ্গু",
@@ -3374,13 +3399,15 @@
     "tags": [
       "aromatic"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Piper cubeba",
     "names": {
       "english": [
-        "Kabab Chin"
+        "Cubeb",
+        "Tailed Pepper"
       ],
       "assamese": [
-        "-"
+        "কাবাব চেনি",
+        "Kabab Chini"
       ],
       "bengali": [
         "কাবাব চিনি",
@@ -3471,7 +3498,8 @@
         "Galangal"
       ],
       "assamese": [
-        "-"
+        "তৰা",
+        "Tora"
       ],
       "bengali": [
         "মহৌষধ",
