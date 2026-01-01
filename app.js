@@ -147,6 +147,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Scroll Logic
         setupScrollListener();
 
+        // Header Layout Logic (Fixed Positioning Support)
+        updateBodyPadding();
+        window.addEventListener('resize', updateBodyPadding);
+        // Update again after a short delay to ensure fonts/images loaded
+        setTimeout(updateBodyPadding, 100);
+        setTimeout(updateBodyPadding, 500);
+
         // --- Initial Data Load ---
         await handleRouteChange();
     }
@@ -533,16 +540,38 @@ document.addEventListener('DOMContentLoaded', () => {
     function setupScrollListener() {
         let lastScrollY = window.scrollY;
         const header = document.querySelector('.app-header');
+        const threshold = 20; // Minimum scroll amount to trigger change
+
         window.addEventListener('scroll', () => {
             const current = window.scrollY;
+
+            // Ignore bounce/rubberbanding
+            if (current < 0) return;
+
+            const diff = Math.abs(current - lastScrollY);
+            if (diff < threshold) return; // Ignore small scroll movements
+
             if (current > 100) {
-                if (current > lastScrollY) header.classList.add('scrolled-down');
-                else if (current < lastScrollY) header.classList.remove('scrolled-down');
+                if (current > lastScrollY) {
+                    // Scrolling Down -> Hide
+                    header.classList.add('scrolled-down');
+                } else {
+                    // Scrolling Up -> Show
+                    header.classList.remove('scrolled-down');
+                }
             } else {
+                // At top -> Show
                 header.classList.remove('scrolled-down');
             }
             lastScrollY = current;
         }, { passive: true });
+    }
+
+    function updateBodyPadding() {
+        const header = document.querySelector('.app-header');
+        if (header) {
+            document.body.style.paddingTop = header.offsetHeight + 'px';
+        }
     }
 
     function renderColumnSelector() {

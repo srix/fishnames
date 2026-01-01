@@ -36,7 +36,8 @@ body {
 /* Header */
 .app-header {
     background-color: var(--header-bg);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -45,6 +46,12 @@ body {
 
 .platform-android .app-header {
     padding-top: max(env(safe-area-inset-top), 40px);
+}
+
+/* Add padding to body via JS, but ensures defaults */
+.app-header+.app-body {
+    /* Fallback if JS fails, though JS is preferred */
+    /* padding-top: 180px; Removed in favor of JS */
 }
 
 .header-centered {
@@ -740,14 +747,14 @@ body {
         padding: 0;
         overflow: hidden;
         opacity: 0;
-        transition: none !important;
     }
 
     .header-top {
-        transition: all 0.3s ease-in-out;
-        max-height: 300px;
-        /* Arbitrary large value for transition */
+        transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.3s ease-in-out;
+        max-height: 120px;
+        /* Optimized for smoother start */
         opacity: 1;
+        will-change: max-height, opacity;
     }
 }
 
