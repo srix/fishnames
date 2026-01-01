@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "npx playwright test",
-    "build:web": "rm -rf www && mkdir -p www && cp index.html privacy.html style.css app.js manifest.json robots.txt sitemap.xml www/ && cp -r data img www/",
+    "build:web": "rm -rf www && mkdir -p www && cp index.html privacy.html style.css app.js manifest.json robots.txt sitemap.xml www/ && cp -r data img assets www/",
     "sync": "npm run build:web && npx cap sync",
     "android:open": "npx cap open android",
     "android:run": "npx cap run android",
@@ -20,6 +20,7 @@
     "@capacitor/browser": "^8.0.0",
     "@capacitor/cli": "^7.4.4",
     "@capacitor/core": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0",
     "express": "^4.22.1"
   },
   "devDependencies": {
