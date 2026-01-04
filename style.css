@@ -414,13 +414,13 @@ body {
     gap: var(--spacing-md);
 }
 
-.fish-header {
+.item-header {
     display: flex;
     align-items: center;
     gap: var(--spacing-md);
 }
 
-.fish-thumbnail {
+.item-thumbnail {
     width: 60px;
     height: 60px;
     object-fit: cover;
@@ -434,7 +434,7 @@ body {
     /* Force full width to break to new line in wrapped flex */
 }
 
-.fish-title h3 {
+.item-title h3 {
     font-size: 1.125rem;
     margin-bottom: 4px;
 }
@@ -445,7 +445,7 @@ body {
     font-style: italic;
 }
 
-.fish-names-grid {
+.item-names-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-sm);
@@ -475,7 +475,7 @@ body {
     color: var(--text-primary);
 }
 
-.fish-notes {
+.item-notes {
     font-size: 0.9rem;
     color: var(--text-secondary);
     background-color: var(--background-color);
@@ -526,22 +526,22 @@ body {
         flex-wrap: wrap;
     }
 
-    .fish-header {
+    .item-header {
         flex: 1;
         min-width: 200px;
     }
 
-    .fish-thumbnail {
+    .item-thumbnail {
         width: 80px;
         height: 80px;
     }
 
-    .fish-names-grid {
+    .item-names-grid {
         flex: 2;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .fish-notes {
+    .item-notes {
         flex: 1;
         margin-top: 0;
     }
@@ -575,7 +575,7 @@ body {
     border: 1px solid #dcedc8;
 }
 
-.fish-title {
+.item-title {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -722,12 +722,12 @@ body {
         gap: 12px;
     }
 
-    .fish-thumbnail {
+    .item-thumbnail {
         width: 64px;
         height: 64px;
     }
 
-    .fish-names-grid {
+    .item-names-grid {
         grid-template-columns: 1fr;
         /* Stack names on very small screens */
         gap: 12px;

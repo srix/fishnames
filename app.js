@@ -406,17 +406,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 (itemCategory === 'spices' ? 'spice' : 'fish'));
 
         card.innerHTML = `
-            <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${placeholderType}.webp'">
-                <div class="fish-title">
+            <div class="item-header">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="item-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${placeholderType}.webp'">
+                <div class="item-title">
                     <h3>${item.names.english.join(' / ')}</h3>
                     <div class="scientific-name">${item.scientificName || ''}</div>
                     <div class="badges">${getBadges(item.tags)}</div>
                 </div>
             </div>
-            <div class="fish-names-grid">${renderGrid(primaryLangs)}</div>
-            ${otherLangs.length > 0 ? `<details class="more-langs"><summary>Show all languages</summary><div class="fish-names-grid dense">${renderGrid(otherLangs)}</div></details>` : ''}
-            ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}
+            <div class="item-names-grid">${renderGrid(primaryLangs)}</div>
+            ${otherLangs.length > 0 ? `<details class="more-langs"><summary>Show all languages</summary><div class="item-names-grid dense">${renderGrid(otherLangs)}</div></details>` : ''}
+            ${item.notes ? `<div class="item-notes">💡 ${item.notes}</div>` : ''}
             <button class="share-btn" data-item-id="${item.id}">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="18" cy="5" r="3"></circle>

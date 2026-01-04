@@ -15,7 +15,7 @@ test.describe('Global Search', () => {
         await page.waitForTimeout(600); // Wait for debounce and fetch
 
         // Verify "Custard Apple" or "Ice Apple" or similar appears
-        const cardTitles = page.locator('.fish-title h3');
+        const cardTitles = page.locator('.item-title h3');
         await expect(cardTitles.first()).toContainText(/Apple/i);
 
         // Verify badge indicates it's a Fruit (by checking for fruit-specific placeholder or badge if possible, 
@@ -63,7 +63,7 @@ test.describe('Global Search', () => {
 
         // Should show Mango now
         await expect(noResults).toBeHidden();
-        await expect(page.locator('.fish-title h3').first()).toContainText(/Mango/i);
+        await expect(page.locator('.item-title h3').first()).toContainText(/Mango/i);
     });
 
     test('Clicking search input resets filters', async ({ page }) => {
