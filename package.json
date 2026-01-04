@@ -1,6 +1,6 @@
 {
   "name": "foodbhasha",
-  "version": "1.0.0",
+  "version": "1.16",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,7 @@
     "sync": "npm run build:web && npx cap sync",
     "android:open": "npx cap open android",
     "android:run": "npx cap run android",
-    "android:build": "node scripts/bump_version.js && cd android && ./gradlew assembleDebug bundleRelease"
+    "android:build": "node scripts/bump_version.js && npm run sync && cd android && ./gradlew assembleDebug bundleRelease"
   },
   "keywords": [],
   "author": "",
