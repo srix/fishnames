@@ -15,21 +15,20 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
     });
 
     test('Category Navigation & Data Loading', async ({ page }) => {
-        // Default is Fish
+        // Default is Vegetables & Fruits
         const nav = page.locator('.category-tabs');
-        await expect(nav.locator('.tab-btn.active')).toHaveText(/Fish & Seafood/);
-
-        // Check for a Fish
-        await expect(page.locator('.fish-card').filter({ hasText: 'Seer fish' })).toBeVisible();
-
-        // Switch to Vegetables & Fruits
-        await nav.locator('button[data-category="vegetables-fruits"]').click();
-        await page.waitForLoadState('networkidle');
-        await expect(nav.locator('button[data-category="vegetables-fruits"]')).toHaveClass(/active/);
-        await expect(nav.locator('button[data-category="vegetables-fruits"]')).toHaveText(/Vegetables/);
+        await expect(nav.locator('.tab-btn.active')).toHaveText(/Vegetables & Fruits/);
 
         // Check for a Vegetable (Potato)
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
+
+        // Switch to Fish
+        await nav.locator('button[data-category="fish"]').click();
+        await page.waitForLoadState('networkidle');
+        await expect(nav.locator('button[data-category="fish"]')).toHaveClass(/active/);
+
+        // Check for a Fish
+        await expect(page.locator('.fish-card').filter({ hasText: 'Seer fish' })).toBeVisible();
 
         // Switch to Grains
         await nav.locator('button[data-category="grains"]').click();
@@ -166,19 +165,6 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
     });
 
     test('Search Persistence Across Categories', async ({ page }) => {
-        // 1. Type "Red" in Fish
-        await page.locator('#search-input').fill('Red');
-        await page.waitForTimeout(600); // Wait for debounce
-        // Expect Red Snapper
-        await expect(page.locator('.fish-card').filter({ hasText: 'Red Snapper' })).toBeVisible();
-
-        // 2. Switch to Vegetables
-        await page.locator('button[data-category="vegetables-fruits"]').click();
-        await page.waitForLoadState('networkidle');
-
-        // 3. Verify Search Input still has "Red"
-        await expect(page.locator('#search-input')).toHaveValue('Red');
-
         await page.locator('#search-input').fill('Spinach');
         await page.waitForTimeout(600);
         await page.locator('button[data-category="vegetables-fruits"]').click();

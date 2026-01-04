@@ -11,9 +11,9 @@ test.describe('History API Routing', () => {
         await expect(page).toHaveURL('http://localhost:8080/');
         await expect(page).toHaveTitle(/FoodBhasha/);
 
-        // Should default to fish category
-        const fishTab = await page.locator('.tab-btn[data-category="fish"]');
-        await expect(fishTab).toHaveClass(/active/);
+        // Should default to vegetables-fruits category (Updated order)
+        const vegTab = await page.locator('.tab-btn[data-category="vegetables-fruits"]');
+        await expect(vegTab).toHaveClass(/active/);
     });
 
     test('Category navigation updates URL without hash', async ({ page }) => {
@@ -116,8 +116,8 @@ test.describe('History API Routing', () => {
         await page.fill('#search-input', 'red');
         await page.waitForTimeout(600); // Wait for debounce
 
-        // URL should include search parameter
-        await expect(page).toHaveURL('http://localhost:8080/fish?search=red');
+        // URL should include search parameter - default now vegetables-fruits
+        await expect(page).toHaveURL('http://localhost:8080/vegetables-fruits?search=red');
     });
 
     test('Clearing search updates URL', async ({ page }) => {
@@ -128,7 +128,7 @@ test.describe('History API Routing', () => {
         await page.click('#search-clear');
 
         // URL should remove search parameter
-        await expect(page).toHaveURL('http://localhost:8080/fish');
+        await expect(page).toHaveURL('http://localhost:8080/vegetables-fruits');
     });
 
     test('Deep link with search query works', async ({ page }) => {
@@ -149,9 +149,9 @@ test.describe('History API Routing', () => {
         await page.goto('http://localhost:8080/invalid-category');
         await page.waitForLoadState('networkidle');
 
-        // Should load fish as default
-        const fishTab = await page.locator('.tab-btn[data-category="fish"]');
-        await expect(fishTab).toHaveClass(/active/);
+        // Should load vegetables-fruits as default (Updated)
+        const vegTab = await page.locator('.tab-btn[data-category="vegetables-fruits"]');
+        await expect(vegTab).toHaveClass(/active/);
     });
 
     test.skip('Hash URLs redirect to path-based URLs', async ({ page }) => {

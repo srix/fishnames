@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let searchTimeout;
     let appData = [];
     let allData = []; // Cache for global search
-    let currentCategory = 'fish';
+    let currentCategory = 'vegetables-fruits';
     let activeFilters = new Set();
     let currentFilteredData = [];
     let renderedCount = 0;
@@ -45,10 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const DEFAULT_CARD_LANGUAGES = ["tamil", "kannada", "telugu", "hindi"];
     const CATEGORIES = {
-        'fish': '/data/fish-seafood.json',
         'vegetables-fruits': '/data/vegetables-fruits.json',
         'grains': '/data/grains-pulses.json',
-        'spices': '/data/spices.json'
+        'spices': '/data/spices.json',
+        'fish': '/data/fish-seafood.json'
     };
 
     const TAG_FILTERS = {
@@ -185,17 +185,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Parse route: / or /category or /category/item-id
         const pathParts = pathname.split('/').filter(p => p);
-        const catPart = pathParts[0] || 'fish';
+        const catPart = pathParts[0] || 'vegetables-fruits';
         const itemId = pathParts[1] || null;
         const searchQuery = searchParams.get('search') || '';
 
         // Handle /feedback route
-        let targetCategory = 'fish';
+        let targetCategory = 'vegetables-fruits';
         if (catPart === 'feedback') {
             // Keep default or previous category, but we will open modal later
-            targetCategory = 'fish';
+            targetCategory = 'vegetables-fruits';
         } else {
-            targetCategory = CATEGORIES[catPart] ? catPart : 'fish';
+            targetCategory = CATEGORIES[catPart] ? catPart : 'vegetables-fruits';
         }
         let targetQuery = searchQuery;
 

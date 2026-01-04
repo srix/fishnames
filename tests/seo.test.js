@@ -7,12 +7,12 @@ test.describe('SEO and Meta Tags', () => {
     });
 
     test('Homepage has correct meta tags', async ({ page }) => {
-        // Title - app defaults to Fish category on load
-        await expect(page).toHaveTitle(/Fish & Seafood.*FoodBhasha/);
+        // Title - app defaults to Vegetables category on load
+        await expect(page).toHaveTitle(/Vegetables & Fruits.*FoodBhasha/);
 
         // Meta description
         const description = await page.locator('meta[name="description"]').getAttribute('content');
-        expect(description).toContain('Fish');
+        expect(description).toContain('Vegetables');
         expect(description).toContain('22');
 
         // Canonical URL
@@ -21,7 +21,7 @@ test.describe('SEO and Meta Tags', () => {
 
         // Open Graph tags
         const ogTitle = await page.locator('meta[property="og:title"]').getAttribute('content');
-        expect(ogTitle).toContain('Fish');
+        expect(ogTitle).toContain('Vegetables');
 
         const ogUrl = await page.locator('meta[property="og:url"]').getAttribute('content');
         expect(ogUrl).toBeTruthy();

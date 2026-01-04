@@ -15,7 +15,7 @@ The site is designed for **mobile-first usage** (e.g., while shopping or orderin
 
 * Provide a **visual reference** of common Indian food ingredients.
 * Show **names across 23 languages** (English + 22 Indian Languages).
-* Database covers **Fish**, **Vegetables**, **Fruits**, **Grains**, and **Spices**.
+* Database covers **Vegetables**, **Fruits**, **Grains**, **Spices**, and **Fish**.
 * Make it simple for users to **search** and quickly identify types.
 * Support **native scripts** alongside Romanized names for accurate pronunciation and reading.
 
@@ -166,15 +166,15 @@ Each entry follows:
 ### **6.2 Filtering & Navigation**
 
 * **Category Tabs**: Top-level navigation between:
-  * Fish & Seafood 🐟
   * Vegetables 🥦
   * Grains & Pulses 🌾
   * Spices 🌶️
+  * Fish & Seafood 🐟
 * **Sticky Filter Bar**: Located below tabs.
-  * **Fish**: Sea, Freshwater, Brackish
   * **Vegetables**: Fruit, Root, Vegetable, Leafy
   * **Grains**: Cereal, Pulse, Millet
   * **Spices**: Seed, Aromatic, Heat, Root, Acidic, Resin, Flower, Dry Fruit
+  * **Fish**: Sea, Freshwater, Brackish
   * **Multi-Select**: Users can select multiple filters simultaneously.
   * **Logic**: OR-based filtering.
   * **Reset**: Toggling all filters off (or clicking "All") resets the view.
@@ -194,6 +194,11 @@ Each entry follows:
   * Notes
   * Scientific names
 * Results instantly match the active category.
+* **Global Search**: Search queries automatically span across **all 4 categories** (Fish, Veg, Grains, Spices).
+  * *Example*: Searching for "Apple" while on the "Fish" tab will display results from the "Fruits" category.
+  * **Intersection with Filters**: Search results are filtered by any active local filters.
+    * *Example*: Searching "Mango" while filtering for "Sea" (Fish) will show 0 results. Clearing the "Sea" filter will reveal the fruit.
+  * **Click-to-Reset**: Clicking the search input box (when it contains text) automatically **resets** any active local filters to ensure a broad search scope.
 
 ### **6.4 Share Functionality**
 

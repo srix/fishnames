@@ -23,14 +23,17 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
     });
 
     test('Reset on Filter', async ({ page }) => {
-        // Scroll to trigger lazy loading
+        // Scroll to trigger lazy loading (Veg default)
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
 
-        // Wait for more cards to load (should be > 20)
-        await expect(page.locator('.fish-card')).toHaveCount(16, { timeout: 2000 });
+        // Wait for more cards to load (should be > 8, defaults usually 8 + 8)
+        // With 100+ veg items, scrolling should load more.
+        await expect(page.locator('.fish-card')).toHaveCount(16, { timeout: 4000 });
 
         const chips = page.locator('#filter-chips');
-        await chips.locator('button[data-filter="sea"]').click();
+        // Use a Veg filter (e.g., 'fruit')
+        await expect(chips.locator('button[data-filter="fruit"]')).toBeVisible();
+        await chips.locator('button[data-filter="fruit"]').click();
 
         // Wait for filter to apply by checking card count reduces
         await page.waitForFunction(() => {
@@ -43,20 +46,20 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
     });
 
     test('Reset on Tab Switch', async ({ page }) => {
-        // Scroll to trigger lazy loading
+        // Scroll to trigger lazy loading (Veg default)
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
 
         // Wait for more cards to load
-        await expect(page.locator('.fish-card')).toHaveCount(16, { timeout: 2000 });
+        await expect(page.locator('.fish-card')).toHaveCount(16, { timeout: 4000 });
 
-        // Switch to Vegetables & Fruits
-        await page.locator('button[data-category="vegetables-fruits"]').click();
+        // Switch to Fish
+        await page.locator('button[data-category="fish"]').click();
         await page.waitForLoadState('networkidle');
 
-        // Wait for vegetables to load and verify count reset
+        // Wait for fish to load and verify count reset to initial batch (8)
         await expect(page.locator('.fish-card').first()).toBeVisible();
-        const vegCount = await page.locator('.fish-card').count();
-        expect(vegCount).toBeLessThanOrEqual(8);
+        const fishCount = await page.locator('.fish-card').count();
+        expect(fishCount).toBeLessThanOrEqual(8);
 
         // Switch BACK to Fish
         await page.locator('button[data-category="fish"]').click();

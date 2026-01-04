@@ -10,7 +10,7 @@ Follow this guide strictly to ensure high-quality, reviewable changes.
 
 ## Project Overview
 **FoodBhasha** is your market translator for Indian food ingredients (**foodbhasha.com**).
-It helps users identify and translate names across multiple categories (Fish, Vegetables & Fruits, Grains & Pulses, Spices) and 23 languages (English + 22 Indian languages).
+It helps users identify and translate names across multiple categories (Vegetables & Fruits, Grains & Pulses, Spices, Fish) and 23 languages (English + 22 Indian languages).
 
 **Available on:**
 - Web (foodbhasha.com)
@@ -23,6 +23,8 @@ The app supports:
 - **Share Functionality** with Web Share API and clipboard fallback
 - **Card View** for visual browsing with lazy loading
 - **Multi-select Filtering** (e.g., Root + Leafy)
+- **Multi-select Filtering** (e.g., Root + Leafy)
+- **Global Search**: Search across all categories from any tab, with results lazy-loaded for performance.
 - **Search persistence** with query parameters
 - **Toolbar Row**: Scrollable Filter chips (Scrollbar Hidden).
     - **Mobile Optimization**: Result counter (e.g., "12/100") is displayed inline **before** the filter chips.
@@ -229,10 +231,10 @@ npm run sync && export ANDROID_SDK_ROOT=$HOME/Android/Sdk && npx cap run android
 
 ### Item URLs
 Every ingredient has a unique URL:
-- `/fish/sardine`, `/fish/pomfret-black` (102 fish items)
 - `/vegetables-fruits/brinjal`, `/vegetables-fruits/mango` (113 items)
 - `/grains/basmati-rice`, `/grains/toor-dal` (66 items)
 - `/spices/turmeric`, `/spices/cardamom` (38 items)
+- `/fish/sardine`, `/fish/pomfret-black` (102 fish items)
 
 Total: 324 indexable URLs
 
