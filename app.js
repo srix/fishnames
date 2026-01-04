@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit']
     };
 
-    const BATCH_SIZE = 20;
+    const BATCH_SIZE = 8;
     let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_CARD_LANGUAGES;
 
     // Initialize

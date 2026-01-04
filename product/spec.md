@@ -259,8 +259,8 @@ A responsive sticky header that stays fixed at the top.
 ### **7.3 Performance: Lazy Loading**
 
 * **Infinite Scroll**: The Card View implements an Intersection Observer pattern.
-  * **Initial Load**: Only the first 20 items are rendered to ensure fast TTI (Time to Interactive).
-  * **On Scroll**: As the user scrolls to the bottom, the next batch of 20 items is automatically rendered.
+  * **Initial Load**: Only the first 8 items are rendered to ensure fast TTI (Time to Interactive).
+  * **On Scroll**: As the user scrolls to the bottom, the next batch of 8 items is automatically rendered.
   * **Images**: Images are naturally lazy-loaded as their containers appear in the DOM.
   * **Reset**: Searching, filtering, or switching tabs resets the scroll position and the list to the initial batch size.
 
