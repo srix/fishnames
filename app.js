@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // State
     let searchTimeout;
     let appData = [];
+    let allData = []; // Cache for global search
     let currentCategory = 'fish';
     let activeFilters = new Set();
     let currentFilteredData = [];
@@ -134,6 +135,26 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        // Reset filters on search click (User Request)
+        searchInput.addEventListener('click', () => {
+            if (searchInput.value.trim().length > 0 && activeFilters.size > 0) {
+                activeFilters.clear();
+                // Update UI chips
+                document.querySelectorAll('.filter-chip').forEach(c => {
+                    const f = c.dataset.filter;
+                    c.classList.toggle('active', f === 'all');
+                });
+
+                // Re-run search immediately (skip debounce)
+                const query = searchInput.value.trim();
+                let dataToFilter = appData;
+                if (query.length > 0 && allData.length > 0) {
+                    dataToFilter = allData;
+                }
+                renderApp(applyFilters(dataToFilter, query, activeFilters));
+            }
+        });
+
         // Language Selector
         btnCustomizeCols.addEventListener('click', () => {
             colDialog.hidden = !colDialog.hidden;
@@ -241,6 +262,8 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch(`${CATEGORIES[category]}?v=${new Date().getTime()}`);
             appData = await response.json();
+            // Augment local data too for consistency
+            appData.forEach(item => item.category = category);
             isLoading = false;
 
             generateFilters(appData);
@@ -252,23 +275,49 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    async function fetchAllData() {
+        if (allData.length > 0) return; // Already cached
+        try {
+            const promises = Object.entries(CATEGORIES).map(async ([catKey, url]) => {
+                const res = await fetch(`${url}?v=${new Date().getTime()}`);
+                const data = await res.json();
+                return data.map(item => ({ ...item, category: catKey }));
+            });
+            const results = await Promise.all(promises);
+            allData = results.flat();
+        } catch (e) {
+            console.error("Failed to fetch all data for global search", e);
+        }
+    }
+
     function handleSearch() {
         const query = searchInput.value.trim();
         updateSearchUI();
 
         clearTimeout(searchTimeout);
-        searchTimeout = setTimeout(() => {
+        searchTimeout = setTimeout(async () => {
             const newPath = query ? `/${currentCategory}?search=${encodeURIComponent(query)}` : `/${currentCategory}`;
             if (window.location.pathname + window.location.search !== newPath) {
                 history.pushState({}, '', newPath);
-                // Title update must happen here to reflect the new search state in the browser history/tab
                 updateTitle(currentCategory, query, null);
             }
+
+            // Global Search Logic
+            let dataToFilter = appData;
+            if (query.length > 0) {
+                await fetchAllData();
+                dataToFilter = allData;
+            }
+
+            renderApp(applyFilters(dataToFilter, query, activeFilters));
+
         }, 500);
 
-        renderApp(applyFilters(appData, query, activeFilters));
-        // Immediate title update for better responsiveness (optional, but good)
-        // updateTitle(currentCategory, query, null); 
+        // Immediate UI update for cleared search or typing (using available data)
+        // If typing, we wait for debounce to trigger global search, but we can filter current list instantly
+        if (query.length === 0) {
+            renderApp(applyFilters(appData, query, activeFilters));
+        }
     }
 
     function updateSearchUI() {
@@ -330,6 +379,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function createCardElement(item) {
         const card = document.createElement('div');
         card.className = 'fish-card';
+        const itemCategory = item.category || currentCategory; // Use item category if global search, else current
+
         const primaryLangs = [...activeCardLanguages];
         const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l));
 
@@ -340,16 +391,23 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>`).join('');
 
         const getBadges = (tags) => {
-            const allowed = TAG_FILTERS[currentCategory] || [];
+            // Badges might need to support all categories if global search?
+            // Current UX: show badges relevant to the item's category.
+            // TAG_FILTERS is keyed by category.
+            const allowed = TAG_FILTERS[itemCategory] || [];
             return (tags || []).filter(t => allowed.includes(t)).map(t => {
                 const isHabitat = ['sea', 'freshwater', 'brackish'].includes(t);
                 return `<span class="habitat-badge ${isHabitat ? 'habitat-' + t : ''}">${getTagLabel(t)}</span>`;
             }).join(' ');
         };
 
+        const placeholderType = itemCategory === 'vegetables-fruits' ? 'veg' :
+            (itemCategory === 'grains' ? 'grain' :
+                (itemCategory === 'spices' ? 'spice' : 'fish'));
+
         card.innerHTML = `
             <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${currentCategory === 'vegetables-fruits' ? 'veg' : (currentCategory === 'grains' ? 'grain' : (currentCategory === 'spices' ? 'spice' : 'fish'))}.webp'">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${placeholderType}.webp'">
                 <div class="fish-title">
                     <h3>${item.names.english.join(' / ')}</h3>
                     <div class="scientific-name">${item.scientificName || ''}</div>
@@ -401,7 +459,13 @@ document.addEventListener('DOMContentLoaded', () => {
             c.classList.toggle('active', f === 'all' ? activeFilters.size === 0 : activeFilters.has(f));
         });
 
-        renderApp(applyFilters(appData, searchInput.value.trim(), activeFilters));
+        const query = searchInput.value.trim();
+        let dataToFilter = appData;
+        if (query.length > 0 && allData.length > 0) {
+            dataToFilter = allData;
+        }
+
+        renderApp(applyFilters(dataToFilter, query, activeFilters));
     }
 
     function getTagLabel(tag) {
@@ -508,10 +572,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function shareItem(item, event) {
-        const url = `https://foodbhasha.com/${currentCategory}/${item.id}`;
-        const title = `${item.names.english[0]} | ${getCategoryLabel(currentCategory)}`;
+        const itemCategory = item.category || currentCategory;
+        const url = `https://foodbhasha.com/${itemCategory}/${item.id}`;
+        const title = `${item.names.english[0]} | ${getCategoryLabel(itemCategory)}`;
         const text = `Check out ${item.names.english[0]} in 22 Indian languages on Food Bhasha`;
 
+        // ... (rest of shareItem remains same) ...
         // Try Web Share API first (mobile)
         if (navigator.share) {
             try {
