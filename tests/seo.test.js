@@ -42,6 +42,10 @@ test.describe('SEO and Meta Tags', () => {
         // Open Graph URL should update
         const ogUrl = await page.locator('meta[property="og:url"]').getAttribute('content');
         expect(ogUrl).toBe('https://foodbhasha.com/spices');
+
+        // Canonical URL should update
+        const canonical = await page.locator('link[rel="canonical"]').getAttribute('href');
+        expect(canonical).toBe('https://foodbhasha.com/spices/');
     });
 
     test('Item page updates meta tags with item details', async ({ page }) => {
@@ -67,6 +71,10 @@ test.describe('SEO and Meta Tags', () => {
         // Open Graph URL should be item-specific
         const ogUrl = await page.locator('meta[property="og:url"]').getAttribute('content');
         expect(ogUrl).toBe('https://foodbhasha.com/fish/sardine');
+
+        // Canonical URL should be item-specific
+        const canonical = await page.locator('link[rel="canonical"]').getAttribute('href');
+        expect(canonical).toBe('https://foodbhasha.com/fish/sardine/');
     });
 
     test('Search page updates title', async ({ page }) => {

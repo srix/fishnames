@@ -552,6 +552,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('meta[property="twitter:title"]')?.setAttribute('content', ogTitle + ' | FoodBhasha');
         document.querySelector('meta[property="twitter:description"]')?.setAttribute('content', ogDescription);
         document.querySelector('meta[property="twitter:image"]')?.setAttribute('content', 'https://foodbhasha.com/assets/graphics/logo.webp');
+
+        // Update canonical tag
+        document.querySelector('link[rel="canonical"]')?.setAttribute('href', url + (url.endsWith('/') ? '' : '/'));
     }
 
     function scrollToItem(itemId) {

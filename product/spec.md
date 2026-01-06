@@ -73,6 +73,7 @@ The site is a **Single Page Application (SPA)** using vanilla JavaScript with se
 **SEO Benefits**:
 - 324 indexable URLs (1 homepage + 4 categories + 319 items)
 - Dynamic meta tags updated per route
+- **Canonical Tags**: Dynamically updated to point to the current item URL (e.g., `/fish/sardine/`) to prevent duplicate content issues.
 - Item-specific Open Graph tags for social sharing
 - Comprehensive sitemap for search engine crawling
 

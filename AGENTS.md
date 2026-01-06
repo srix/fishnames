@@ -74,7 +74,8 @@ The app supports:
   - Data loading from absolute paths (`/data/*.json`)
   - Card rendering with share buttons
   - Search and filtering with URL persistence
-  - Dynamic meta tag updates for SEO
+  - Search and filtering with URL persistence
+  - Dynamic meta tag and **canonical tag** updates for SEO
 
 - `style.css`  
   Global and responsive styles including highlight animations.
@@ -227,7 +228,10 @@ npm run sync && export ANDROID_SDK_ROOT=$HOME/Android/Sdk && npx cap run android
 - **URL Format**: `/category/item-id` (e.g., `/fish/pomfret-black`)
 - **Server**: Express serves `index.html` for all routes
 - **Client**: JavaScript parses URL and loads appropriate content
+- **Server**: Express serves `index.html` for all routes
+- **Client**: JavaScript parses URL and loads appropriate content
 - **Meta Tags**: Dynamically updated based on current route
+- **Canonical URL**: Dynamically updated to ensure Google indexes deep links (items/categories) instead of just the homepage.
 
 ### Item URLs
 Every ingredient has a unique URL:
