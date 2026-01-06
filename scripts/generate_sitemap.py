@@ -28,7 +28,7 @@ def generate_sitemap():
     categories = ['fish', 'vegetables-fruits', 'grains', 'spices']
     for category in categories:
         sitemap.append('  <url>')
-        sitemap.append(f'    <loc>https://foodbhasha.com/{category}</loc>')
+        sitemap.append(f'    <loc>https://foodbhasha.com/{category}/</loc>')
         sitemap.append(f'    <lastmod>{today}</lastmod>')
         sitemap.append('    <changefreq>weekly</changefreq>')
         sitemap.append('    <priority>0.8</priority>')
@@ -49,7 +49,7 @@ def generate_sitemap():
             for item in data:
                 item_id = item['id']
                 sitemap.append('  <url>')
-                sitemap.append(f'    <loc>https://foodbhasha.com/{category}/{item_id}</loc>')
+                sitemap.append(f'    <loc>https://foodbhasha.com/{category}/{item_id}/</loc>')
                 sitemap.append(f'    <lastmod>{today}</lastmod>')
                 sitemap.append('    <changefreq>monthly</changefreq>')
                 sitemap.append('    <priority>0.6</priority>')
