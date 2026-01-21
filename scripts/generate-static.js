@@ -206,9 +206,22 @@ function injectSEO(html, metadata) {
 
     // 3. Update Footer Version
     const versionPath = path.join(__dirname, '../src/version.json');
+    const packageJsonPath = path.join(__dirname, '../package.json');
     let version = '1.0';
+
     if (fs.existsSync(versionPath)) {
         version = require(versionPath).version;
+
+        // Fix: Sync package.json immediately if it is stale
+        // This ensures the NEXT 'npm run' shows the correct version.
+        if (fs.existsSync(packageJsonPath)) {
+            const pkg = require(packageJsonPath);
+            if (pkg.version !== version) {
+                pkg.version = version;
+                fs.writeFileSync(packageJsonPath, JSON.stringify(pkg, null, 2) + '\n');
+                console.log(`ℹ️  Synced package.json to ${version}`);
+            }
+        }
     }
     // Regex matches "v1.19" or "v1.0.0" etc in the footer
     output = output.replace(/v\d+\.\d+(\.\d+)?/, `v${version}`);
@@ -252,14 +265,12 @@ function generateItemContent(item, catKey) {
     // We need to support the partial rendering logic
     // Simplified version of app.js createCardElement
 
-    const primaryLangs = ["tamil", "kannada", "telugu", "hindi"]; // Defaults
+    const primaryLangs = ["tamil", "kannada", "telugu", "hindi"];
     const allLangs = Object.keys(item.names).filter(k => k !== 'english' && item.names[k] && item.names[k].length > 0);
+    const otherLangs = allLangs.filter(l => !primaryLangs.includes(l)); // Filter out primary
 
     const renderGrid = (langs) => langs.map(lang => {
         if (!item.names[lang] || !item.names[lang].length) return '';
-        // Map lang to display name (simplified map here or duplicate from app.js)
-        // For SSG we can just use capitalized key for now to save space, or duplicate big map. 
-        // Let's use simple capitalization for simplicity in this script.
         const label = lang.charAt(0).toUpperCase() + lang.slice(1);
         return `
             <div class="lang-group">
@@ -273,13 +284,21 @@ function generateItemContent(item, catKey) {
         <div class="item-header">
             ${item.photo ? `<img src="${item.photo}" alt="${escapeHtml(item.names.english[0])}" class="item-thumbnail" width="80" height="80">` : ''}
             <div class="item-title">
-                <h1>${escapeHtml(item.names.english.join(' / '))}</h1>
+                <h3>${escapeHtml(item.names.english.join(' / '))}</h3>
                 <div class="scientific-name">${escapeHtml(item.scientificName || '')}</div>
+                <!-- Badges omitted for SSG simplicity or could be added if critical -->
             </div>
         </div>
         <div class="item-names-grid">
-            ${renderGrid(allLangs)}
+            ${renderGrid(allLangs.filter(l => primaryLangs.includes(l)))}
         </div>
+        ${otherLangs.length > 0 ? `
+        <details class="more-langs" open> <!-- Open by default for SEO crawler visibility, or closed? OPEN is safer for indexing content inside details -->
+            <summary>Show all languages</summary>
+            <div class="item-names-grid dense">
+                ${renderGrid(otherLangs)}
+            </div>
+        </details>` : ''}
         ${item.notes ? `<div class="item-notes">💡 ${escapeHtml(item.notes)}</div>` : ''}
     </div>`;
 }
