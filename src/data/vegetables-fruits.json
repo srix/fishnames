@@ -222,8 +222,8 @@
         "Tamatar"
       ],
       "kannada": [
-        "ಟೊಮೇಟೊ",
-        "Tomato"
+        "ಟೊಮೇಟೊ / ಗುಡೆ ಹಣ್ಣು",
+        "Tomato / Gude Hannu"
       ],
       "telugu": [
         "టమాట",
@@ -2078,8 +2078,8 @@
         "Kaddu"
       ],
       "kannada": [
-        "ಕುಂಬಳಕಾಯಿ",
-        "Kumbalakayi"
+        "ಸಿಹಿ ಕುಂಬಳಕಾಯಿ",
+        "Sihi Kumbalakayi"
       ],
       "kashmiri": [
         "کَدُو",
@@ -5444,8 +5444,8 @@
         "Nashpati"
       ],
       "kannada": [
-        "ಪೇರಳೆ",
-        "Perale"
+        "ಮರಸೇಬು",
+        "Marasebu"
       ],
       "kashmiri": [
         "ناشپاتی",
@@ -5500,8 +5500,8 @@
         "Berikkai"
       ],
       "telugu": [
-        "పేరి ఈత",
-        "Peri Eeta"
+        "బేరి పండు",
+        "Beri Pandu"
       ],
       "urdu": [
         "ناشپاتی",
@@ -6566,8 +6566,8 @@
         "Bada Sem"
       ],
       "kannada": [
-        "ಶಂಖ ಪುಷ್ಪ",
-        "Shanka Pushpa"
+        "ತುಂಬೆಕೊಂಟಿ",
+        "Tumbekonti"
       ],
       "kashmiri": [
         "تَلوار سیم",
@@ -7484,8 +7484,8 @@
         "Hara Pyaaz"
       ],
       "kannada": [
-        "ಈರುಳ್ಳಿ ಸೊಪ್ಪು",
-        "Eerulli Soppu"
+        "ಈರುಳ್ಳಿ ಕಾವು",
+        "Eerulli Kaavu"
       ],
       "kashmiri": [
         "ہَرا پیاز",
@@ -9116,8 +9116,8 @@
         "Tulsi"
       ],
       "kannada": [
-        "ತುಳಸಿ",
-        "Tulasi"
+        "ಕಾಮ ಕಸ್ತೂರಿ",
+        "Kaama Kasturi"
       ],
       "kashmiri": [
         "تُلسی",
@@ -10238,8 +10238,8 @@
         "Kamrakh"
       ],
       "kannada": [
-        "ಕರಂಬೋಲ",
-        "Carambola"
+        "ಕಮರಾಕ್ಷಿ",
+        "Kamarakshi"
       ],
       "kashmiri": [
         "کَمرَخ",
@@ -10254,8 +10254,8 @@
         "Kamrakh"
       ],
       "malayalam": [
-        "ഇരുമ്പൻ പുളി",
-        "Irumban Puli"
+        "ചതുരപ്പുളി",
+        "Chathura Puli"
       ],
       "manipuri": [
         "ꯀꯝꯔꯛ",
@@ -10290,8 +10290,8 @@
         "Kamrak"
       ],
       "tamil": [
-        "விளிம்பி",
-        "Vilimbi"
+        "தமரத்தை",
+        "Thamarathai"
       ],
       "telugu": [
         "కరంబోలా",
@@ -11529,5 +11529,39 @@
       ]
     },
     "notes": "Kohlrabi, turnip-like stem vegetable."
+  },
+  {
+    "id": "pomelo",
+    "photo": "img/pomelo.webp",
+    "tags": [
+      "fruit"
+    ],
+    "scientificName": "Citrus maxima",
+    "names": {
+      "english": [
+        "Pomelo"
+      ],
+      "kannada": [
+        "ಚಕ್ಕೋತ ಹಣ್ಣು",
+        "Chakota Hannu"
+      ],
+      "hindi": [
+        "चकोतरा",
+        "Chakotra"
+      ],
+      "tamil": [
+        "பம்பளிமாஸ்",
+        "Bambalimas"
+      ],
+      "telugu": [
+        "పంపర పనస",
+        "Pampara Panasa"
+      ],
+      "malayalam": [
+        "ബബ്ലൂസ് നാരങ്ങ",
+        "Babloos Naranga"
+      ]
+    },
+    "notes": "Large citrus fruit, sweet and tangy."
   }
 ]

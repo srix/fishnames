@@ -3875,5 +3875,107 @@
       ]
     },
     "notes": "Thai ginger, citrusy flavor."
+  },
+  {
+    "id": "jaggery",
+    "photo": "img/jaggery.webp",
+    "tags": [
+      "other"
+    ],
+    "scientificName": "Saccharum officinarum",
+    "names": {
+      "english": [
+        "Jaggery"
+      ],
+      "kannada": [
+        "ಬೆಲ್ಲ",
+        "Bella"
+      ],
+      "hindi": [
+        "गुड़",
+        "Gur"
+      ],
+      "tamil": [
+        "வெல்லம்",
+        "Vellam"
+      ],
+      "telugu": [
+        "బెల్లం",
+        "Bellam"
+      ],
+      "malayalam": [
+        "ശർക്കര",
+        "Sharkara"
+      ]
+    },
+    "notes": "Traditional cane sugar, often used in sweets."
+  },
+  {
+    "id": "salt",
+    "photo": "img/salt.webp",
+    "tags": [
+      "other"
+    ],
+    "scientificName": "Sodium Chloride",
+    "names": {
+      "english": [
+        "Salt"
+      ],
+      "kannada": [
+        "ಉಪ್ಪು",
+        "Uppu"
+      ],
+      "hindi": [
+        "नमक",
+        "Namak"
+      ],
+      "tamil": [
+        "உப்பு",
+        "Uppu"
+      ],
+      "telugu": [
+        "ఉప్పు",
+        "Uppu"
+      ],
+      "malayalam": [
+        "ഉപ്പ്",
+        "Uppu"
+      ]
+    },
+    "notes": "Essential seasoning."
+  },
+  {
+    "id": "sugar",
+    "photo": "img/sugar.webp",
+    "tags": [
+      "other"
+    ],
+    "scientificName": "Sucrose",
+    "names": {
+      "english": [
+        "Sugar"
+      ],
+      "kannada": [
+        "ಸಕ್ಕರೆ",
+        "Sakkare"
+      ],
+      "hindi": [
+        "चीनी",
+        "Cheeni"
+      ],
+      "tamil": [
+        "சர்க்கரை",
+        "Sarkkarai"
+      ],
+      "telugu": [
+        "చక్కెర",
+        "Chakkera"
+      ],
+      "malayalam": [
+        "പഞ്ചസാര",
+        "Panchasara"
+      ]
+    },
+    "notes": "Common sweetener."
   }
 ]

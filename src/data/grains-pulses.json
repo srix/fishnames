@@ -2757,108 +2757,6 @@
     "notes": "Semiya, used for Upma and Payasam."
   },
   {
-    "id": "jaggery",
-    "photo": "img/jaggery.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Saccharum officinarum (Product)",
-    "names": {
-      "english": [
-        "Jaggery"
-      ],
-      "assamese": [
-        "গুৰ",
-        "Gur"
-      ],
-      "bengali": [
-        "গুড়",
-        "Gur"
-      ],
-      "bodo": [
-        "गुर",
-        "Gur"
-      ],
-      "dogri": [
-        "गुड़",
-        "Gud"
-      ],
-      "gujarati": [
-        "ગોળ",
-        "Gol"
-      ],
-      "hindi": [
-        "गुड़",
-        "Gud"
-      ],
-      "kannada": [
-        "ಬೆಲ್ಲ",
-        "Bella"
-      ],
-      "kashmiri": [
-        "گُڑ",
-        "Gud"
-      ],
-      "konkani": [
-        "गूळ",
-        "Gul"
-      ],
-      "maithili": [
-        "गुड़",
-        "Gud"
-      ],
-      "malayalam": [
-        "ശർക്കര",
-        "Sarkkara"
-      ],
-      "manipuri": [
-        "ꯒꯨꯗ",
-        "Gud"
-      ],
-      "marathi": [
-        "गुळ",
-        "Gul"
-      ],
-      "nepali": [
-        "गुड",
-        "Gud"
-      ],
-      "odia": [
-        "ଗୁଡ",
-        "Guda"
-      ],
-      "punjabi": [
-        "ਗੁੜ",
-        "Gud"
-      ],
-      "sanskrit": [
-        "गुडः",
-        "Gudah"
-      ],
-      "santali": [
-        "ᱜᱩᱲ",
-        "Gur"
-      ],
-      "sindhi": [
-        "ڳڙ",
-        "Gur"
-      ],
-      "tamil": [
-        "வெல்லம்",
-        "Vellam"
-      ],
-      "telugu": [
-        "బెల్లం",
-        "Bellam"
-      ],
-      "urdu": [
-        "گڑ",
-        "Gud"
-      ]
-    },
-    "notes": "Unrefined cane sugar, traditional sweetener."
-  },
-  {
     "id": "chia-seeds",
     "photo": "img/chia-seeds.webp",
     "tags": [
@@ -4322,8 +4220,8 @@
         "Murmura"
       ],
       "kannada": [
-        "ಪುರಿ",
-        "Puri"
+        "ಮಂಡಕ್ಕಿ",
+        "Mandakki"
       ],
       "kashmiri": [
         "مُڑی",
