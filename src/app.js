@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
             <div class="item-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="item-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${placeholderType}.webp'">
+                <img src="${item.photo.startsWith('/') ? '' : '/'}${item.photo}" alt="${item.names.english[0]}" class="item-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${placeholderType}.webp'">
                 <div class="item-title">
                     <h3>${item.names.english.join(' / ')}</h3>
                     <div class="scientific-name">${item.scientificName || ''}</div>

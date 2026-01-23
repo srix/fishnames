@@ -142,7 +142,7 @@ async function generate() {
                 // Let's stick to Trailing Slash for folders as it is standard behavior for "index.html" based static sites.
                 // So canonical should be .../id/
                 url: `https://foodbhasha.com/${catKey}/${item.id}/`,
-                image: item.photo ? `https://foodbhasha.com${item.photo}` : 'https://foodbhasha.com/assets/graphics/logo.webp',
+                image: item.photo ? `https://foodbhasha.com${item.photo.startsWith('/') ? '' : '/'}${item.photo}` : 'https://foodbhasha.com/assets/graphics/logo.webp',
                 content: itemContent,
                 schema: generateItemSchema(item, catKey)
             });
@@ -282,7 +282,7 @@ function generateItemContent(item, catKey) {
     return `
     <div class="item-card static-card">
         <div class="item-header">
-            ${item.photo ? `<img src="${item.photo}" alt="${escapeHtml(item.names.english[0])}" class="item-thumbnail" width="80" height="80">` : ''}
+            ${item.photo ? `<img src="${item.photo.startsWith('/') ? '' : '/'}${item.photo}" alt="${escapeHtml(item.names.english[0])}" class="item-thumbnail" width="80" height="80">` : ''}
             <div class="item-title">
                 <h3>${escapeHtml(item.names.english.join(' / '))}</h3>
                 <div class="scientific-name">${escapeHtml(item.scientificName || '')}</div>
@@ -308,7 +308,7 @@ function generateItemSchema(item, catKey) {
         "@context": "https://schema.org",
         "@type": "ItemPage",
         "name": item.names.english[0],
-        "image": item.photo ? `https://foodbhasha.com${item.photo}` : undefined,
+        "image": item.photo ? `https://foodbhasha.com${item.photo.startsWith('/') ? '' : '/'}${item.photo}` : undefined,
         "description": `Translation of ${item.names.english[0]} in Indian languages.`,
         "mainEntity": {
             "@type": "DefinedTerm",
