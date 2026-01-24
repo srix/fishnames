@@ -10,14 +10,16 @@ const CATEGORIES = {
     'vegetables-fruits': 'vegetables-fruits.json',
     'grains': 'grains-pulses.json',
     'spices': 'spices.json',
-    'fish': 'fish-seafood.json'
+    'fish': 'fish-seafood.json',
+    'flowers': 'flowers.json'
 };
 
 const CATEGORY_LABELS = {
     'fish': 'Fish & Seafood',
     'vegetables-fruits': 'Vegetables & Fruits',
     'grains': 'Grains & Pulses',
-    'spices': 'Spices'
+    'spices': 'Spices',
+    'flowers': 'Flowers'
 };
 
 // Helper to ensure directory exists
@@ -284,7 +286,7 @@ function generateItemContent(item, catKey) {
         <div class="item-header">
             ${item.photo ? `<img src="${item.photo.startsWith('/') ? '' : '/'}${item.photo}" alt="${escapeHtml(item.names.english[0])}" class="item-thumbnail" width="80" height="80">` : ''}
             <div class="item-title">
-                <h3>${escapeHtml(item.names.english.join(' / '))}</h3>
+                <h1>${escapeHtml(item.names.english.join(' / '))}</h1>
                 <div class="scientific-name">${escapeHtml(item.scientificName || '')}</div>
                 <!-- Badges omitted for SSG simplicity or could be added if critical -->
             </div>

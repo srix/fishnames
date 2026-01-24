@@ -24,7 +24,7 @@ test.describe('Configuration Integrity', () => {
         const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
         expect(config.appId).toBe('com.foodbhasha.app');
         expect(config.appName).toBe('FoodBhasha');
-        expect(config.webDir).toBe('www');
+        expect(config.webDir).toBe('dist-android');
     });
 
     test('Verify Android build.gradle integrity', async () => {

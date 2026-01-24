@@ -6,6 +6,14 @@ FoodBhasha – Agent Instructions
 This repository is used with coding agents (Codex Cloud / GitHub agents).
 Follow this guide strictly to ensure high-quality, reviewable changes.
 
+> [!IMPORTANT]
+> **TESTING POLICY**: "Honesty is the best policy."
+> When running tests, **NEVER** ignore or suppress failures. If even one test fails, you MUST:
+> 1. Report the failure explicitly to the user.
+> 2. Diagnose the root cause.
+> 3. Fix the issue before proceeding.
+> **Do not** claim "tests passed" if there are any failures or if the output was truncated/unverified.
+
 ---
 
 ## Project Overview

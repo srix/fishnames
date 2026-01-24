@@ -98,16 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // History API Routing
         window.addEventListener('popstate', handleRouteChange);
 
-        // Redirect old hash URLs to path-based URLs
-        if (window.location.hash) {
-            const hash = window.location.hash.slice(1);
-            const parts = hash.split('&');
-            const category = parts[0];
-            const searchPart = parts.find(p => p.startsWith('search='));
-            const newPath = searchPart ? `/${category}?search=${searchPart.split('=')[1]}` : `/${category}`;
-            history.replaceState({}, '', newPath);
-        }
-
         // --- Setup Listeners & UI Components BEFORE loading data ---
 
         // Tabs

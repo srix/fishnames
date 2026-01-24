@@ -1,6 +1,6 @@
 {
   "name": "foodbhasha",
-  "version": "1.22",
+  "version": "1.23",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",

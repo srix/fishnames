@@ -153,14 +153,4 @@ test.describe('History API Routing', () => {
         const vegTab = await page.locator('.tab-btn[data-category="vegetables-fruits"]');
         await expect(vegTab).toHaveClass(/active/);
     });
-
-    test.skip('Hash URLs redirect to path-based URLs', async ({ page }) => {
-        // Skip this test - hash redirect logic may not be immediate
-        // This is an edge case for backward compatibility
-        await page.goto('http://localhost:8080/#vegetables-fruits');
-        await page.waitForTimeout(1000);
-
-        // Should redirect to path-based URL
-        await expect(page).toHaveURL('http://localhost:8080/vegetables-fruits');
-    });
 });

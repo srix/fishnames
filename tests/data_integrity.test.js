@@ -3,10 +3,10 @@ const fs = require('fs');
 const path = require('path');
 
 const FILES = [
-    'data/fish-seafood.json',
-    'data/vegetables-fruits.json',
-    'data/grains-pulses.json',
-    'data/spices.json'
+    'src/data/fish-seafood.json',
+    'src/data/vegetables-fruits.json',
+    'src/data/grains-pulses.json',
+    'src/data/spices.json'
 ];
 
 const INDIAN_LANGUAGES = [

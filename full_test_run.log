@@ -1,0 +1,236 @@
+
+> foodbhasha@1.23 test
+> npx playwright test
+
+
+Running 184 tests using 10 workers
+
+  ✓    4 [chromium] › tests/card_view.test.js:12:5 › Indian Ingredient Lexicon Verification › Page Title & Brand (621ms)
+  ✓    9 [chromium] › tests/card_view.test.js:47:5 › Indian Ingredient Lexicon Verification › Filter Logic: Spices (New Category) (804ms)
+  ✓    6 [chromium] › tests/branding.test.js:37:5 › FoodBhasha Branding › should have friendly, non-academic tone in UI (1.2s)
+  ✓    7 [chromium] › tests/branding.test.js:11:5 › FoodBhasha Branding › should have correct manifest name (1.1s)
+  ✓    2 [chromium] › tests/branding.test.js:49:5 › FoodBhasha Branding › should display logo correctly (1.3s)
+  ✓    3 [chromium] › tests/branding.test.js:57:5 › FoodBhasha Branding › should display dual-script language icon (1.3s)
+  ✓    1 [chromium] › tests/branding.test.js:20:5 › FoodBhasha Branding › should update page title when navigating categories (1.3s)
+  ✓   10 [chromium] › tests/card_view.test.js:63:5 › Indian Ingredient Lexicon Verification › Filter Logic: Vegetables & Fruits (Active State) (1.1s)
+  ✓   18 [chromium] › tests/config_integrity.test.js:7:5 › Configuration Integrity › Verify package.json build scripts (8ms)
+  ✘   19 [chromium] › tests/config_integrity.test.js:20:5 › Configuration Integrity › Verify Capacitor configuration (6ms)
+  ✓   13 [chromium] › tests/card_view.test.js:140:5 › Indian Ingredient Lexicon Verification › Sticky Header Structure (448ms)
+  ✓   20 [chromium] › tests/config_integrity.test.js:41:5 › Configuration Integrity › Verify version bump script exists (1ms)
+  ✓   11 [chromium] › tests/card_view.test.js:79:5 › Indian Ingredient Lexicon Verification › Multi-Select Filter Logic (OR Logic) (1.1s)
+  ✓   22 [chromium] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/fish-seafood.json (3ms)
+  ✓   23 [chromium] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/fish-seafood.json (2ms)
+  ✓   24 [chromium] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/vegetables-fruits.json (3ms)
+  ✓   16 [chromium] › tests/card_view.test.js:177:5 › Indian Ingredient Lexicon Verification › Search Clear Button Functionality (485ms)
+  ✓   25 [chromium] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/vegetables-fruits.json (2ms)
+  ✓   27 [chromium] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/grains-pulses.json (1ms)
+  ✓   26 [chromium] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/grains-pulses.json (1ms)
+  ✓   28 [chromium] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/spices.json (1ms)
+  ✓   29 [chromium] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/spices.json (2ms)
+  ✓    8 [chromium] › tests/card_view.test.js:17:5 › Indian Ingredient Lexicon Verification › Category Navigation & Data Loading (1.8s)
+  ✓   33 [chromium] › tests/config_integrity.test.js:30:5 › Configuration Integrity › Verify Android build.gradle integrity (7ms)
+  ✓   12 [chromium] › tests/card_view.test.js:120:5 › Indian Ingredient Lexicon Verification › Badge Whitelisting (1.1s)
+  ✓    5 [chromium] › tests/branding.test.js:29:5 › FoodBhasha Branding › should update page title when searching (2.1s)
+Static Title: Potato
+Static Lang Groups: 22
+  ✓   21 [chromium] › tests/consistency.test.js:12:5 › Static vs SPA Consistency › Verify Potato Card Structure matches between Static vs SPA (481ms)
+  ✓   14 [chromium] › tests/card_view.test.js:157:5 › Indian Ingredient Lexicon Verification › Dynamic Placeholders (999ms)
+  ✓   17 [chromium] › tests/card_view.test.js:194:5 › Indian Ingredient Lexicon Verification › Mobile View Layout (972ms)
+  ✓   32 [chromium] › tests/feedback.test.js:8:5 › Feedback Form › Feedback FAB should be visible (431ms)
+  ✓   15 [chromium] › tests/card_view.test.js:167:5 › Indian Ingredient Lexicon Verification › Search Persistence Across Categories (1.1s)
+  ✓   41 [chromium] › tests/flowers.test.js:16:5 › Flowers Category Verification › flowers.json file exists (2ms)
+Total flowers found: 41
+  ✓   42 [chromium] › tests/flowers.test.js:22:5 › Flowers Category Verification › Contains at least 40 flowers (2ms)
+  ✓   43 [chromium] › tests/flowers.test.js:27:5 › Flowers Category Verification › Contains key flowers from Batches 1 & 2 (11ms)
+  ✓   35 [chromium] › tests/feedback.test.js:30:5 › Feedback Form › Modal can be closed (428ms)
+  ✓   36 [chromium] › tests/feedback.test.js:39:5 › Feedback Form › Honeypot field should be hidden (388ms)
+  ✓   45 [chromium] › tests/flowers.test.js:50:5 › Flowers Category Verification › Language coverage is sufficient (3ms)
+  ✓   44 [chromium] › tests/flowers.test.js:40:5 › Flowers Category Verification › All flowers have required fields (86ms)
+  ✓   34 [chromium] › tests/feedback.test.js:21:5 › Feedback Form › Clicking FAB opens modal (612ms)
+  ✓   39 [chromium] › tests/feedback.test.js:95:5 › Feedback Form › Footer shows version (363ms)
+  ✓   38 [chromium] › tests/feedback.test.js:79:5 › Feedback Form › Navigating to /feedback route opens modal (459ms)
+  ✓   51 [chromium] › tests/new_items.test.js:7:5 › New Items Verification › Pomelo exists in vegetables-fruits.json (8ms)
+  ✓   31 [chromium] › tests/deep_link_images.test.js:29:5 › Deep Link Image Loading › Image loads successfully (946ms)
+  ✓   52 [chromium] › tests/new_items.test.js:17:5 › New Items Verification › Jaggery exists in spices.json and NOT in grains-pulses.json (3ms)
+  ✓   30 [chromium] › tests/deep_link_images.test.js:10:5 › Deep Link Image Loading › Image path is absolute on deep link (954ms)
+  ✓   54 [chromium] › tests/new_items.test.js:43:5 › New Items Verification › Sugar exists in spices.json (2ms)
+  ✓   53 [chromium] › tests/new_items.test.js:34:5 › New Items Verification › Salt exists in spices.json (4ms)
+  ✓   37 [chromium] › tests/feedback.test.js:52:5 › Feedback Form › Form submission flow (mocked) (588ms)
+  ✓   40 [chromium] › tests/feedback.test.js:104:5 › Feedback Form › Android: Clicking FAB opens System Browser (Simulated) (481ms)
+  ✓   47 [chromium] › tests/lazy_load.test.js:10:5 › Lazy Loading & Infinite Scroll › Initial Load Limit (360ms)
+  ✓   48 [chromium] › tests/lazy_load.test.js:25:5 › Lazy Loading & Infinite Scroll › Reset on Filter (536ms)
+  ✓   55 [chromium] › tests/preload.test.js:5:5 › Performance Optimization › Data Preloading (464ms)
+  ✓   46 [chromium] › tests/lazy_load.test.js:16:5 › Lazy Loading & Infinite Scroll › Loads More on Scroll (848ms)
+  ✓   56 [chromium] › tests/routing.test.js:10:5 › History API Routing › Homepage loads correctly at root URL (1.1s)
+  ✓   57 [chromium] › tests/routing.test.js:19:5 › History API Routing › Category navigation updates URL without hash (1.2s)
+  ✓   49 [chromium] › tests/lazy_load.test.js:48:5 › Lazy Loading & Infinite Scroll › Reset on Tab Switch (1.3s)
+  -   66 [chromium] › tests/routing.test.js:157:10 › History API Routing › Hash URLs redirect to path-based URLs
+  ✓   50 [chromium] › tests/lazy_load.test.js:74:5 › Lazy Loading & Infinite Scroll › Reset on Search (1.5s)
+  ✓   58 [chromium] › tests/routing.test.js:35:5 › History API Routing › Direct category URL loads correctly (1.7s)
+  ✓   61 [chromium] › tests/routing.test.js:96:5 › History API Routing › Browser forward button works correctly (1.6s)
+  ✓   62 [chromium] › tests/routing.test.js:114:5 › History API Routing › Search query persists in URL (1.6s)
+  ✓   63 [chromium] › tests/routing.test.js:123:5 › History API Routing › Clearing search updates URL (1.6s)
+  ✓   60 [chromium] › tests/routing.test.js:73:5 › History API Routing › Browser back button works correctly (2.2s)
+  ✓   59 [chromium] › tests/routing.test.js:49:5 › History API Routing › Item-level URL loads and highlights item (2.4s)
+  ✓   65 [chromium] › tests/routing.test.js:148:5 › History API Routing › Invalid category redirects to default (1.6s)
+  ✓   64 [chromium] › tests/routing.test.js:134:5 › History API Routing › Deep link with search query works (1.6s)
+  ✓   67 [chromium] › tests/search_global.test.js:9:5 › Global Search › Searches across categories (Apple on Fish tab) (1.6s)
+  ✓   68 [chromium] › tests/search_global.test.js:27:5 › Global Search › Clearing search restores category (1.6s)
+  ✓   71 [chromium] › tests/seo.test.js:9:5 › SEO and Meta Tags › Homepage has correct meta tags (968ms)
+  ✓   72 [chromium] › tests/seo.test.js:30:5 › SEO and Meta Tags › Category page updates meta tags dynamically (1.3s)
+  ✓   70 [chromium] › tests/search_global.test.js:69:5 › Global Search › Clicking search input resets filters (1.7s)
+  ✓   69 [chromium] › tests/search_global.test.js:46:5 › Global Search › Filter intersection: Search respects local filters (2.0s)
+  ✓   75 [chromium] › tests/seo.test.js:94:5 › SEO and Meta Tags › Twitter Card meta tags are present (1.0s)
+  ✓   76 [chromium] › tests/seo.test.js:102:5 › SEO and Meta Tags › Structured data (JSON-LD) is present (984ms)
+  ✓   77 [chromium] › tests/seo.test.js:112:5 › SEO and Meta Tags › Manifest file is linked (948ms)
+  ✓   74 [chromium] › tests/seo.test.js:80:5 › SEO and Meta Tags › Search page updates title (1.4s)
+  ✓   79 [chromium] › tests/seo.test.js:123:5 › SEO and Meta Tags › Language attribute is set on HTML (919ms)
+  ✓   78 [chromium] › tests/seo.test.js:117:5 › SEO and Meta Tags › Favicon is set (988ms)
+  ✓   73 [chromium] › tests/seo.test.js:51:5 › SEO and Meta Tags › Item page updates meta tags with item details (2.0s)
+  ✓   80 [chromium] › tests/seo.test.js:128:5 › SEO and Meta Tags › Meta viewport is correctly set for mobile (942ms)
+  ✓   82 [chromium] › tests/seo.test.js:153:5 › SEO and Meta Tags › Footer displays correct version (1.0s)
+  ✓   81 [chromium] › tests/seo.test.js:134:5 › SEO and Meta Tags › SEO fallback content is hidden but present (1.1s)
+  ✓   83 [chromium] › tests/share.test.js:11:5 › Share Functionality › Share button is present on all cards (1.0s)
+  ✓   84 [chromium] › tests/share.test.js:22:5 › Share Functionality › Share button has correct icon and text (1.0s)
+  ✓   91 [chromium] › tests/structure.test.js:5:5 › SEO & Structural Integrity › 404 Page exists (113ms)
+  ✓   92 [chromium] › tests/structure.test.js:12:5 › SEO & Structural Integrity › ads.txt exists and has correct content type (50ms)
+  ✓   89 [chromium] › tests/share.test.js:106:5 › Share Functionality › Share button is styled correctly (873ms)
+  ✓   85 [chromium] › tests/share.test.js:34:5 › Share Functionality › Clicking share button copies URL to clipboard (1.5s)
+  ✓   90 [chromium] › tests/share.test.js:124:5 › Share Functionality › Share button hover state works (997ms)
+  ✓   87 [chromium] › tests/share.test.js:71:5 › Share Functionality › Share button on item page generates correct URL (2.3s)
+  ✓   99 [Mobile Chrome] › tests/card_view.test.js:12:5 › Indian Ingredient Lexicon Verification › Page Title & Brand (335ms)
+  ✓   95 [Mobile Chrome] › tests/branding.test.js:11:5 › FoodBhasha Branding › should have correct manifest name (994ms)
+  ✓   94 [Mobile Chrome] › tests/branding.test.js:37:5 › FoodBhasha Branding › should have friendly, non-academic tone in UI (990ms)
+  ✓   93 [Mobile Chrome] › tests/branding.test.js:20:5 › FoodBhasha Branding › should update page title when navigating categories (1.1s)
+  ✓   97 [Mobile Chrome] › tests/branding.test.js:49:5 › FoodBhasha Branding › should display logo correctly (944ms)
+  ✓   98 [Mobile Chrome] › tests/branding.test.js:57:5 › FoodBhasha Branding › should display dual-script language icon (953ms)
+  ✓  100 [Mobile Chrome] › tests/card_view.test.js:47:5 › Indian Ingredient Lexicon Verification › Filter Logic: Spices (New Category) (536ms)
+  ✓  105 [Mobile Chrome] › tests/card_view.test.js:140:5 › Indian Ingredient Lexicon Verification › Sticky Header Structure (348ms)
+  ✓   96 [Mobile Chrome] › tests/branding.test.js:29:5 › FoodBhasha Branding › should update page title when searching (1.9s)
+  ✓  101 [Mobile Chrome] › tests/card_view.test.js:63:5 › Indian Ingredient Lexicon Verification › Filter Logic: Vegetables & Fruits (Active State) (978ms)
+  ✓  110 [Mobile Chrome] › tests/config_integrity.test.js:7:5 › Configuration Integrity › Verify package.json build scripts (6ms)
+  ✓  103 [Mobile Chrome] › tests/card_view.test.js:120:5 › Indian Ingredient Lexicon Verification › Badge Whitelisting (994ms)
+  ✘  111 [Mobile Chrome] › tests/config_integrity.test.js:20:5 › Configuration Integrity › Verify Capacitor configuration (10ms)
+  ✓  112 [Mobile Chrome] › tests/config_integrity.test.js:30:5 › Configuration Integrity › Verify Android build.gradle integrity (4ms)
+  ✓   86 [chromium] › tests/share.test.js:54:5 › Share Functionality › Share button feedback resets after timeout (3.6s)
+  ✓  108 [Mobile Chrome] › tests/card_view.test.js:177:5 › Indian Ingredient Lexicon Verification › Search Clear Button Functionality (385ms)
+  ✓  114 [Mobile Chrome] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/fish-seafood.json (2ms)
+  ✓  102 [Mobile Chrome] › tests/card_view.test.js:79:5 › Indian Ingredient Lexicon Verification › Multi-Select Filter Logic (OR Logic) (1.2s)
+  ✓  115 [Mobile Chrome] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/vegetables-fruits.json (2ms)
+  ✓  116 [Mobile Chrome] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/grains-pulses.json (1ms)
+  ✓  117 [Mobile Chrome] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/vegetables-fruits.json (2ms)
+  ✓  118 [Mobile Chrome] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/grains-pulses.json (1ms)
+  ✓  119 [Mobile Chrome] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/spices.json (1ms)
+  ✓  120 [Mobile Chrome] › tests/data_integrity.test.js:34:9 › Data Integrity › Verify Dual Script in src/data/spices.json (1ms)
+  ✓  106 [Mobile Chrome] › tests/card_view.test.js:157:5 › Indian Ingredient Lexicon Verification › Dynamic Placeholders (912ms)
+  ✓  124 [Mobile Chrome] › tests/config_integrity.test.js:41:5 › Configuration Integrity › Verify version bump script exists (4ms)
+Static Title: Potato
+Static Lang Groups: 22
+  ✓  113 [Mobile Chrome] › tests/consistency.test.js:12:5 › Static vs SPA Consistency › Verify Potato Card Structure matches between Static vs SPA (496ms)
+  ✓  127 [Mobile Chrome] › tests/data_integrity.test.js:22:9 › Data Integrity › Verify Minimum Size for src/data/fish-seafood.json (7ms)
+  ✓  123 [Mobile Chrome] › tests/feedback.test.js:8:5 › Feedback Form › Feedback FAB should be visible (324ms)
+  ✓  109 [Mobile Chrome] › tests/card_view.test.js:194:5 › Indian Ingredient Lexicon Verification › Mobile View Layout (824ms)
+  ✓  126 [Mobile Chrome] › tests/feedback.test.js:30:5 › Feedback Form › Modal can be closed (400ms)
+  ✓  107 [Mobile Chrome] › tests/card_view.test.js:167:5 › Indian Ingredient Lexicon Verification › Search Persistence Across Categories (1.6s)
+  ✓  104 [Mobile Chrome] › tests/card_view.test.js:17:5 › Indian Ingredient Lexicon Verification › Category Navigation & Data Loading (1.6s)
+  ✓   88 [chromium] › tests/share.test.js:86:5 › Share Functionality › Share buttons work across different categories (4.5s)
+  ✓  133 [Mobile Chrome] › tests/flowers.test.js:16:5 › Flowers Category Verification › flowers.json file exists (5ms)
+  ✓  121 [Mobile Chrome] › tests/deep_link_images.test.js:10:5 › Deep Link Image Loading › Image path is absolute on deep link (920ms)
+  ✓  122 [Mobile Chrome] › tests/deep_link_images.test.js:29:5 › Deep Link Image Loading › Image loads successfully (920ms)
+  ✓  125 [Mobile Chrome] › tests/feedback.test.js:21:5 › Feedback Form › Clicking FAB opens modal (543ms)
+  ✓  136 [Mobile Chrome] › tests/flowers.test.js:50:5 › Flowers Category Verification › Language coverage is sufficient (4ms)
+  ✓  134 [Mobile Chrome] › tests/flowers.test.js:27:5 › Flowers Category Verification › Contains key flowers from Batches 1 & 2 (15ms)
+  ✓  128 [Mobile Chrome] › tests/feedback.test.js:39:5 › Feedback Form › Honeypot field should be hidden (470ms)
+  ✓  135 [Mobile Chrome] › tests/flowers.test.js:40:5 › Flowers Category Verification › All flowers have required fields (106ms)
+  ✓  130 [Mobile Chrome] › tests/feedback.test.js:79:5 › Feedback Form › Navigating to /feedback route opens modal (429ms)
+  ✓  142 [Mobile Chrome] › tests/new_items.test.js:7:5 › New Items Verification › Pomelo exists in vegetables-fruits.json (3ms)
+  ✓  129 [Mobile Chrome] › tests/feedback.test.js:52:5 › Feedback Form › Form submission flow (mocked) (545ms)
+  ✓  143 [Mobile Chrome] › tests/new_items.test.js:17:5 › New Items Verification › Jaggery exists in spices.json and NOT in grains-pulses.json (3ms)
+  ✓  144 [Mobile Chrome] › tests/new_items.test.js:34:5 › New Items Verification › Salt exists in spices.json (2ms)
+  ✓  145 [Mobile Chrome] › tests/new_items.test.js:43:5 › New Items Verification › Sugar exists in spices.json (1ms)
+  ✓  131 [Mobile Chrome] › tests/feedback.test.js:95:5 › Feedback Form › Footer shows version (358ms)
+  ✓  132 [Mobile Chrome] › tests/feedback.test.js:104:5 › Feedback Form › Android: Clicking FAB opens System Browser (Simulated) (421ms)
+  ✓  138 [Mobile Chrome] › tests/lazy_load.test.js:10:5 › Lazy Loading & Infinite Scroll › Initial Load Limit (436ms)
+Total flowers found: 41
+  ✓  151 [Mobile Chrome] › tests/flowers.test.js:22:5 › Flowers Category Verification › Contains at least 40 flowers (3ms)
+  ✓  146 [Mobile Chrome] › tests/preload.test.js:5:5 › Performance Optimization › Data Preloading (425ms)
+  ✓  139 [Mobile Chrome] › tests/lazy_load.test.js:25:5 › Lazy Loading & Infinite Scroll › Reset on Filter (814ms)
+  ✓  137 [Mobile Chrome] › tests/lazy_load.test.js:16:5 › Lazy Loading & Infinite Scroll › Loads More on Scroll (933ms)
+  ✓  147 [Mobile Chrome] › tests/routing.test.js:10:5 › History API Routing › Homepage loads correctly at root URL (1.1s)
+  ✓  148 [Mobile Chrome] › tests/routing.test.js:19:5 › History API Routing › Category navigation updates URL without hash (1.1s)
+  ✓  140 [Mobile Chrome] › tests/lazy_load.test.js:48:5 › Lazy Loading & Infinite Scroll › Reset on Tab Switch (1.3s)
+  -  158 [Mobile Chrome] › tests/routing.test.js:157:10 › History API Routing › Hash URLs redirect to path-based URLs
+  ✓  141 [Mobile Chrome] › tests/lazy_load.test.js:74:5 › Lazy Loading & Infinite Scroll › Reset on Search (1.3s)
+  ✓  149 [Mobile Chrome] › tests/routing.test.js:35:5 › History API Routing › Direct category URL loads correctly (1.6s)
+  ✓  153 [Mobile Chrome] › tests/routing.test.js:96:5 › History API Routing › Browser forward button works correctly (1.5s)
+  ✓  154 [Mobile Chrome] › tests/routing.test.js:114:5 › History API Routing › Search query persists in URL (1.5s)
+  ✓  155 [Mobile Chrome] › tests/routing.test.js:123:5 › History API Routing › Clearing search updates URL (1.5s)
+  ✓  150 [Mobile Chrome] › tests/routing.test.js:49:5 › History API Routing › Item-level URL loads and highlights item (2.1s)
+  ✓  152 [Mobile Chrome] › tests/routing.test.js:73:5 › History API Routing › Browser back button works correctly (2.2s)
+  ✓  157 [Mobile Chrome] › tests/routing.test.js:148:5 › History API Routing › Invalid category redirects to default (1.5s)
+  ✓  156 [Mobile Chrome] › tests/routing.test.js:134:5 › History API Routing › Deep link with search query works (1.8s)
+  ✓  159 [Mobile Chrome] › tests/search_global.test.js:9:5 › Global Search › Searches across categories (Apple on Fish tab) (1.7s)
+  ✓  160 [Mobile Chrome] › tests/search_global.test.js:27:5 › Global Search › Clearing search restores category (1.7s)
+  ✓  163 [Mobile Chrome] › tests/seo.test.js:9:5 › SEO and Meta Tags › Homepage has correct meta tags (960ms)
+  ✓  164 [Mobile Chrome] › tests/seo.test.js:30:5 › SEO and Meta Tags › Category page updates meta tags dynamically (1.2s)
+  ✓  167 [Mobile Chrome] › tests/seo.test.js:94:5 › SEO and Meta Tags › Twitter Card meta tags are present (917ms)
+  ✓  162 [Mobile Chrome] › tests/search_global.test.js:69:5 › Global Search › Clicking search input resets filters (1.7s)
+  ✓  168 [Mobile Chrome] › tests/seo.test.js:102:5 › SEO and Meta Tags › Structured data (JSON-LD) is present (902ms)
+  ✓  169 [Mobile Chrome] › tests/seo.test.js:112:5 › SEO and Meta Tags › Manifest file is linked (891ms)
+  ✓  170 [Mobile Chrome] › tests/seo.test.js:117:5 › SEO and Meta Tags › Favicon is set (903ms)
+  ✓  161 [Mobile Chrome] › tests/search_global.test.js:46:5 › Global Search › Filter intersection: Search respects local filters (2.0s)
+  ✓  171 [Mobile Chrome] › tests/seo.test.js:123:5 › SEO and Meta Tags › Language attribute is set on HTML (920ms)
+  ✓  166 [Mobile Chrome] › tests/seo.test.js:80:5 › SEO and Meta Tags › Search page updates title (1.5s)
+  ✓  165 [Mobile Chrome] › tests/seo.test.js:51:5 › SEO and Meta Tags › Item page updates meta tags with item details (1.8s)
+  ✓  172 [Mobile Chrome] › tests/seo.test.js:128:5 › SEO and Meta Tags › Meta viewport is correctly set for mobile (891ms)
+  ✓  173 [Mobile Chrome] › tests/seo.test.js:134:5 › SEO and Meta Tags › SEO fallback content is hidden but present (927ms)
+  ✓  183 [Mobile Chrome] › tests/structure.test.js:5:5 › SEO & Structural Integrity › 404 Page exists (57ms)
+  ✓  174 [Mobile Chrome] › tests/seo.test.js:153:5 › SEO and Meta Tags › Footer displays correct version (945ms)
+  ✓  184 [Mobile Chrome] › tests/structure.test.js:12:5 › SEO & Structural Integrity › ads.txt exists and has correct content type (36ms)
+  ✓  175 [Mobile Chrome] › tests/share.test.js:11:5 › Share Functionality › Share button is present on all cards (1.0s)
+  ✓  176 [Mobile Chrome] › tests/share.test.js:22:5 › Share Functionality › Share button has correct icon and text (1.0s)
+  ✓  181 [Mobile Chrome] › tests/share.test.js:106:5 › Share Functionality › Share button is styled correctly (1.0s)
+  ✓  177 [Mobile Chrome] › tests/share.test.js:34:5 › Share Functionality › Clicking share button copies URL to clipboard (1.6s)
+  ✓  182 [Mobile Chrome] › tests/share.test.js:124:5 › Share Functionality › Share button hover state works (989ms)
+  ✓  179 [Mobile Chrome] › tests/share.test.js:71:5 › Share Functionality › Share button on item page generates correct URL (2.3s)
+  ✓  178 [Mobile Chrome] › tests/share.test.js:54:5 › Share Functionality › Share button feedback resets after timeout (3.7s)
+  ✓  180 [Mobile Chrome] › tests/share.test.js:86:5 › Share Functionality › Share buttons work across different categories (4.4s)
+
+
+  1) [chromium] › tests/config_integrity.test.js:20:5 › Configuration Integrity › Verify Capacitor configuration 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m"www"[39m
+    Received: [31m"dist-android"[39m
+
+      25 |         expect(config.appId).toBe('com.foodbhasha.app');
+      26 |         expect(config.appName).toBe('FoodBhasha');
+    > 27 |         expect(config.webDir).toBe('www');
+         |                               ^
+      28 |     });
+      29 |
+      30 |     test('Verify Android build.gradle integrity', async () => {
+        at /home/srix/workspace/foodbhasha/tests/config_integrity.test.js:27:31
+
+  2) [Mobile Chrome] › tests/config_integrity.test.js:20:5 › Configuration Integrity › Verify Capacitor configuration 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m"www"[39m
+    Received: [31m"dist-android"[39m
+
+      25 |         expect(config.appId).toBe('com.foodbhasha.app');
+      26 |         expect(config.appName).toBe('FoodBhasha');
+    > 27 |         expect(config.webDir).toBe('www');
+         |                               ^
+      28 |     });
+      29 |
+      30 |     test('Verify Android build.gradle integrity', async () => {
+        at /home/srix/workspace/foodbhasha/tests/config_integrity.test.js:27:31
+
+  2 failed
+    [chromium] › tests/config_integrity.test.js:20:5 › Configuration Integrity › Verify Capacitor configuration 
+    [Mobile Chrome] › tests/config_integrity.test.js:20:5 › Configuration Integrity › Verify Capacitor configuration 
+  2 skipped
+  180 passed (21.3s)
