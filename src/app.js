@@ -48,14 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
         'vegetables-fruits': '/data/vegetables-fruits.json',
         'grains': '/data/grains-pulses.json',
         'spices': '/data/spices.json',
-        'fish': '/data/fish-seafood.json'
+        'fish': '/data/fish-seafood.json',
+        'flowers': '/data/flowers.json'
     };
 
     const TAG_FILTERS = {
         'fish': ['sea', 'freshwater', 'brackish'],
         'vegetables-fruits': ['fruit', 'root', 'leafy', 'vegetable'],
         'grains': ['cereal', 'pulse', 'millet'],
-        'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit']
+        'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit'],
+        'flowers': ['flower', 'aromatic', 'decorative', 'religious', 'edible', 'aquatic', 'medecinal']
     };
 
     const BATCH_SIZE = 8;
@@ -403,7 +405,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const placeholderType = itemCategory === 'vegetables-fruits' ? 'veg' :
             (itemCategory === 'grains' ? 'grain' :
-                (itemCategory === 'spices' ? 'spice' : 'fish'));
+                (itemCategory === 'spices' ? 'spice' :
+                    (itemCategory === 'flowers' ? 'flower' : 'fish')));
 
         card.innerHTML = `
             <div class="item-header">
@@ -473,7 +476,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'sea': '🌊 Sea', 'freshwater': '💧 Freshwater', 'brackish': '🌿 Brackish', 'root': '🥔 Root', 'leafy': '🥬 Leafy',
             'vegetable': '🍆 Vegetable', 'fruit': '🍎 Fruit', 'cereal': '🌾 Cereal', 'pulse': '🫘 Pulse', 'millet': '🥣 Millet',
             'spice': '🌶️ Spice', 'seed': '🌿 Seed', 'aromatic': '🪵 Aromatic', 'heat': '🔥 Heat', 'acidic': '🍋 Acidic',
-            'resin': '🥣 Resin', 'flower': '🌸 Flower', 'dry-fruit': '🥜 Dry Fruit'
+            'resin': '🥣 Resin', 'flower': '🌸 Flower', 'dry-fruit': '🥜 Dry Fruit',
+            'aquatic': '💧 Aquatic', 'medecinal': '💊 Medicinal', 'decorative': '🎋 Decorative', 'religious': '🙏 Religious', 'edible': '🍽️ Edible'
         };
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }
@@ -504,7 +508,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'fish': 'Fish & Seafood',
             'vegetables-fruits': 'Vegetables & Fruits',
             'grains': 'Grains & Pulses',
-            'spices': 'Spices'
+            'spices': 'Spices',
+            'flowers': 'Flowers'
         };
         return labels[category] || category;
     }

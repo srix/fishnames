@@ -25,7 +25,7 @@ def generate_sitemap():
     sitemap.append('  </url>')
     
     # Category pages
-    categories = ['fish', 'vegetables-fruits', 'grains', 'spices']
+    categories = ['fish', 'vegetables-fruits', 'grains', 'spices', 'flowers']
     for category in categories:
         sitemap.append('  <url>')
         sitemap.append(f'    <loc>https://foodbhasha.com/{category}/</loc>')
@@ -39,7 +39,8 @@ def generate_sitemap():
         ('src/data/fish-seafood.json', 'fish'),
         ('src/data/vegetables-fruits.json', 'vegetables-fruits'),
         ('src/data/grains-pulses.json', 'grains'),
-        ('src/data/spices.json', 'spices')
+        ('src/data/spices.json', 'spices'),
+        ('src/data/flowers.json', 'flowers')
     ]
     
     for file_path, category in data_files:

@@ -1,0 +1,287 @@
+[
+    {
+        "id": "jasmine",
+        "photo": "img/jasmine.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Jasminum",
+        "names": {
+            "english": [
+                "Jasmine"
+            ],
+            "tamil": [
+                "மல்லிகை",
+                "Malligai"
+            ],
+            "hindi": [
+                "चमेली",
+                "Chameli"
+            ],
+            "kannada": [
+                "ಮಲ್ಲಿಗೆ",
+                "Mallige"
+            ],
+            "malayalam": [
+                "മുല്ല",
+                "Mulla"
+            ],
+            "telugu": [
+                "మల్లెపువ్వు",
+                "Mallepuvvu"
+            ],
+            "marathi": [
+                "जाई",
+                "Jai"
+            ],
+            "bengali": [
+                "জুঁই",
+                "Jui"
+            ],
+            "gujarati": [
+                "ચમેલી",
+                "Chameli"
+            ],
+            "urdu": [
+                "چمیلی",
+                "Chameli"
+            ],
+            "sanskrit": [
+                "मल्लिका",
+                "Mallika"
+            ]
+        },
+        "notes": "Highly aromatic, used in perfumes and garlands."
+    },
+    {
+        "id": "hibiscus",
+        "photo": "img/hibiscus.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "religious",
+            "medecinal"
+        ],
+        "scientificName": "Hibiscus rosa-sinensis",
+        "names": {
+            "english": [
+                "Hibiscus",
+                "Shoe Flower"
+            ],
+            "tamil": [
+                "செம்பருத்தி",
+                "Sembaruthi"
+            ],
+            "hindi": [
+                "गुड़हल",
+                "Gudhal"
+            ],
+            "kannada": [
+                "ದಾಸವಾಳ",
+                "Dasavala"
+            ],
+            "malayalam": [
+                "చెമ്പരత్తి",
+                "Chemparathi"
+            ],
+            "telugu": [
+                "మందారం",
+                "Mandaram"
+            ],
+            "marathi": [
+                "जास्वंद",
+                "Jasvand"
+            ],
+            "bengali": [
+                "জবা",
+                "Joba"
+            ],
+            "gujarati": [
+                "જાસુદ",
+                "Jasud"
+            ],
+            "urdu": [
+                "گڑھل",
+                "Gudhal"
+            ],
+            "sanskrit": [
+                "जपाकुसुम",
+                "Japakusuma"
+            ]
+        },
+        "notes": "Used in hair care, tea, and worship."
+    },
+    {
+        "id": "marigold",
+        "photo": "img/marigold.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Tagetes",
+        "names": {
+            "english": [
+                "Marigold"
+            ],
+            "tamil": [
+                "சாமந்தி",
+                "Samanthi"
+            ],
+            "hindi": [
+                "गेंदा",
+                "Genda"
+            ],
+            "kannada": [
+                "ಚೆಂಡು ಹೂವ",
+                "Chendu Hoova"
+            ],
+            "malayalam": [
+                "ചെണ്ടുമല്ലി",
+                "Chendumalli"
+            ],
+            "telugu": [
+                "బంతి పువ్వు",
+                "Banthi Puvvu"
+            ],
+            "marathi": [
+                "झेंडू",
+                "Zendu"
+            ],
+            "bengali": [
+                "গাদা",
+                "Gada"
+            ],
+            "gujarati": [
+                "ગલગોટો",
+                "Galgoto"
+            ],
+            "urdu": [
+                "گیندہ",
+                "Genda"
+            ],
+            "sanskrit": [
+                "स्थूलपुष्प",
+                "Sthulapushpa"
+            ]
+        },
+        "notes": "Bright orange/yellow, distinct smell, festive decoration."
+    },
+    {
+        "id": "rose",
+        "photo": "img/rose.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "edible",
+            "decorative"
+        ],
+        "scientificName": "Rosa",
+        "names": {
+            "english": [
+                "Rose"
+            ],
+            "tamil": [
+                "ரோஜா",
+                "Roja"
+            ],
+            "hindi": [
+                "गुलाब",
+                "Gulab"
+            ],
+            "kannada": [
+                "ಗುಲಾಬಿ",
+                "Gulabi"
+            ],
+            "malayalam": [
+                "റോസാപ്പൂവ്",
+                "Rosappoovu"
+            ],
+            "telugu": [
+                "గులాబీ",
+                "Gulabi"
+            ],
+            "marathi": [
+                "गुलाब",
+                "Gulab"
+            ],
+            "bengali": [
+                "গোলাপ",
+                "Golap"
+            ],
+            "gujarati": [
+                "ગુલાબ",
+                "Gulab"
+            ],
+            "urdu": [
+                "گلاب",
+                "Gulab"
+            ],
+            "sanskrit": [
+                "पाटल",
+                "Patala"
+            ]
+        },
+        "notes": "Symbol of love, used in food (gulkand) and perfumes."
+    },
+    {
+        "id": "lotus",
+        "photo": "img/lotus.webp",
+        "tags": [
+            "flower",
+            "religious",
+            "edible",
+            "aquatic"
+        ],
+        "scientificName": "Nelumbo nucifera",
+        "names": {
+            "english": [
+                "Lotus"
+            ],
+            "tamil": [
+                "தாமரை",
+                "Thamarai"
+            ],
+            "hindi": [
+                "कमल",
+                "Kamal"
+            ],
+            "kannada": [
+                "ಕಮಲ",
+                "Kamala"
+            ],
+            "malayalam": [
+                "താമര",
+                "Thamara"
+            ],
+            "telugu": [
+                "తామర",
+                "Thamara"
+            ],
+            "marathi": [
+                "कमळ",
+                "Kamal"
+            ],
+            "bengali": [
+                "পদ্ম",
+                "Padma"
+            ],
+            "gujarati": [
+                "કમળ",
+                "Kamal"
+            ],
+            "urdu": [
+                "کنول",
+                "Kanwal"
+            ],
+            "sanskrit": [
+                "पद्म",
+                "Padma"
+            ]
+        },
+        "notes": "National flower of India, stems (nadru) and seeds (makhana) are edible."
+    }
+]
