@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 const category = btn.dataset.category;
                 const query = searchInput.value.trim();
-                const newPath = query ? `/${category}?search=${encodeURIComponent(query)}` : `/${category}`;
+                const newPath = query ? `/${category}/?search=${encodeURIComponent(query)}` : `/${category}/`;
                 if (window.location.pathname + window.location.search !== newPath) {
                     history.pushState({}, '', newPath);
                     handleRouteChange();
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             searchClear.addEventListener('click', () => {
                 searchInput.value = '';
                 updateSearchUI();
-                const newPath = `/${currentCategory}`;
+                const newPath = `/${currentCategory}/`;
                 history.pushState({}, '', newPath);
                 handleSearch();
             });
@@ -195,6 +195,8 @@ document.addEventListener('DOMContentLoaded', () => {
             targetCategory = 'vegetables-fruits';
         } else {
             targetCategory = CATEGORIES[catPart] ? catPart : 'vegetables-fruits';
+            // Handle edge case where catPart is empty string from trailing slash split
+            if (!catPart) targetCategory = 'vegetables-fruits';
         }
         let targetQuery = searchQuery;
 
@@ -295,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(async () => {
-            const newPath = query ? `/${currentCategory}?search=${encodeURIComponent(query)}` : `/${currentCategory}`;
+            const newPath = query ? `/${currentCategory}/?search=${encodeURIComponent(query)}` : `/${currentCategory}/`;
             if (window.location.pathname + window.location.search !== newPath) {
                 history.pushState({}, '', newPath);
                 updateTitle(currentCategory, query, null);
@@ -584,7 +586,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function shareItem(item, event) {
         const itemCategory = item.category || currentCategory;
-        const url = `https://foodbhasha.com/${itemCategory}/${item.id}`;
+        const url = `https://foodbhasha.com/${itemCategory}/${item.id}/`;
         const title = `${item.names.english[0]} | ${getCategoryLabel(itemCategory)}`;
         const text = `Check out ${item.names.english[0]} in 22 Indian languages on Food Bhasha`;
 
