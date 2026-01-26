@@ -257,7 +257,13 @@ document.addEventListener('DOMContentLoaded', () => {
         isLoading = true;
         currentCategory = category;
         activeFilters.clear();
-        cardView.innerHTML = '<p class="loading">Loading...</p>';
+        // Check if we have pre-rendered content (Hydration)
+        const hasStaticContent = cardView.querySelector('.static-card') || cardView.children.length > 0;
+
+        if (!hasStaticContent) {
+            cardView.innerHTML = '<p class="loading">Loading...</p>';
+        }
+
         if (filterChipsContainer) filterChipsContainer.innerHTML = '';
 
         try {
@@ -341,6 +347,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderApp(data) {
         if (resultCount) resultCount.textContent = `${data.length}/${appData.length}`;
         currentFilteredData = data;
+
+        // If we are hydrating (count is 0), clear first unless we want to diff
+        // For simplicity, we clear just before rendering new items to avoid flicker
         renderedCount = 0;
         cardView.innerHTML = '';
         if (loadMoreObserver) loadMoreObserver.disconnect();
