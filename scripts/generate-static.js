@@ -147,7 +147,16 @@ async function generate() {
             ].filter(Boolean).join(', ');
 
             const itemTitle = `${englishName} | ${catLabel} | FoodBhasha`;
-            const itemDesc = `${englishName} (${scientificName}). Regional names: ${regionalNames}. Multilingual ${catLabel} glossary in 22 Indian languages including Tamil, Hindi, Malayalam, and Kannada.`;
+
+            // SEO: Include notes if available for uniqueness
+            let itemDesc = `${englishName} (${scientificName}).`;
+            if (item.notes) {
+                // Remove emojis for SEO cleanliness, or keep them. Let's keep distinct text.
+                // item.notes often has "💡 ...". Let's use it as is but maybe clean up if needed.
+                // Simple append is fine.
+                itemDesc += ` ${item.notes}`;
+            }
+            itemDesc += ` Regional names: ${regionalNames}. Multilingual ${catLabel} glossary in 22 Indian languages including Tamil, Hindi, Malayalam, and Kannada.`;
 
             // Generate rich pre-rendered content card
             const itemContent = generateItemContent(item, catKey);
