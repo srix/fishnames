@@ -70,7 +70,34 @@ async function audit() {
         if (content.includes('SEO Fallback: Plain text content')) {
             errors.push(`[${relativePath}] Contains generic SEO fallback text instead of unique content.`);
         }
+
+        // Regression Test: Trailing Slashes
+        if (canonical && !canonical.endsWith('/')) {
+            errors.push(`[${relativePath}] Canonical URL MUST end with a trailing slash: "${canonical}"`);
+        }
+
+        // Regression Test: Rich Content Validation
+        if (relativePath.includes('vegetables-fruits/potato/index.html')) {
+            if (!description.includes('Aloo Gobi') && !description.includes('Solanum tuberosum')) {
+                errors.push(`[${relativePath}] Meta Description missing enriched content (Aloo Gobi/Scientific Name). Found: "${description}"`);
+            }
+        }
+        if (relativePath.includes('fish/mackerel/index.html')) {
+            if (!description.includes('Rastrelliger') && !description.includes('Omega-3')) {
+                errors.push(`[${relativePath}] Meta Description missing enriched content (Rastrelliger/Omega-3). Found: "${description}"`);
+            }
+        }
     }
+
+    // Regression Test: Critical Pages
+    const criticalFiles = ['feedback/index.html'];
+    criticalFiles.forEach(file => {
+        if (!fs.existsSync(path.join(DIST_DIR, file))) {
+            errors.push(`Critical file missing: dist/${file}`);
+        } else {
+            scanned.push({ file: file, status: '✅ Exists' });
+        }
+    });
 
     try {
         walk(DIST_DIR);
